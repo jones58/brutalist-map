@@ -8,10 +8,16 @@ Debugging:
 
 ## TODO:
 
-- change color scheme/style
+- change color scheme/style of map
+- change color scheme of site
 - add markers for brutalist buildings
 - add popups when tap on markers
 - Make it better: https://www.youtube.com/watch?v=OySigNMXOZU
+- work out if this would help: map.on("load", () => {
+  map.addSource("places", {
+  type: "geojson",
+  data: places,
+  });
 
 Resources:
 
