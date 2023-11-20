@@ -8,7 +8,7 @@ Debugging:
 
 ## TODO:
 
-- change color scheme/style of map
+- change color scheme/style of map - maybe make own style with mapbox studio
 - change color scheme of site
 - add markers for brutalist buildings
 - add popups when tap on markers
