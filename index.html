@@ -9,11 +9,24 @@
     />
     <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="styles.css" />
-    <link rel="icon" href=
-    <!--ADD FAVICON HERE from https://realfavicongenerator.net -->
-    >
+    <link rel="icon" />
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <script src="scripts/main.js"></script>
+    <div id="map" style="width: 400px; height: 300px"></div>
+    <h1>Brutalist Map</h1>
+    <script>
+      mapboxgl.accessToken = MAPBOX_TOKEN;
+      var map = new mapboxgl.Map({
+        container: "map",
+        style: "mapbox://styles/mapbox/streets-v11",
+      });
+    </script>
+    <script src="token.js"></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js"></script>
+    <script src="scripts.js"></script>
   </body>
 </html>
