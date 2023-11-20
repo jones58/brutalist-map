@@ -1,28 +1,54 @@
 @font-face {
-  font-family: ;
-  src: url("fonts/") format(truetype);
+  font-family: RealTextProRegular;
+  src: url("fonts/Real Text Pro/RealTextPro-Regular.otf")
+    format(opentype);
+
+  font-family: RealTextProBold;
+  src: url("fonts/Real Text Pro Bold/RealTextPro-Bold.otf")
+    format(opentype);
 }
 
 html {
   box-sizing: border-box;
-  font-family: x;
+  font-family: RealTextProRegular;
   margin: 0, auto;
 }
 
 header {
+  font-family: RealTextProBold;
+  font-size: 3rem;
   color: black;
   background-color: white;
   width: 100vw;
   height: 10vh;
-
-  text-align: center;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  top: 0;
   z-index: 1;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  padding: 1rem;
 }
+
+footer {
+  font-size: 1.5rem;
+  color: black;
+  background-color: white;
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+  padding: 1rem;
+}
+
 #map {
-  height: 100vh;
+  margin-top: 10vh;
+  height: 80vh;
   width: 100vw;
 }

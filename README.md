@@ -6,6 +6,13 @@ Building:
 
 Debugging:
 
+## TODO:
+
+- change color scheme/style
+- add markers for brutalist buildings
+- add popups when tap on markers
+- Make it better: https://www.youtube.com/watch?v=OySigNMXOZU
+
 Resources:
 
 - https://socialistmodernism.com/
