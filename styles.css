@@ -1,0 +1,10 @@
+@font-face {
+  font-family: ;
+  src: url("fonts/") format(truetype);
+}
+
+html {
+  box-sizing: border-box;
+  font-family: x;
+  margin: 0, auto;
+}
