@@ -1,14 +1,41 @@
+/* FIX THIS env netlify */
 if (!mapboxgl.accessToken) {
-  mapboxgl.accessToken = mapboxToken;
+  mapboxgl.accessToken = process.env.MAPBOX_API_KEY;
 }
 
-let map = new mapboxgl.Map({
-  container: "map",
-  center: [-0.1278, 51.5074],
-  zoom: 10,
-  style: "mapbox://styles/jones581/clp8fym2g01u901qmbpzq0dde",
-});
+/* get user's location */
+navigator.geolocation.getCurrentPosition(
+  successLocation,
+  errorLocation,
+  {
+    enableHighAccuracy: true,
+  }
+);
 
+function successLocation(position) {
+  setupMap([position.coords.longitude, position.coords.latitude]);
+}
+
+/* if user does not give location */
+function errorLocation() {
+  setupMap([-0.1276, 51.5074]);
+}
+
+/* set up mapbox */
+let map;
+function setupMap([longitude, latitude]) {
+  map = new mapboxgl.Map({
+    container: "map",
+    center: [longitude, latitude],
+    zoom: 17,
+    style: "mapbox://styles/jones581/clp8fym2g01u901qmbpzq0dde",
+  });
+
+  const nav = new mapboxgl.NavigationControl();
+  map.addControl(nav, "top-right");
+}
+
+/* dark and light mode for map */
 const lightModeToggle = document.getElementById("light-mode");
 const darkModeToggle = document.getElementById("dark-mode");
 
