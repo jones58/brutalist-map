@@ -9,23 +9,16 @@ Building:
 - deployed with Netlify on a subdomain of my website, jackkershaw.net.
 - made a custom designed map with mapbox studio:
   ![A screenshot of the map with pink for buildings, dark blue as base and yellow for landmarks and road labels](image.png)
--
+- Added light and dark mode to the site, with two different mapbox styles - my own new one and a lighter one.
 
 Debugging:
 
 ## TODO:
 
-- fix map not loading with .env file netlify - might have to use express js.
-- change color scheme/style of map - make own style with mapbox studio
-- change color scheme of site
-- add markers for brutalist buildings
+- fix live site map not loading with .env file netlify - might have to use express js or https://docs.mapbox.com/mapbox-gl-js/guides/
+- add markers for brutalist buildings in pink icon - use geojson.
 - add popups when tap on markers
 - Make it better: https://www.youtube.com/watch?v=OySigNMXOZU
-- work out if this would help: map.on("load", () => {
-  map.addSource("places", {
-  type: "geojson",
-  data: places,
-  });
 
 Resources:
 
