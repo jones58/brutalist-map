@@ -1,6 +1,4 @@
-if (!mapboxgl.accessToken) {
-  mapboxgl.accessToken = process_env_netlify_token;
-}
+mapboxgl.accessToken = process.env.MAPBOX_API_KEY;
 
 var map = new mapboxgl.Map({
   container: "map",
