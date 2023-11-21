@@ -4,6 +4,8 @@ Planning:
 
 Building:
 
+- deployed with Netlify on a subdomain of my website, jackkershaw.net.
+
 Debugging:
 
 ## TODO:
