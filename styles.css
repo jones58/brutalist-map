@@ -10,12 +10,12 @@
 
 html {
   box-sizing: border-box;
-  font-family: RealTextProRegular;
+  font-family: RealTextProRegular, Helvetica, sans-serif;
   margin: 0, auto;
 }
 
 header {
-  font-family: RealTextProBold;
+  font-family: RealTextProBold, Helvetica Bold, sans-serif;
   font-size: 3rem;
   color: black;
   background-color: white;
