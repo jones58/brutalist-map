@@ -6,24 +6,27 @@
   font-family: RealTextProBold;
   src: url("fonts/Real Text Pro Bold/RealTextPro-Bold.otf")
     format(opentype);
+
+  font-family: RealTextProMedium;
+  src: url("fonts/Real Text Pro Medium/RealTextPro-Medium.otf")
+    format(opentype);
 }
 
 html {
   box-sizing: border-box;
   font-family: RealTextProRegular, Helvetica, sans-serif;
-  margin: 0, auto;
+  margin: 0;
+  padding: 0;
 }
 
 header {
-  font-family: RealTextProBold, Helvetica Bold, sans-serif;
-  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   color: #000000;
   background-color: #ffffff;
   width: 100vw;
   height: 10vh;
-  display: flex;
-  justify-content: left;
-  align-items: center;
   position: fixed;
   left: 0;
   top: 0;
@@ -31,24 +34,56 @@ header {
   padding: 1rem;
 }
 
-footer {
-  font-size: 1.5rem;
+#title {
+  font-family: RealTextProBold, Helvetica Bold, sans-serif;
+  font-size: 40px;
+}
+
+#menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-right: 5vw;
+}
+
+#menu button,
+#menu a {
+  font-family: RealTextProMedium, Helvetica, sans-serif;
+  font-size: 24px;
   color: #000000;
   background-color: #ffffff;
+  border: 0px;
+  cursor: pointer;
+  text-align: right;
+}
+
+.hidden {
+  display: none;
+}
+
+footer {
+  font-family: RealTextProMedium, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  color: #000000;
+  background-color: #1c2025;
   width: 100vw;
   height: 10vh;
   display: flex;
-  justify-content: left;
-  align-items: center;
   position: fixed;
   left: 0;
   bottom: 0;
-  z-index: 1;
   padding: 1rem;
+  z-index: 1;
 }
 
 #map {
-  margin-top: 10vh;
+  margin-top: 15vh;
+  margin-right: 5vw;
   height: 80vh;
   width: 100vw;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
 }
