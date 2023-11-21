@@ -2,12 +2,14 @@
 
 Planning:
 
+- I thought a lot about the color scheme of the site, before eventually deciding i wanted the site itself to look restrained and easy to use, with the map component being more colourful.
+
 Building:
 
 - deployed with Netlify on a subdomain of my website, jackkershaw.net.
-- made a custom designed map with mapbox studio.
-
-![A screenshot of the map with pink for buildings, dark blue as base and yellow for landmarks and road labels](image.png)
+- made a custom designed map with mapbox studio:
+  ![A screenshot of the map with pink for buildings, dark blue as base and yellow for landmarks and road labels](image.png)
+-
 
 Debugging:
 
