@@ -5,7 +5,9 @@ Planning:
 Building:
 
 - deployed with Netlify on a subdomain of my website, jackkershaw.net.
-- make
+- made a custom designed map with mapbox studio.
+
+![A screenshot of the map with pink for buildings, dark blue as base and yellow for landmarks and road labels](image.png)
 
 Debugging:
 
