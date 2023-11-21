@@ -11,7 +11,7 @@ Debugging:
 
 ## TODO:
 
-- fix map not loading with .env file netlify.
+- fix map not loading with .env file netlify - might have to use express js.
 - change color scheme/style of map - make own style with mapbox studio
 - change color scheme of site
 - add markers for brutalist buildings
