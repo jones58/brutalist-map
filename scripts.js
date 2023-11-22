@@ -1,7 +1,5 @@
-/* FIX THIS env netlify */
-if (!mapboxgl.accessToken) {
-  mapboxgl.accessToken = process.env.MAPBOX_API_KEY;
-}
+mapboxgl.accessToken =
+  "pk.eyJ1Ijoiam9uZXM1ODEiLCJhIjoiY2xwNzM4Y3JpMXZ1NjJrcWswNDFrbnl1ZiJ9.Ud2Oqbe9kgEmB3U3UOH98w";
 
 /* get user's location */
 navigator.geolocation.getCurrentPosition(
