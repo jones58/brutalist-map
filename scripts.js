@@ -1,24 +1,6 @@
 mapboxgl.accessToken =
   "pk.eyJ1Ijoiam9uZXM1ODEiLCJhIjoiY2xwNzM4Y3JpMXZ1NjJrcWswNDFrbnl1ZiJ9.Ud2Oqbe9kgEmB3U3UOH98w";
 
-/* get user's location - add button for this
-navigator.geolocation.getCurrentPosition(
-  successLocation,
-  errorLocation,
-  {
-    enableHighAccuracy: true,
-  }
-);
-
-function successLocation(position) {
-  setupMap([position.coords.longitude, position.coords.latitude]);
-}
-
-/* if user does not give location
-function errorLocation() {
-  ERROR MESSAGE
-}
-
 /* set up mapbox */
 let map;
 const coordinates = [-0.1276, 51.5074]; // Initial coordinates
@@ -53,3 +35,16 @@ darkModeToggle.addEventListener("click", () => {
   lightModeToggle.classList.remove("hidden");
   darkModeToggle.classList.add("hidden");
 });
+
+// Add current location button to navigation //
+map.addControl(
+  new mapboxgl.GeolocateControl({
+    positionOptions: {
+      enableHighAccuracy: true,
+    },
+    // When active the map will receive updates to the device's location as it changes.
+    trackUserLocation: true,
+    // Draw an arrow next to the location dot to indicate which direction the device is heading.
+    showUserHeading: true,
+  })
+);
