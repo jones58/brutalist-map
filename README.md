@@ -22,10 +22,16 @@
 
 ## TODO:
 
+- change dot color for brutalist buildings, yellow.
+- edit dataset so highlights whole building not just dot.
+- white for labels same as background white
 - add popups when tap on markers: https://docs.mapbox.com/help/tutorials/add-points-pt-3/
 - add google map link for each marker
 - maybe get photos with google places api: https://developers.google.com/maps/documentation/places/web-service/place-photos.
 - Add media queries for mobile view.
+- concrete texture for background and foreground.
+- change color when hover/click on landmark.
+- maybe add green
 
 ## Resources:
 
