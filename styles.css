@@ -22,7 +22,8 @@ html {
 header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-direction: row;
   color: #000000;
   background-color: #ffffff;
   width: 100vw;
@@ -39,11 +40,17 @@ header {
   font-size: 40px;
 }
 
+#description {
+  font-family: RealTextProRegular, Helvetica, sans-serif;
+  font-size: 18px;
+  width: 14vw;
+  text-align: right;
+}
+
 #menu {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  margin-right: 5vw;
 }
 
 #menu button,
@@ -54,7 +61,7 @@ header {
   background-color: #ffffff;
   border: 0px;
   cursor: pointer;
-  text-align: right;
+  text-align: left;
 }
 
 .hidden {
@@ -72,14 +79,13 @@ footer {
   position: fixed;
   left: 0;
   bottom: 0;
-  padding: 1rem;
   z-index: 1;
 }
 
 #map {
   margin-top: 15vh;
   margin-right: 5vw;
-  height: 80vh;
+  height: 70vh;
   width: 100vw;
 }
 
