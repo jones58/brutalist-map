@@ -1,29 +1,29 @@
 # brutalist-map
 
-Planning:
+## Planning:
 
 - I thought a lot about the color scheme of the site, before eventually deciding i wanted the site itself to look restrained and easy to use, with the map component being more colourful.
 
-Building:
+## Building:
 
 - deployed with Netlify on a subdomain of my website, jackkershaw.net.
 - made a custom designed map with mapbox studio:
   ![A screenshot of the map with pink for buildings, dark blue as base and yellow for landmarks and road labels](image.png)
-- Added light and dark mode to the site, with two different mapbox styles - my own new one and a lighter one.
-- I considered adding directions to the mapbox with the help of the mapbox directions plugin ()but decided not to
-  Debugging:
+- Added light and dark mode to the site, with two different mapbox styles - dark and light mode. Designed with the help of mapbox studio
+- I considered adding directions to the mapbox with the help of the mapbox directions plugin but decided not to because Citymapper is much better for turn-by-turn navigation.
+- I added markers for each landmark on the map with the dataset feature of Mapbox Studio. I made a CSV file of the landmarks, their latitude and longitude, the name of the landmark and a Google Maps link and imported it to my map.
+
+## Debugging:
+
+- Using APIs for the first time was a learning curve. The Mapbox docs were very helpful though. I was able to get my API token and use an URL restriction to allow me to publish all my code publicly on Github whilst staying secure.
 
 ## TODO:
 
-- fix live site map not loading with .env file netlify - might have to use express js or https://docs.mapbox.com/mapbox-gl-js/guides/
-- add markers for brutalist buildings in pink icon - use geojson.
-- add popups when tap on markers
-- Make it better: https://www.youtube.com/watch?v=OySigNMXOZU
+- add popups when tap on markers: https://docs.mapbox.com/help/tutorials/add-points-pt-3/
 - add google map link for each marker
 - maybe get photos with google places api: https://developers.google.com/maps/documentation/places/web-service/place-photos.
--
 
-Resources:
+## Resources:
 
 - https://socialistmodernism.com/
 - https://www.sosbrutalism.org/cms/15802395#map
@@ -31,6 +31,3 @@ Resources:
 - https://strikemap.org
 - https://pnote.eu/projects/invaders/map.html
 - https://www.are.na/gemma-copeland/community-maps
-- Brutalist map with apis: To find information about brutalist buildings in London, you might consider using APIs that provide data related to architecture, landmarks, or historical sites. Here are a few suggestions: 1. **Google Maps Geocoding API:** You can use this API to search for specific addresses or landmarks related to brutalist architecture in London. 2. **Foursquare API:** Foursquare's Places API can be used to discover and retrieve information about various buildings, architectural landmarks, or specific locations in London. 3. **OpenStreetMap API:** OpenStreetMap offers APIs that allow you to access information about specific locations, including architectural landmarks, buildings, and more. 4. **Historic England API:** This API provides access to information about historic sites and buildings in England, including brutalist architecture. It might contain detailed data about such structures in London. Remember to check the API documentation for usage policies, limitations, and available endpoints related to architecture or landmarks before integration into your project.
-
-Overpass API: This API allows you to query specific data from the OpenStreetMap database. You can construct queries to retrieve information about buildings tagged as brutalist in London. For example, you can query buildings with specific tags like \"brutalist\" and within the geographic bounds of London.Nominatim API: Nominatim is OSM's search engine API. You can search for places by name or category, such as \"brutalist buildings in London,\" and receive information about matching locations.

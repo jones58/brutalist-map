@@ -1,7 +1,7 @@
 mapboxgl.accessToken =
   "pk.eyJ1Ijoiam9uZXM1ODEiLCJhIjoiY2xwNzM4Y3JpMXZ1NjJrcWswNDFrbnl1ZiJ9.Ud2Oqbe9kgEmB3U3UOH98w";
 
-/* get user's location */
+/* get user's location - add button for this
 navigator.geolocation.getCurrentPosition(
   successLocation,
   errorLocation,
@@ -14,18 +14,20 @@ function successLocation(position) {
   setupMap([position.coords.longitude, position.coords.latitude]);
 }
 
-/* if user does not give location */
+/* if user does not give location
 function errorLocation() {
-  setupMap([-0.1276, 51.5074]);
+  ERROR MESSAGE
 }
 
 /* set up mapbox */
 let map;
-function setupMap([longitude, latitude]) {
+const coordinates = [-0.1276, 51.5074]; // Initial coordinates
+
+function setupMap(coordinates) {
   map = new mapboxgl.Map({
     container: "map",
-    center: [longitude, latitude],
-    zoom: 17,
+    center: [coordinates[0], coordinates[1]],
+    zoom: 10,
     style: "mapbox://styles/jones581/clp8fym2g01u901qmbpzq0dde",
   });
 
@@ -33,12 +35,15 @@ function setupMap([longitude, latitude]) {
   map.addControl(nav, "top-right");
 }
 
+// Call setupMap() with initial coordinates
+setupMap(coordinates);
+
 /* dark and light mode for map */
 const lightModeToggle = document.getElementById("light-mode");
 const darkModeToggle = document.getElementById("dark-mode");
 
 lightModeToggle.addEventListener("click", () => {
-  map.setStyle("mapbox://styles/mapbox/light-v10");
+  map.setStyle("mapbox://styles/jones581/clp9xceyv004301o9eao60mvd");
   lightModeToggle.classList.add("hidden");
   darkModeToggle.classList.remove("hidden");
 });
