@@ -12,6 +12,7 @@
 - Added light and dark mode to the site, with two different mapbox styles - dark and light mode. Designed with the help of mapbox studio
 - I considered adding directions to the mapbox with the help of the mapbox directions plugin but decided not to because Citymapper is much better for turn-by-turn navigation.
 - I added markers for each landmark on the map with the dataset feature of Mapbox Studio. I made a CSV file of the landmarks, their latitude and longitude, the name of the landmark and a Google Maps link and imported it to my map.
+- Following user testing with my other Just IT classmates, I realised that it wasn't immediately obvious what the map was for. Some suggested it looked like a crime map. I decided to add a description for users who might not know what Brutalist London refers to.
 
 ## Debugging:
 
@@ -19,6 +20,7 @@
 
 ## TODO:
 
+- add description of what this map is somewhere - probably in footer or at top.
 - add popups when tap on markers: https://docs.mapbox.com/help/tutorials/add-points-pt-3/
 - add google map link for each marker
 - maybe get photos with google places api: https://developers.google.com/maps/documentation/places/web-service/place-photos.
