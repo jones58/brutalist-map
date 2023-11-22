@@ -10,8 +10,8 @@ Building:
 - made a custom designed map with mapbox studio:
   ![A screenshot of the map with pink for buildings, dark blue as base and yellow for landmarks and road labels](image.png)
 - Added light and dark mode to the site, with two different mapbox styles - my own new one and a lighter one.
-
-Debugging:
+- I considered adding directions to the mapbox with the help of the mapbox directions plugin ()but decided not to
+  Debugging:
 
 ## TODO:
 
@@ -19,6 +19,9 @@ Debugging:
 - add markers for brutalist buildings in pink icon - use geojson.
 - add popups when tap on markers
 - Make it better: https://www.youtube.com/watch?v=OySigNMXOZU
+- add google map link for each marker
+- maybe get photos with google places api: https://developers.google.com/maps/documentation/places/web-service/place-photos.
+-
 
 Resources:
 
