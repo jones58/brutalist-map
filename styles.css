@@ -22,7 +22,7 @@ html {
 header {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-direction: row;
   color: #000000;
   background-color: #ffffff;
@@ -32,12 +32,13 @@ header {
   left: 0;
   top: 0;
   z-index: 1;
-  padding: 1rem;
 }
 
 #title {
   font-family: RealTextProBold, Helvetica Bold, sans-serif;
   font-size: 40px;
+  margin-left: 5vw;
+  margin-top: 5vh;
 }
 
 #description {
@@ -45,12 +46,43 @@ header {
   font-size: 18px;
   width: 14vw;
   text-align: right;
+  margin-right: 5vw;
+  margin-top: 5vh;
+}
+
+#map {
+  margin: 15vh 5vw 10vh 0;
+  height: 70vh;
+  width: 100vw;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+footer {
+  font-family: RealTextProMedium, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  color: #000000;
+  background-color: #ffffff;
+  width: 100vw;
+  height: 10vh;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
 }
 
 #menu {
   display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#menu button {
+  margin-left: 5vw;
+  margin-right: 5vw;
 }
 
 #menu button,
@@ -66,30 +98,4 @@ header {
 
 .hidden {
   display: none;
-}
-
-footer {
-  font-family: RealTextProMedium, Helvetica, sans-serif;
-  font-size: 1.5rem;
-  color: #000000;
-  background-color: #ffffff;
-  width: 100vw;
-  height: 10vh;
-  display: flex;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  z-index: 1;
-}
-
-#map {
-  margin-top: 15vh;
-  margin-right: 5vw;
-  height: 70vh;
-  width: 100vw;
-}
-
-a {
-  text-decoration: none;
-  color: #000000;
 }
