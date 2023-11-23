@@ -62,7 +62,7 @@ const onClick = (event) => {
       feature.geometry.coordinates
     ).setHTML(`<div id="popup"><h3>${feature.properties.Title}</h3
         <p>${feature.properties.About}</p>
-        <img src="${feature.properties.Image}"/>
+        <img src="${feature.properties.Image} style="width: 100%; height: auto;"/>
         <a href="${feature.properties.URL}" target="_blank">View on Google Maps</a></div>`);
     popup.addTo(map);
   }

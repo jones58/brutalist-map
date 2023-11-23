@@ -27,18 +27,28 @@
 
 ## TODO:
 
+### Markers - edit dataset in Mapbox Studio
+
+- fix image not loading.
+- edit marker about, image link and alt text for each landmark.
+- edit so highlights whole building not just dot.
+- edit styling of marker popups.
+
 ### Colours
 
 - change color when hover/click on landmark.
 - change dot color for brutalist buildings, yellow.
 - white for labels same as background white
-- edit dataset so highlights whole building not just dot.
+
 - maybe add green
 
 ### Other
 
 - small explanation of what brutalism is, could be a button/pop out.
 - favicon
+
+### Things I'd like to do later
+
 - maybe get photos with google places api: https://developers.google.com/maps/documentation/places/web-service/place-photos.
 
 ## Resources:

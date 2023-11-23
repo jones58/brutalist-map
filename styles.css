@@ -105,6 +105,11 @@ footer {
   color: #3f964a;
 }
 
+#map #popup img {
+  width: 100%;
+  height: auto;
+}
+
 /* Media queries */
 
 /* tablet and mobile */
