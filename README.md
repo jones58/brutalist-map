@@ -33,6 +33,7 @@
 - edit marker about, image link and alt text for each landmark.
 - edit so highlights whole building not just dot.
 - edit styling of marker popups, maybe do them yourself somehow.
+- tick box whether you have visited the landmark, stored in local storage.
 
 ### Colours
 
@@ -53,9 +54,16 @@
 
 ## Resources:
 
+### Brutalism:
+
 - https://socialistmodernism.com/
 - https://www.sosbrutalism.org/cms/15802395#map
 - https://bluecrowmedia.com/products/brutalist-london-map
+- https://www.youtube.com/watch?v=UWhuHiL8Pug
+- https://www.youtube.com/watch?v=TvKi_hsJf3c
+
+### Maps:
+
 - https://strikemap.org
 - https://pnote.eu/projects/invaders/map.html
 - https://www.are.na/gemma-copeland/community-maps
