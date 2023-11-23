@@ -56,7 +56,7 @@ const onClick = (event) => {
   const [feature] = map.queryRenderedFeatures(event.point, {
     layers: ["brutalist-map"],
   });
-  // if a feature was clicked, open a popup at the location of the feature //
+  // if a feature was clicked, open a popup at the location of the feature with HTML from its properties //
   if (feature) {
     const popup = new mapboxgl.Popup({ offset: [0, -15] }).setLngLat(
       feature.geometry.coordinates
