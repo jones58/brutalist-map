@@ -29,10 +29,10 @@
 
 ### Markers - edit dataset in Mapbox Studio
 
-- fix image not loading.
+- fix image not loading from JS and mapbox studio - debug.
 - edit marker about, image link and alt text for each landmark.
 - edit so highlights whole building not just dot.
-- edit styling of marker popups.
+- edit styling of marker popups, maybe do them yourself somehow.
 
 ### Colours
 
