@@ -27,18 +27,19 @@
 
 ## TODO:
 
+- fix mobile css - titles and stuff on wrong. - values for margins probably affecting it.
+- thinner font for place names in mapbox studio style.
+- change pop up offset
+
 ### Markers - edit dataset in Mapbox Studio
 
-- edit so highlights whole building not just dot.
-- edit styling of marker popups, maybe do them yourself somehow.
+- edit styling of marker popups, maybe do them yourself somehow - see browser developer tools for bits of this.
 - tick box whether you have visited the landmark, stored in local storage.
 
 ### Colours
 
-- change color when hover/click on landmark.
 - change dot color for brutalist buildings, yellow.
 - white for labels same as background white
-
 - maybe add green
 
 ### Other
@@ -51,6 +52,8 @@
 
 - maybe get photos with google places api: https://developers.google.com/maps/documentation/places/web-service/place-photos.
 - add image, alt text and building description in each popup.
+- edit so highlights whole building not just dot.
+  -change color when hover/click on it.
 
 ## Resources:
 
