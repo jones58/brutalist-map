@@ -19,7 +19,7 @@
   - Vertically center text in header and footer.
 - Add popups when tapped on markers with the help of Mapbox docs:s https://docs.mapbox.com/help/tutorials/add-points-pt-3/.
   - Styled these markers.
-  - Edited Geojson to add properties like about, title, image link and a google maps link to be displayed in the popup.
+  - Edited Geojson to add properties title and a google maps link to be displayed in the popup.
 
 ## Debugging:
 
@@ -29,8 +29,6 @@
 
 ### Markers - edit dataset in Mapbox Studio
 
-- fix image not loading from JS and mapbox studio - debug.
-- edit marker about, image link and alt text for each landmark.
 - edit so highlights whole building not just dot.
 - edit styling of marker popups, maybe do them yourself somehow.
 - tick box whether you have visited the landmark, stored in local storage.
@@ -47,10 +45,12 @@
 
 - small explanation of what brutalism is, could be a button/pop out.
 - favicon
+- add more places: https://en.wikipedia.org/wiki/Category:Brutalist_architecture_in_London // see also map.
 
 ### Things I'd like to do later
 
 - maybe get photos with google places api: https://developers.google.com/maps/documentation/places/web-service/place-photos.
+- add image, alt text and building description in each popup.
 
 ## Resources:
 
