@@ -5,9 +5,8 @@
       "properties": {
         "Title": "Acland Burghley School",
         "URL": "https://www.google.com/maps/place/Acland+Burghley+School/data=!4m2!3m1!1s0x48761baa830186f7:0x48bb44ae89bb41f2",
-        "About": "hello"
-        ,"Image":"https://c20society.org.uk/wp-content/uploads/2023/06/AB-Hall-James-O-Davuies-Historic-England-588x528@2x.jpg",
-      },
+        "About": "hello",
+        "Image":"test",}
       "geometry": {
         "coordinates": [
           -0.139789,
@@ -22,8 +21,8 @@
       "properties": {
         "Title": "78 S Hill Park",
         "URL": "https://www.google.com/maps/place/78+S+Hill+Park/data=!4m2!3m1!1s0x48761a5fdbbd5557:0x9f9ed90fe7b67bbb",
-        "About": "hello"},
-        "Image":"test",
+        "About": "hello",
+        "Image":"test",}
       "geometry": {
         "coordinates": [
           -0.16442,
@@ -39,8 +38,9 @@
         "Title": "Stockwell Bus Garage",
         "URL": "https://www.google.com/maps/place/Stockwell+Bus+Garage/data=!4m2!3m1!1s0x487604f614bf1597:0x57e191c738659033"
         ,
-        "About": "hello"},
+        "About": "hello",
         "Image":"test",
+      }
       "geometry": {
         "coordinates": [
           -0.123654,
@@ -56,8 +56,8 @@
         "Title": "Camberwell Submarine",
         "URL": "https://www.google.com/maps/place/Camberwell+Submarine/data=!4m2!3m1!1s0x487604629dffcccb:0x4ac0f3f60c5cd8d3"
         ,
-        "About": "hello"},
-        "Image":"test",
+        "About": "hello",
+        "Image":"test",}
       "geometry": {
         "coordinates": [
           -0.106727,
@@ -73,8 +73,8 @@
         "Title": "Camden Town Hall",
         "URL": "https://www.google.com/maps/place/Camden+Town+Hall/data=!4m2!3m1!1s0x48761b3a4854d875:0x9d5cf68d654033cb"
         ,
-        "About": "hello"},
-        "Image":"test",
+        "About": "hello",
+        "Image":"test",}
       "geometry": {
         "coordinates": [
           -0.125503,
@@ -90,8 +90,8 @@
         "Title": "Finsbury Estate",
         "URL": "https://www.google.com/maps/place/Finsbury+Estate/data=!4m2!3m1!1s0x48761b5ab2a90973:0x803a8259833385a0"
         ,
-        "About": "hello"},
-        "Image":"test",
+        "About": "hello",
+        "Image":"test",}
       "geometry": {
         "coordinates": [
           -0.10691,
@@ -107,8 +107,8 @@
         "Title": "UCL Institute of Education (IOE)",
         "URL": "https://www.google.com/maps/place/UCL+Institute+of+Education+(IOE)/data=!4m2!3m1!1s0x48761b3026950f73:0x7775028d83f78607"
         ,
-        "About": "hello"},
-        "Image":"test",
+        "About": "hello",
+        "Image":"test",}
       "geometry": {
         "coordinates": [
           -0.130199,
@@ -124,8 +124,8 @@
         "Title": "Chartered Accountants Hall",
         "URL": "https://www.google.com/maps/place/Chartered+Accountants+Hall/data=!4m2!3m1!1s0x48761cab614c837d:0x7dc82de056821e10"
         ,
-        "About": "hello" },
-        "Image":"test",
+        "About": "hello",
+        "Image":"test",}
       "geometry": {
         "coordinates": [
           -0.088341,
@@ -141,8 +141,8 @@
         "Title": "Trellick Tower",
         "URL": "https://www.google.com/maps/place/Trellick+Tower/data=!4m2!3m1!1s0x4876101a2135c6c7:0xb5a16107bbcd260"
         ,
-        "About": "hello"},
-        "Image":"test",
+        "About":"hellos" ,
+        "Image":"test",}
       "geometry": {
         "coordinates": [
           -0.205764,
@@ -158,8 +158,8 @@
         "Title": "Balfron Tower",
         "URL": "https://www.google.com/maps/place/Balfron+Tower/data=!4m2!3m1!1s0x487602ad1fe244f1:0x9f4bcf464d6ae570"
         ,
-        "About": "hello" },
-        "Image":"test",
+        "About": "hello",
+        "Image":"test",}
       "geometry": {
         "coordinates": [
           -0.008849,
@@ -175,8 +175,8 @@
         "Title": "National Theatre",
         "URL": "https://www.google.com/maps/place/National+Theatre/data=!4m2!3m1!1s0x487604a3a9db8b75:0x1761ec87fcadd30d"
         ,
-        "About": "hello"},
-        "Image":"test",
+        "About": ,
+        "Image":"test",}
       "geometry": {
         "coordinates": [
           -0.114446,
@@ -192,8 +192,8 @@
         "Title": "Barbican Centre",
         "URL": "https://www.google.com/maps/place/Barbican+Centre/data=!4m2!3m1!1s0x48761b56fb64b275:0xc756e26675d21f40"
         ,
-        "About": "hello" },
-        "Image":"test",
+        "About": "hello" ,
+        "Image":"test",}
       "geometry": {
         "coordinates": [
           -0.096157,
@@ -209,8 +209,8 @@
         "Title": "Travelodge London Covent Garden",
         "URL": "https://www.google.com/maps/place/Travelodge+London+Covent+Garden/data=!4m2!3m1!1s0x47df21225fc904c7:0xf49ee2f5f620fe50"
         ,
-        "About": "hello"},
-        "Image":"test",
+        "About":"hello" ,
+        "Image":"test",}
       "geometry": {
         "coordinates": [
           -0.124477,
@@ -226,9 +226,7 @@
         "Title": "The Battleship Bldg",
         "URL": "https://www.google.com/maps/place/The+Battleship+Bldg/data=!4m2!3m1!1s0x48761aabe70d019f:0x94eae23c7e6b1cb6",
         "About": "hello",
-        "Image":"test",
-      },
-
+        "Image":"test",}
       "geometry": {
         "coordinates": [
           -0.181195,
