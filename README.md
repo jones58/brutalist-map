@@ -16,6 +16,7 @@
 - Made a lot of changes to the site's CSS as I went along to make sure it looked clean and would be easy to use. For example I:
   - I experimented with adding a concrete texture to the footer and header but in the end it made the site look too cluttered.
   - Added media queries for tablet and mobile view.
+  - Vertically center text in header and footer.
 
 ## Debugging:
 
@@ -25,6 +26,7 @@
 
 - bring down text - london brutalist map and light mode and github so they look more centred.
 - small explanation of what brutalism is, could be a button/pop out.
+- favicon
 
 ### markers
 

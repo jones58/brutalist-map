@@ -38,7 +38,7 @@ header {
   font-family: RealTextProBold, Helvetica Bold, sans-serif;
   font-size: 40px;
   margin-left: 5vw;
-  margin-top: 5vh;
+  margin-top: 6vh;
 }
 
 #description {
@@ -47,7 +47,7 @@ header {
   width: 14vw;
   text-align: right;
   margin-right: 5vw;
-  margin-top: 5vh;
+  margin-top: 6vh;
 }
 
 #map {
@@ -78,6 +78,8 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+  margin-top: 1vh;
 }
 
 #menu button {
