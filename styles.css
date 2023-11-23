@@ -81,8 +81,7 @@ footer {
 }
 
 #menu button {
-  margin-left: 5vw;
-  margin-right: 5vw;
+  margin: 0 5vw;
 }
 
 #menu button,
@@ -98,4 +97,59 @@ footer {
 
 .hidden {
   display: none;
+}
+
+/* Media queries */
+
+/* tablet and mobile */
+@media only screen and (max-width: 1077px) {
+  header {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+    font-size: 18px;
+  }
+
+  #title {
+    font-size: 30px;
+    margin-left: 0;
+    margin-top: -2vh;
+  }
+
+  #description {
+    font-size: 20px;
+    width: 100vw;
+    margin-right: 0;
+    margin-top: -7vh;
+    text-align: center;
+  }
+
+  #map {
+    margin: 15vh 0 10vh 0;
+    height: 70vh;
+    width: 100vw;
+  }
+  footer {
+    height: 10vh;
+    font-size: 1.2rem;
+  }
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 600px) {
+  #title {
+    font-size: 20px;
+  }
+  #description {
+    font-size: 15px;
+    margin-top: -9vh;
+  }
+
+  #menu button,
+  #menu a {
+    font-size: 24px;
+    padding: 0px;
+  }
 }

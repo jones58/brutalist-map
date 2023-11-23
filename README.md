@@ -14,7 +14,8 @@
 - I added markers for each landmark on the map with the dataset feature of Mapbox Studio. I made a CSV file of the landmarks, their latitude and longitude, the name of the landmark and a Google Maps link and imported it to my map.
 - Following user testing with my other Just IT classmates, I realised that it wasn't immediately obvious what the map was for. Some suggested it looked like a crime map. I decided to add a description for users who might not know what Brutalist London refers to.
 - Made a lot of changes to the site's CSS as I went along to make sure it looked clean and would be easy to use. For example I:
-  - LIST THINGS HERE
+  - I experimented with adding a concrete texture to the footer and header but in the end it made the site look too cluttered.
+  - Added media queries for tablet and mobile view.
 
 ## Debugging:
 
@@ -22,15 +23,21 @@
 
 ## TODO:
 
-- change dot color for brutalist buildings, yellow.
-- edit dataset so highlights whole building not just dot.
-- white for labels same as background white
+- bring down text - london brutalist map and light mode and github so they look more centred.
+- small explanation of what brutalism is, could be a button/pop out.
+
+### markers
+
 - add popups when tap on markers: https://docs.mapbox.com/help/tutorials/add-points-pt-3/
 - add google map link for each marker
 - maybe get photos with google places api: https://developers.google.com/maps/documentation/places/web-service/place-photos.
-- Add media queries for mobile view.
-- concrete texture for background and foreground.
+
+### Colours
+
 - change color when hover/click on landmark.
+- change dot color for brutalist buildings, yellow.
+- white for labels same as background white
+- edit dataset so highlights whole building not just dot.
 - maybe add green
 
 ## Resources:
@@ -41,3 +48,5 @@
 - https://strikemap.org
 - https://pnote.eu/projects/invaders/map.html
 - https://www.are.na/gemma-copeland/community-maps
+- https://atlas.smartforests.net/en/map/
+- https://www.mapbox.com/showcase
