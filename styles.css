@@ -101,6 +101,10 @@ footer {
   display: none;
 }
 
+#map #popup a {
+  color: #3f964a;
+}
+
 /* Media queries */
 
 /* tablet and mobile */
