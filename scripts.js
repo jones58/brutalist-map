@@ -48,3 +48,26 @@ map.addControl(
     showUserHeading: true,
   })
 );
+
+// Add event listener when click on marker to open popup //
+
+const onClick = (event) => {
+  // find if a feature was clicked //
+  const [feature] = map.queryRenderedFeatures(event.point, {
+    layers: ["brutalist-map"],
+  });
+  // if a feature was clicked, open a popup at the location of the feature //
+  if (feature) {
+    const popup = new mapboxgl.Popup({ offset: [0, -15] }).setLngLat(
+      feature.geometry.coordinates
+    ).setHTML(`<div id="popup"><h3>${feature.properties.Title}</h3
+        <p>${feature.properties.About}</p>
+        <img src="${feature.properties.Image}"/>
+        <a href="${feature.properties.URL}" target="_blank">View on Google Maps</a></div>`);
+    popup.addTo(map);
+  }
+};
+// linking event listener to map's built in click function //
+map.on("click", onClick);
+
+const mapContainer = document.getElementById("map");

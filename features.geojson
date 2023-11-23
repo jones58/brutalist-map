@@ -1,0 +1,611 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Acland Burghley School",
+        "URL": "https://www.google.com/maps/place/Acland+Burghley+School/data=!4m2!3m1!1s0x48761baa830186f7:0x48bb44ae89bb41f2",
+        "About": "hello"
+        ,"Image":"test",
+      },
+      "geometry": {
+        "coordinates": [
+          -0.139789,
+          51.557455
+        ],
+        "type": "Point"
+      },
+      "id": "0100cfdb96a6d9dde940047ed2a8bfde"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "78 S Hill Park",
+        "URL": "https://www.google.com/maps/place/78+S+Hill+Park/data=!4m2!3m1!1s0x48761a5fdbbd5557:0x9f9ed90fe7b67bbb",
+        "About": "hello"},
+        "Image":"test",
+      "geometry": {
+        "coordinates": [
+          -0.16442,
+          51.55819
+        ],
+        "type": "Point"
+      },
+      "id": "0bab79af7626668d4ed74587b5337673"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Stockwell Bus Garage",
+        "URL": "https://www.google.com/maps/place/Stockwell+Bus+Garage/data=!4m2!3m1!1s0x487604f614bf1597:0x57e191c738659033"
+        ,
+        "About": "hello"},
+        "Image":"test",
+      "geometry": {
+        "coordinates": [
+          -0.123654,
+          51.473239
+        ],
+        "type": "Point"
+      },
+      "id": "221be5450c7c7f11ba23ec525cb26146"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Camberwell Submarine",
+        "URL": "https://www.google.com/maps/place/Camberwell+Submarine/data=!4m2!3m1!1s0x487604629dffcccb:0x4ac0f3f60c5cd8d3"
+        ,
+        "About": "hello"},
+        "Image":"test",
+      "geometry": {
+        "coordinates": [
+          -0.106727,
+          51.474678
+        ],
+        "type": "Point"
+      },
+      "id": "243d5a23fae6c482de6e00652f53d583"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Camden Town Hall",
+        "URL": "https://www.google.com/maps/place/Camden+Town+Hall/data=!4m2!3m1!1s0x48761b3a4854d875:0x9d5cf68d654033cb"
+        ,
+        "About": "hello"},
+        "Image":"test",
+      "geometry": {
+        "coordinates": [
+          -0.125503,
+          51.528985
+        ],
+        "type": "Point"
+      },
+      "id": "27d9431bc2c7960ecc603be21ef3b440"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Finsbury Estate",
+        "URL": "https://www.google.com/maps/place/Finsbury+Estate/data=!4m2!3m1!1s0x48761b5ab2a90973:0x803a8259833385a0"
+        ,
+        "About": "hello"},
+        "Image":"test",
+      "geometry": {
+        "coordinates": [
+          -0.10691,
+          51.52681
+        ],
+        "type": "Point"
+      },
+      "id": "27e6f996cf6d2b5d9bc0e3af51a12d15"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "UCL Institute of Education (IOE)",
+        "URL": "https://www.google.com/maps/place/UCL+Institute+of+Education+(IOE)/data=!4m2!3m1!1s0x48761b3026950f73:0x7775028d83f78607"
+        ,
+        "About": "hello"},
+        "Image":"test",
+      "geometry": {
+        "coordinates": [
+          -0.130199,
+          51.52289
+        ],
+        "type": "Point"
+      },
+      "id": "29a4bf79d263341d57ee9145e94963f6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Chartered Accountants Hall",
+        "URL": "https://www.google.com/maps/place/Chartered+Accountants+Hall/data=!4m2!3m1!1s0x48761cab614c837d:0x7dc82de056821e10"
+        ,
+        "About": "hello" },
+        "Image":"test",
+      "geometry": {
+        "coordinates": [
+          -0.088341,
+          51.516399
+        ],
+        "type": "Point"
+      },
+      "id": "2a26a9e1debfa60586d7fb84458bde65"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Trellick Tower",
+        "URL": "https://www.google.com/maps/place/Trellick+Tower/data=!4m2!3m1!1s0x4876101a2135c6c7:0xb5a16107bbcd260"
+        ,
+        "About": "hello"},
+        "Image":"test",
+      "geometry": {
+        "coordinates": [
+          -0.205764,
+          51.523613
+        ],
+        "type": "Point"
+      },
+      "id": "2b7cc048c07bbb2fb13d7a28f7eaea79"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Balfron Tower",
+        "URL": "https://www.google.com/maps/place/Balfron+Tower/data=!4m2!3m1!1s0x487602ad1fe244f1:0x9f4bcf464d6ae570"
+        ,
+        "About": "hello" },
+        "Image":"test",
+      "geometry": {
+        "coordinates": [
+          -0.008849,
+          51.51355
+        ],
+        "type": "Point"
+      },
+      "id": "3843ad8d4752940e669f2a0f584d677e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "National Theatre",
+        "URL": "https://www.google.com/maps/place/National+Theatre/data=!4m2!3m1!1s0x487604a3a9db8b75:0x1761ec87fcadd30d"
+        ,
+        "About": "hello"},
+        "Image":"test",
+      "geometry": {
+        "coordinates": [
+          -0.114446,
+          51.507238
+        ],
+        "type": "Point"
+      },
+      "id": "3ad00caadd8e88e80473170390a47ecb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Barbican Centre",
+        "URL": "https://www.google.com/maps/place/Barbican+Centre/data=!4m2!3m1!1s0x48761b56fb64b275:0xc756e26675d21f40"
+        ,
+        "About": "hello" },
+        "Image":"test",
+      "geometry": {
+        "coordinates": [
+          -0.096157,
+          51.519979
+        ],
+        "type": "Point"
+      },
+      "id": "4438d25a9e7cf0f23e6081e713888084"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Travelodge London Covent Garden",
+        "URL": "https://www.google.com/maps/place/Travelodge+London+Covent+Garden/data=!4m2!3m1!1s0x47df21225fc904c7:0xf49ee2f5f620fe50"
+        ,
+        "About": "hello"},
+        "Image":"test",
+      "geometry": {
+        "coordinates": [
+          -0.124477,
+          51.516006
+        ],
+        "type": "Point"
+      },
+      "id": "45dac100f6beb378551280a45ddc5dd0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "The Battleship Bldg",
+        "URL": "https://www.google.com/maps/place/The+Battleship+Bldg/data=!4m2!3m1!1s0x48761aabe70d019f:0x94eae23c7e6b1cb6",
+        "About": "hello",
+        "Image":"test",
+      },
+
+      "geometry": {
+        "coordinates": [
+          -0.181195,
+          51.520143
+        ],
+        "type": "Point"
+      },
+      "id": "4a29eb7f66808d962b1cc3f26a289444"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Trevelyan House",
+        "URL": "https://www.google.com/maps/place/Trevelyan+House/data=!4m2!3m1!1s0x48761d2b260f51e7:0xd284f5b23a6e7048"
+        ,
+        "About": "hello", "Image":"test",},
+      "geometry": {
+        "coordinates": [
+          -0.171038,
+          51.424951
+        ],
+        "type": "Point"
+      },
+      "id": "4fb9507ac187a20342041dc196d4f523"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Swiss Cottage Library",
+        "URL": "https://www.google.com/maps/place/Swiss+Cottage+Library/data=!4m2!3m1!1s0x48761a91207a12cb:0xba6990c30eb20a02"
+        ,
+        "About": "hello", "Image":"test",},
+      "geometry": {
+        "coordinates": [
+          -0.173543,
+          51.542327
+        ],
+        "type": "Point"
+      },
+      "id": "55b5df5bb87fa3a24c02ac6329f15448"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Thamesmead",
+        "URL": "https://www.google.com/maps/place/Thamesmead/data=!4m2!3m1!1s0x47d8af4dd90ae2eb:0x434f8c23f47012a7"
+        ,
+        "About": "hello","Image":"test", },
+      "geometry": {
+        "coordinates": [
+          0.115312,
+          51.506499
+        ],
+        "type": "Point"
+      },
+      "id": "5b223a0ad277cabc2422c6bd357db28c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Hayward Gallery",
+        "URL": "https://www.google.com/maps/place/Hayward+Gallery/data=!4m2!3m1!1s0x487604b7e7c78711:0xea81dbe9938ed7b8"
+        ,
+        "About": "hello", "Image":"test",},
+      "geometry": {
+        "coordinates": [
+          -0.115632,
+          51.506118
+        ],
+        "type": "Point"
+      },
+      "id": "6b80fef81e03f0f40037309d5b782c46"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "123 Victoria St",
+        "URL": "https://www.google.com/maps/place/123+Victoria+St/data=!4m2!3m1!1s0x487604de925884d5:0xf010f86f8f517b67"
+        ,
+        "About": "hello", "Image":"test", },
+      "geometry": {
+        "coordinates": [
+          -0.137609,
+          51.496909
+        ],
+        "type": "Point"
+      },
+      "id": "75107b20ef781aaae0438651b2dc693b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Langham House Cl",
+        "URL": "https://www.google.com/maps/place/Langham+House+Cl/data=!4m2!3m1!1s0x48760c7449f4e5f1:0x7c6c9c14f38cbc60"
+        ,
+        "About": "hello", "Image":"test", },
+      "geometry": {
+        "coordinates": [
+          -0.30997,
+          51.43316
+        ],
+        "type": "Point"
+      },
+      "id": "857a3d54f4a5bbd1511b6c6eb92e91d5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "The Park Tower Knightsbridge, a Luxury Collection Hotel, London",
+        "URL": "https://www.google.com/maps/place/The+Park+Tower+Knightsbridge,+a+Luxury+Collection+Hotel,+London/data=!4m2!3m1!1s0x487605397f5feec5:0xebb91acde1ff46af",
+        "About": "hello", "Image":"test",
+      },
+      "geometry": {
+        "coordinates": [
+          -0.158725,
+          51.501725
+        ],
+        "type": "Point"
+      },
+      "id": "873a5360bbe9cc132f6f075f0fc6e5ed"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "30 Cannon St",
+        "URL": "https://www.google.com/maps/place/30+Cannon+St/data=!4m2!3m1!1s0x487604aa62773c8f:0xf06489f70051d72b"
+        ,
+        "About": "hello", "Image":"test",},
+      "geometry": {
+        "coordinates": [
+          -0.09493,
+          51.512356
+        ],
+        "type": "Point"
+      },
+      "id": "913572d24b388aea2c082dabe3c92477"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Stoke Newington School & Sixth Form",
+        "URL": "https://www.google.com/maps/place/Stoke+Newington+School+%26+Sixth+Form/data=!4m2!3m1!1s0x48761c7d1189a7a3:0x9950689a3861f0fd"
+        ,
+        "About": "hello", "Image":"test",},
+      "geometry": {
+        "coordinates": [
+          -0.084414,
+          51.559329
+        ],
+        "type": "Point"
+      },
+      "id": "a7985ce48b4271971797a7b7448b4170"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "University of Westminster Cavendish Campus",
+        "URL": "https://www.google.com/maps/place/University+of+Westminster+Cavendish+Campus/data=!4m2!3m1!1s0x48761ad602153b7d:0x7cae57b547cdf178"
+        ,
+        "About": "hello", "Image":"test",},
+      "geometry": {
+        "coordinates": [
+          -0.116634,
+          51.514276
+        ],
+        "type": "Point"
+      },
+      "id": "b1f7680970ede36a1fe03857a76eb9f6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Queen Elizabeth Hall Roof Garden Bar & Cafe",
+        "URL": "https://www.google.com/maps/place/Queen+Elizabeth+Hall+Roof+Garden+Bar+%26+Cafe/data=!4m2!3m1!1s0x487604b7dd7b934f:0x2a93681dab24d666"
+        ,
+        "About": "hello", "Image":"test", },
+      "geometry": {
+        "coordinates": [
+          -0.116547,
+          51.506537
+        ],
+        "type": "Point"
+      },
+      "id": "b4b1dd873c963639a363ddca3aca604b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Worlds End Estate",
+        "URL": "https://www.google.com/maps/place/Worlds+End+Estate/data=!4m2!3m1!1s0x4876057b0734665d:0x4091e91b6a8fc437",
+        "About": "hello", "Image":"test",
+      },
+      "geometry": {
+        "coordinates": [
+          -0.18057,
+          51.48088
+        ],
+        "type": "Point"
+      },
+      "id": "b6d3c68a1913a7307bd801fa7860531a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "45 Park Lane",
+        "URL": "https://www.google.com/maps/place/45+Park+Lane/data=!4m2!3m1!1s0x4876052fd30ef46d:0xc7222b8995002d19"
+        ,
+        "About": "hello", "Image":"test",},
+      "geometry": {
+        "coordinates": [
+          -0.15162,
+          51.50639
+        ],
+        "type": "Point"
+      },
+      "id": "b9ab5c05d048eb67dcf40a6dce9cf8c7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Metropolitan Police Central Communications Command Centre, Lambeth",
+        "URL": "https://www.google.com/maps/place/Metropolitan+Police+Central+Communications+Command+Centre,+Lambeth/data=!4m2!3m1!1s0x487604c008da9239:0xd5441f127de91141"
+        ,
+        "About": "hello", "Image":"test",},
+      "geometry": {
+        "coordinates": [
+          -0.117198,
+          51.494799
+        ],
+        "type": "Point"
+      },
+      "id": "c6d3b7fae6ec90c22f62cfae355238dd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Robin Hood Gardens",
+        "URL": "https://www.google.com/maps/place/Robin+Hood+Gardens/data=!4m2!3m1!1s0x487602ae809bbc61:0xcdb77e5ccab23ad1"
+        ,
+        "About": "hello", "Image":"test",},
+      "geometry": {
+        "coordinates": [
+          -0.008463,
+          51.50938
+        ],
+        "type": "Point"
+      },
+      "id": "c9d59eea69775a41ce98b8f200daa954"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "SOAS Library",
+        "URL": "https://www.google.com/maps/place/SOAS+Library/data=!4m2!3m1!1s0x48761b30d9a1e971:0x653021fb9efef8db"
+        ,
+        "About": "hello", "Image":"test",},
+      "geometry": {
+        "coordinates": [
+          -0.12921,
+          51.522487
+        ],
+        "type": "Point"
+      },
+      "id": "d03808f4be05e0f0de935784bcd3b014"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Brixton Recreation Centre",
+        "URL": "https://www.google.com/maps/place/Brixton+Recreation+Centre/data=!4m2!3m1!1s0x4876046640c1352d:0x7bab925e4631fb68"
+        ,
+        "About": "hello", "Image":"test",},
+      "geometry": {
+        "coordinates": [
+          -0.11527,
+          51.463402
+        ],
+        "type": "Point"
+      },
+      "id": "d2d5e5591c661ba80d5391d13ea80ab6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Dawson's Hill",
+        "URL": "https://www.google.com/maps/place/Dawson's+Hill/data=!4m2!3m1!1s0x487603c1eaef715d:0x4746d47c0a991bd0"
+        ,
+        "About": "hello", "Image":"test",},
+      "geometry": {
+        "coordinates": [
+          -0.068564,
+          51.448452
+        ],
+        "type": "Point"
+      },
+      "id": "d73c46d8643e58698272ded2eff4507e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Keeling House",
+        "URL": "https://www.google.com/maps/place/Keeling+House/data=!4m2!3m1!1s0x48761cc37c0d03a9:0x3629abfce9a6e333"
+        ,
+        "About": "hello", "Image":"test",},
+      "geometry": {
+        "coordinates": [
+          -0.061094,
+          51.530962
+        ],
+        "type": "Point"
+      },
+      "id": "e6206b0b58d3d09804b5c4d50a1f05a7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Salters' Hall",
+        "URL": "https://www.google.com/maps/place/Salters'+Hall/data=!4m2!3m1!1s0x48761da06c577053:0x2c001d0e10fa4674"
+        ,
+        "About": "hello", "Image":"test",},
+      "geometry": {
+        "coordinates": [
+          -0.08938,
+          51.51192
+        ],
+        "type": "Point"
+      },
+      "id": "e95778e60cd037c88c06e185f0736d80"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Kensington Town Hall",
+        "URL": "https://www.google.com/maps/place/Kensington+Town+Hall/data=!4m2!3m1!1s0x48760ff0bfbfbd9b:0x6152b1c3894b7675",
+        "About": "hello", "Image":"test",
+      },
+      "geometry": {
+        "coordinates": [
+          -0.194648,
+          51.501233
+        ],
+        "type": "Point"
+      },
+      "id": "ea1c7d1e0c433d745d994704b2543c97"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Brunel University London",
+        "URL": "https://www.google.com/maps/place/Brunel+University+London/data=!4m2!3m1!1s0x48766e0a6fcc751f:0x43eae5c365df7a7a"
+        ,
+        "About": "hello",  "Image":"test",},
+      "geometry": {
+        "coordinates": [
+          -0.476442,
+          51.533152
+        ],
+        "type": "Point"
+      },
+      "id": "ed1a02441505668edabaa55b2cdc88aa"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Alexandra & Ainsworth Estate",
+        "URL": "https://www.google.com/maps/place/Alexandra+%26+Ainsworth+Estate/data=!4m2!3m1!1s0x48761a9eb2d81049:0xc11d601645b0eb28"
+        ,
+        "About": "hello", "Image":"test",},
+      "geometry": {
+        "coordinates": [
+          -0.184563,
+          51.538778
+        ],
+        "type": "Point"
+      },
+      "id": "f02a1a089e7d6cda05a940a56e08cadf"
+    }
+  ],
+  "type": "FeatureCollection"
+}
