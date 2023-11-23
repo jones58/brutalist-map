@@ -1,22 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
 @font-face {
   font-family: RealTextProRegular;
   src: url("fonts/Real Text Pro/RealTextPro-Regular.otf")
     format(opentype);
-
+}
+@font-face {
   font-family: RealTextProBold;
   src: url("fonts/Real Text Pro Bold/RealTextPro-Bold.otf")
     format(opentype);
-
+}
+@font-face {
   font-family: RealTextProMedium;
   src: url("fonts/Real Text Pro Medium/RealTextPro-Medium.otf")
     format(opentype);
-}
-
-html {
-  box-sizing: border-box;
-  font-family: RealTextProRegular, Helvetica, sans-serif;
-  margin: 0;
-  padding: 0;
 }
 
 header {
@@ -32,27 +31,31 @@ header {
   left: 0;
   top: 0;
   z-index: 1;
+  padding: 1vh 5vw;
 }
 
 #title {
   font-family: RealTextProBold, Helvetica Bold, sans-serif;
-  font-size: 40px;
-  margin-left: 5vw;
-  margin-top: 6vh;
+  font-size: 30px;
+}
+
+h1,
+p {
+  margin: 0;
 }
 
 #description {
   font-family: RealTextProRegular, Helvetica, sans-serif;
-  font-size: 18px;
-  width: 14vw;
+  font-size: 15px;
   text-align: right;
-  margin-right: 5vw;
-  margin-top: 6vh;
+  width: 14vw;
 }
 
 #map {
-  margin: 15vh 5vw 10vh 0;
-  height: 70vh;
+  position: fixed;
+  top: 10vh;
+  left: 0;
+  height: 80vh;
   width: 100vw;
 }
 
@@ -72,22 +75,15 @@ footer {
   left: 0;
   bottom: 0;
   z-index: 1;
-}
-
-#menu {
+  padding: 1vh 5vw;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-top: 1vh;
 }
 
-#menu button {
-  margin: 0 5vw;
-}
-
-#menu button,
-#menu a {
+footer button,
+footer a {
   font-family: RealTextProMedium, Helvetica, sans-serif;
   font-size: 24px;
   color: #000000;
@@ -114,53 +110,42 @@ footer {
 
 /* tablet and mobile */
 @media only screen and (max-width: 1077px) {
-  header {
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    height: 15vh;
+  #title {
     font-size: 18px;
   }
 
-  #title {
-    font-size: 30px;
-    margin-left: 0;
-    margin-top: -2vh;
-  }
-
   #description {
-    font-size: 20px;
-    width: 100vw;
-    margin-right: 0;
-    margin-top: -7vh;
-    text-align: center;
-  }
-
-  #map {
-    margin: 15vh 0 10vh 0;
-    height: 70vh;
-    width: 100vw;
-  }
-  footer {
-    height: 10vh;
-    font-size: 1.2rem;
+    font-size: 15px;
+    width: 22vw;
   }
 }
 
 /* Mobile */
 
 @media only screen and (max-width: 600px) {
-  #title {
-    font-size: 20px;
-  }
-  #description {
-    font-size: 15px;
-    margin-top: -9vh;
+  header {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vh 2vw;
   }
 
-  #menu button,
-  #menu a {
+  #title {
+    font-size: 14px;
+  }
+
+  #description {
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+  }
+
+  footer button,
+  footer a {
     font-size: 24px;
-    padding: 0px;
+  }
+
+  footer {
+    padding: 2vh 2vw;
   }
 }
