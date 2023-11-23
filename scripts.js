@@ -56,18 +56,23 @@ const onClick = (event) => {
   const [feature] = map.queryRenderedFeatures(event.point, {
     layers: ["brutalist-map"],
   });
+
   // if a feature was clicked, open a popup at the location of the feature with HTML from its properties //
   if (feature) {
     const popup = new mapboxgl.Popup({ offset: [0, -15] }).setLngLat(
       feature.geometry.coordinates
-    ).setHTML(`<div id="popup"><h3>${feature.properties.Title}</h3
-        <p>${feature.properties.About}</p>
-        <img src="${feature.properties.Image} style="width: 100%; height: auto;"/>
-        <a href="${feature.properties.URL}" target="_blank">View on Google Maps</a></div>`);
+    );
+    popup.setHTML(
+      `<div id="popup"><h3>${feature.properties.Title}</h3
+    <p>${feature.properties.About}</p>
+    <img src="${feature.properties.Image} style="width: 100%; height: auto;"/>
+    <a href="${feature.properties.URL}" target="_blank">View on Google Maps</a></div>`
+    );
     popup.addTo(map);
   }
 };
-// linking event listener to map's built in click function //
+
+// linking event listener to map's built-in click function //
 map.on("click", onClick);
 
 const mapContainer = document.getElementById("map");
