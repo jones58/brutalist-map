@@ -33,6 +33,7 @@
   - change pop up offset and styling of marker popups, maybe do them yourself somehow - see browser developer tools for bits of this.
 - Tick box if you've been there, stored in local storage. Maybe counter of how many been to.
 - Small explanation of what brutalism is, could be a button/pop out.
+- CSS Bootstrap
 
 ### Things I'd like to do later
 
