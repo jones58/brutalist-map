@@ -131,7 +131,7 @@ footer a {
   }
 
   #title {
-    font-size: 14px;
+    font-size: 18px;
   }
 
   #description {
@@ -146,6 +146,20 @@ footer a {
   }
 
   footer {
+    padding: 2vh 2vw;
+  }
+}
+
+/* mobile landscape */
+
+@media only screen and (max-height: 550px) and (orientation: landscape) {
+  #description {
+    width: 40vw;
+  }
+  header {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
     padding: 2vh 2vw;
   }
 }
