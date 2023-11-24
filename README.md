@@ -20,6 +20,8 @@
 - Add popups when tapped on markers with the help of Mapbox docs:s https://docs.mapbox.com/help/tutorials/add-points-pt-3/.
   - Styled these markers.
   - Edited Geojson to add properties title and a google maps link to be displayed in the popup.
+- changed colours in mapbox studio to match the rest of the site (white labels, white background for light mode)
+- added favicon
 
 ## Debugging:
 
@@ -27,20 +29,10 @@
 
 ## TODO:
 
-- thinner font for place names in mapbox studio style.
-- change pop up offset and styling of marker popups, maybe do them yourself somehow - see browser developer tools for bits of this.
-
-### Colours to change in mapbox studio
-
-- change dot color for brutalist buildings, yellow.
-- white for labels same as background white
-- maybe add green
-
-### Other
-
-- small explanation of what brutalism is, could be a button/pop out.
-- favicon
-- add more places: https://en.wikipedia.org/wiki/Category:Brutalist_architecture_in_London // see also map.
+- Fix popups:
+  - change pop up offset and styling of marker popups, maybe do them yourself somehow - see browser developer tools for bits of this.
+- Tick box if you've been there, stored in local storage. Maybe counter of how many been to.
+- Small explanation of what brutalism is, could be a button/pop out.
 
 ### Things I'd like to do later
 
@@ -49,6 +41,7 @@
   - maybe a tick box whether you have visited the landmark, stored in local storage too.
 - edit so highlights whole building not just dot.
   -change color when hover/click on it.
+- check got all places from brutalist map.
 
 ## Resources:
 
