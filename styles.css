@@ -66,8 +66,6 @@ a {
 
 footer {
   font-family: RealTextProMedium, Helvetica, sans-serif;
-  font-size: 1.5rem;
-  color: #000000;
   background-color: #ffffff;
   width: 100vw;
   height: 10vh;
@@ -82,8 +80,7 @@ footer {
   align-items: center;
 }
 
-footer button,
-footer a {
+footer button {
   font-family: RealTextProMedium, Helvetica, sans-serif;
   font-size: 24px;
   color: #000000;
@@ -131,7 +128,7 @@ footer a {
   }
 
   #title {
-    font-size: 18px;
+    font-size: 24px;
   }
 
   #description {
@@ -140,9 +137,8 @@ footer a {
     text-align: center;
   }
 
-  footer button,
-  footer a {
-    font-size: 24px;
+  footer button {
+    font-size: 12px;
   }
 
   footer {
@@ -154,12 +150,9 @@ footer a {
 
 @media only screen and (max-height: 550px) and (orientation: landscape) {
   #description {
-    width: 40vw;
+    width: 60vw;
   }
-  header {
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 2vh 2vw;
+  footer button {
+    font-size: 12px;
   }
 }
