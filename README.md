@@ -30,7 +30,7 @@
 ## TODO:
 
 - Fix popups:
-  - change pop up offset and styling of marker popups, maybe do them yourself somehow - see browser developer tools for bits of this.
+  - change pop up offset and styling of marker popups, maybe do them yourself somehow - see browser developer tools for bits of this. Could do like smart forests, where bigger box.
 - Tick box if you've been there, stored in local storage. Maybe counter of how many been to.
 - Small explanation of what brutalism is, could be a button/pop out.
 - CSS Bootstrap
