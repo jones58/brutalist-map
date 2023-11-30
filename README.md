@@ -7,8 +7,7 @@
 ## Building:
 
 - deployed with Netlify on a subdomain of my website, jackkershaw.net.
-- made a custom designed map with mapbox studio:
-  ![A screenshot of the map with pink for buildings, dark blue as base and yellow for landmarks and road labels](image.png)
+- made a custom designed map with mapbox studio.
 - Added light and dark mode to the site, with two different mapbox styles - dark and light mode. Designed with the help of mapbox studio
 - I considered adding directions to the mapbox with the help of the mapbox directions plugin but decided not to because Citymapper/Google is sufficient for turn-by-turn navigation and that's not the goal of the project.
 - I added markers for each landmark on the map with the dataset feature of Mapbox Studio. I made a CSV file of the landmarks, their latitude and longitude, the name of the landmark and a Google Maps link and imported it to my map.
