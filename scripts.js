@@ -49,7 +49,8 @@ map.addControl(
   })
 );
 
-// Add event listener when click on marker to open popup //
+// Add event listener when click on a brutalist building marker to open popup //
+const popup = document.getElementById("popup");
 
 const onClick = (event) => {
   // find if a feature was clicked //
@@ -57,21 +58,23 @@ const onClick = (event) => {
     layers: ["brutalist-map"],
   });
 
-  // if a feature was clicked, open a popup at the location of the feature with HTML from its properties //
+  // if a feature was clicked, open a custom popup at the location of the feature with HTML from its properties //
 
   if (feature) {
-    const popup = new mapboxgl.Popup({ offset: [0, -15] }).setLngLat(
-      feature.geometry.coordinates
-    );
-    popup.setHTML(
-      `<div id="popup"><h3>${feature.properties.Title}</h3>
-    <a href="${feature.properties.URL}" target="_blank" id="google-link">View on Google Maps</a></div>`
-    );
-    popup.addTo(map);
+    const popupTitle = document.createElement("h2");
+    const popupDescription = document.createElement("p");
+    const popupLink = document.createElement("a");
+    popupTitle.textContent = feature.properties.Title;
+    popupDescription.textContent = feature.properties.Description;
+    popupLink.href = feature.properties.URL;
+    popupLink.target = "_blank";
+    popupLink.textContent = " View on Google Maps";
+    popup.appendChild(popupTitle);
+    popup.appendChild(popupDescription);
+    popup.appendChild(popupLink);
+    popup.classList.remove("hidden");
   }
+
+  // linking event listener to map's built-in click function //
+  map.on("click", onClick);
 };
-
-// linking event listener to map's built-in click function //
-map.on("click", onClick);
-
-const mapContainer = document.getElementById("map");

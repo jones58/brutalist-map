@@ -29,17 +29,9 @@
 
 ## TODO:
 
+- Finish implementing custom popup
 - Small explanation of what brutalism is, could be a button/pop out.
-
-- Design custom popup
-  - Title
-  - Image
-  - About
-  - link
-  - Visited checkbox stored in local storage.
-  - Counter of how many been to.
-- Implement custom popup
-- maybe add bootstrap back
+- maybe add bootstrap back.
 
 ### Things I'd like to do later
 

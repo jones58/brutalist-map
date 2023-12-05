@@ -105,6 +105,22 @@ footer button,
   height: auto;
 }
 
+#popup {
+  background-color: red;
+  position: fixed;
+  top: 10vh;
+  left: 0;
+  height: 80vh;
+  width: 100vw;
+  z-index: 2;
+}
+
+#popup p {
+  font-family: RealTextProRegular, Helvetica, sans-serif;
+  font-size: 15px;
+  padding: 1vh 5vw;
+}
+
 /* Media queries */
 
 /* tablet and mobile */
