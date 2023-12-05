@@ -25,14 +25,21 @@
 ## Debugging:
 
 - Using APIs for the first time was a learning curve. The Mapbox docs were very helpful though. I was able to get my API token and use an URL restriction to allow me to publish all my code publicly on Github whilst staying secure.
+- I realised that the popups that come with Mapbox are not very user friendly and would not suit my use case. I decided that the best thing to do would be to add a custom popup.
 
 ## TODO:
 
-- Fix popups:
-  - change pop up offset and styling of marker popups, maybe do them yourself somehow - see browser developer tools for bits of this. Could do like smart forests, where bigger box.
-- Tick box if you've been there, stored in local storage. Maybe counter of how many been to.
 - Small explanation of what brutalism is, could be a button/pop out.
-- CSS Bootstrap
+
+- Design custom popup
+  - Title
+  - Image
+  - About
+  - link
+  - Visited checkbox stored in local storage.
+  - Counter of how many been to.
+- Implement custom popup
+- Implement bootstrap
 
 ### Things I'd like to do later
 
