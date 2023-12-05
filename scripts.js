@@ -3,7 +3,7 @@ mapboxgl.accessToken =
 
 /* set up mapbox */
 let map;
-const coordinates = [-0.1276, 51.5074]; // Initial coordinates
+const coordinates = [-0.1276, 51.5074]; // Initial coordinates for London
 
 function setupMap(coordinates) {
   map = new mapboxgl.Map({
@@ -17,7 +17,7 @@ function setupMap(coordinates) {
   map.addControl(nav, "top-right");
 }
 
-// Call setupMap() with initial coordinates
+// setupMap() with initial coordinates
 setupMap(coordinates);
 
 /* dark and light mode for map */
@@ -58,6 +58,7 @@ const onClick = (event) => {
   });
 
   // if a feature was clicked, open a popup at the location of the feature with HTML from its properties //
+
   if (feature) {
     const popup = new mapboxgl.Popup({ offset: [0, -15] }).setLngLat(
       feature.geometry.coordinates
