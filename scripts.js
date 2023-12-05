@@ -61,20 +61,17 @@ const onClick = (event) => {
   // if a feature was clicked, open a custom popup at the location of the feature with HTML from its properties //
 
   if (feature) {
-    const popupTitle = document.createElement("h2");
-    const popupDescription = document.createElement("p");
-    const popupLink = document.createElement("a");
-    popupTitle.textContent = feature.properties.Title;
-    popupDescription.textContent = feature.properties.Description;
-    popupLink.href = feature.properties.URL;
-    popupLink.target = "_blank";
-    popupLink.textContent = " View on Google Maps";
-    popup.appendChild(popupTitle);
-    popup.appendChild(popupDescription);
-    popup.appendChild(popupLink);
+    popup.innerHTML = `
+    <h2>${feature.properties.Title}</h2>
+    <p>${feature.properties.Description}</p>
+    <a href="${feature.properties.URL}" target="_blank">Google Maps</a>
+    `;
     popup.classList.remove("hidden");
+    map.classList.add("hidden");
   }
-
-  // linking event listener to map's built-in click function //
-  map.on("click", onClick);
 };
+
+// linking event listener to map's built-in click function //
+map.on("click", onClick);
+
+const mapContainer = document.getElementById("map");

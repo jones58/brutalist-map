@@ -29,7 +29,10 @@
 
 ## TODO:
 
-- Finish implementing custom popup
+- Finish implementing custom popup design
+  - see afdesign file.
+  - add description to mapbox studio dataset
+  - add image urls to mapbox studio dataset and reference in code.
 - Small explanation of what brutalism is, could be a button/pop out.
 - maybe add bootstrap back.
 
