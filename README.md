@@ -39,7 +39,7 @@
   - Visited checkbox stored in local storage.
   - Counter of how many been to.
 - Implement custom popup
-- Implement bootstrap
+- maybe add bootstrap back
 
 ### Things I'd like to do later
 
