@@ -64,6 +64,7 @@ const onClick = (event) => {
     popup.innerHTML = `
     <h2>${feature.properties.Title}</h2>
     <p>${feature.properties.Description}</p>
+    <img src="${feature.properties.Image}" alt="${feature.properties.Title}"/>
     <a href="${feature.properties.URL}" target="_blank">Google Maps</a>
     `;
     popup.classList.remove("hidden");
