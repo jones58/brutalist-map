@@ -315,7 +315,7 @@
                 "Title": "Hendon Hall Court",
                 "URL": "https://maps.app.goo.gl/gXAG1SpWaE4v8h2r5",
                 "Description": "An apartment building located near the North Circular in Hendon",
-                "Image": "https://www.modernism-in-metroland.co.uk/uploads/1/0/2/5/10257505/img-4374-edit_orig.jpg",
+                "Image": "https://www.modernism-in-metroland.co.uk/uploads/1/0/2/5/10257505/img-4374-edit_orig.jpg"
             },
             "geometry": {
                 "coordinates": [
@@ -324,7 +324,7 @@
                 ],
                 "type": "Point"
             },
-            "id": "3ba23a67adc45759e65c6123452a1952",
+            "id": "3ba23a67adc45759e65c6123452a1952"
         },
         {
             "type": "Feature",
