@@ -36,15 +36,13 @@
 - Small explanation of what brutalism is, could be a button/pop out.
 - maybe add css bootstrap.
 - share with cohort and reddit brutalist, family friends etc.
+- check got all places from brutalist map.
 
 ### Things I'd like to do later
 
 - maybe get photos with google places api: https://developers.google.com/maps/documentation/places/web-service/place-photos.
-- add image, alt text and building description in each popup,
-  - maybe a tick box whether you have visited the landmark, stored in local storage too.
 - edit so highlights whole building not just dot.
   -change color when hover/click on it.
-- check got all places from brutalist map.
 
 ## Resources:
 
