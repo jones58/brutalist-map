@@ -63,9 +63,8 @@ const onClick = (event) => {
   if (feature) {
     popup.innerHTML = `
     <h2>${feature.properties.Title}</h2>
-    <div class="description"><p>${feature.properties.Description}</p><p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, quidem voluptatibus </p> <a href="${feature.properties.URL}" target="_blank">View On Google Maps</a> <label for="visit"><p>Have you visited?</p><input type="checkbox" value="visit" id="visit"/></label>
+    <div class="description"><p>${feature.properties.Description}</p><a href="${feature.properties.URL}" target="_blank">View On Google Maps</a> <label for="visit"><p>Have you visited?</p><input type="checkbox" value="visit" id="visit"/></label>
     </div>
-    <img src="https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fcdn2.rsc.org.uk%2Fsitefinity%2Fimages%2Fbuildings-and-objects%2Fnon-rsc-buildings%2F1440barbican-theatre_-london_-external-shots_-2017_2017_photo-by-helen-maybanks-_c_-rsc_234482.tmb-gal-1340.jpg%3Fsfvrsn%3D4e6c1821_1&sp=1701943986T459d0d0db5aa64be2fe60310e66941c0972cae7018bbabb210fe260c15faf14c" />
     <img src="${feature.properties.Image}" alt="a photo of ${feature.properties.Title}"/>
     <svg id="svg3551" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 579.85 580.86" onclick="popup.classList.add('hidden')">
       <defs>
@@ -113,4 +112,4 @@ function getCheckbox(featureTitle) {
 let count = localStorage.length - 2;
 
 document.getElementById("counter").innerHTML =
-  "Visited:" + count + "/68";
+  "Visited:" + count + "/67";
