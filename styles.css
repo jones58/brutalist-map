@@ -113,7 +113,7 @@ footer button,
 #popup h1,
 #popup h2 {
   font-size: 40px;
-  padding: 5vh 0vw 1vh 3vw;
+  padding: 5vh 3vw 1vh 3vw;
 }
 
 #popup p,
@@ -134,11 +134,11 @@ footer button,
 
 #popup img {
   object-fit: cover;
-  width: 350px;
-  height: 350px;
+  width: 450px;
+  height: 450px;
   padding: 3vw;
   position: absolute;
-  top: 37vh;
+  top: 30vh;
   left: 20vw;
 }
 

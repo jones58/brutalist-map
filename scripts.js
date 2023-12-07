@@ -73,7 +73,6 @@ const onClick = (event) => {
           .cls-1 {
             fill: #fff;
           }
-
           .cls-2 {
             stroke: #fff;
             stroke-width: 0px;
