@@ -26,19 +26,19 @@
 
 - Using APIs for the first time was a learning curve. The Mapbox docs were very helpful though. I was able to get my API token and use an URL restriction to allow me to publish all my code publicly on Github whilst staying secure.
 - I realised that the popups that come with Mapbox are not very user friendly and would not suit my use case. I decided that the best thing to do would be to add a custom popup.
+  - This involved:
+    - Designing for different screen sizes using media queries.
+    - Using javascript to set the content of the popup.
+- Editing Geojson data to add properties for an image and a description. I started doing this in Mapbox Studio but quickly realised it would be quicker to do edit the geojson in vscode and then update it by uploading the edited file.
 
 ## TODO:
 
 - Finish implementing custom popup design
-
-  - design for different screen sizes with media queries.
   - use dom to set content of popup, at least clickable content. ie. not just inner html
   - add local storage for each feature and click state of visited checkbox
-  - add description to mapbox studio dataset
-  - add image urls to mapbox studio dataset.
-
+- remove -2 and mapbox thing.
 - Small explanation of what brutalism is, could be a button/pop out.
-- maybe add css bootstrap.
+
 - share with cohort and reddit brutalist, family friends etc.
 - check got all places from brutalist map.
 
@@ -47,6 +47,7 @@
 - maybe get photos with google places api: https://developers.google.com/maps/documentation/places/web-service/place-photos.
 - edit so highlights whole building not just dot.
   -change color when hover/click on it.
+- maybe add css bootstrap.
 
 ## Resources:
 
