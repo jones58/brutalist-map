@@ -34,9 +34,13 @@
 ## TODO:
 
 - Finish implementing custom popup design
-  - use dom to set content of popup, at least clickable content. ie. not just inner html
-  - add local storage for each feature and click state of visited checkbox
-- remove -2 and mapbox thing.
+
+  - use dom to set content of popup, at least clickable content. ie. not just inner html.
+  - add local storage for each feature and click state of visited checkbox.
+  - maybe redesign checkbox so it's more like the back button/like night day switch on portfolio site.
+
+- add condition to local storage count, to not show the two mapbox bits.
+
 - Small explanation of what brutalism is, could be a button/pop out.
 
 - share with cohort and reddit brutalist, family friends etc.
