@@ -56,8 +56,8 @@
             "properties": {
                 "Title": "Royal College of Physicians",
                 "URL": "https://maps.app.goo.gl/UBwU4CzuWno8JF7J6",
-                "Image":"",
-                "Description":""
+                "Image":"https://www.startpage.com/av/proxy-image?piurl=http%3A%2F%2Fwww.e-architect.co.uk%2Fwp-content%2Fuploads%2F2014%2F03%2Froyal-college-physicians-london-r120314-6.jpg&sp=1701966525Tf3428b2368d9e2e54409cd4ebef41108df92b7b5327e2320f19a0fb4374b7254",
+                "Description":"Designed by the acclaimed architect Denys Lasdun"
 
             },
             "geometry": {
@@ -73,9 +73,9 @@
             "type": "Feature",
             "properties": {
                 "Title": "Stockwell Bus Garage",
-                "URL": "https://www.google.com/maps/place/Stockwell+Bus+Garage/data=!4m2!3m1!1s0x487604f614bf1597:0x57e191c738659033"
-                "Image": "",
-                "Description":""
+                "URL": "https://www.google.com/maps/place/Stockwell+Bus+Garage/data=!4m2!3m1!1s0x487604f614bf1597:0x57e191c738659033",
+                "Image": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fc20society.org.uk%2Fwp-content%2Fuploads%2F2019%2F11%2F1954-web-Adie-Button-and-Partners-Stockwell-Bus-Garage-1950-54-6.jpg&sp=1701966591T9939c7ed1faeec82cd7c638d01c25358f5dda47d145c4e50931eb539d5d95aa9",
+                "Description":"Designed by architects Adie, Button, and Partners"
               },
             "geometry": {
                 "coordinates": [
@@ -107,9 +107,9 @@
             "type": "Feature",
             "properties": {
                 "Title": "Camberwell Submarine",
-                "URL": "https://www.google.com/maps/place/Camberwell+Submarine/data=!4m2!3m1!1s0x487604629dffcccb:0x4ac0f3f60c5cd8d3"
-                "Image":"",
-                "Description":""
+                "URL": "https://www.google.com/maps/place/Camberwell+Submarine/data=!4m2!3m1!1s0x487604629dffcccb:0x4ac0f3f60c5cd8d3",
+                "Image":"https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fi1.wp.com%2Fwww.brixtonbuzz.com%2Fimages%2Fcamberwell-submarine-return-01.jpg%3Fw%3D735&sp=1701966657Tcb3f666f83d1a7c3ad62fc736fed61490bfd72d16a9d422509fd1acd87eaeaa0",
+                "Description":"Innovative structure hosting boiler pipes"
               },
             "geometry": {
                 "coordinates": [
@@ -124,9 +124,9 @@
             "type": "Feature",
             "properties": {
                 "Title": "Standard Hotel",
-                "URL": "https://maps.app.goo.gl/Q8FubYrEYUvpbwhi7"
-                "Image":"",
-                "Description":""
+                "URL": "https://maps.app.goo.gl/Q8FubYrEYUvpbwhi7",
+                "Image":"https://cdn.vox-cdn.com/thumbor/3k6o_zHFy5rmzoBu_P7LcD4oMv0=/0x0:818x614/1820x1213/filters:focal(344x242:474x372):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/65600632/hotel9.0.jpg",
+                "Description":"Former office buildings in the Camden Town Hall Annexe"
             },
             "geometry": {
                 "coordinates": [
@@ -141,9 +141,9 @@
             "type": "Feature",
             "properties": {
                 "Title": "Finsbury Estate",
-                "URL": "https://www.google.com/maps/place/Finsbury+Estate/data=!4m2!3m1!1s0x48761b5ab2a90973:0x803a8259833385a0"
-                "Image":"",
-                "Description":""
+                "URL": "https://www.google.com/maps/place/Finsbury+Estate/data=!4m2!3m1!1s0x48761b5ab2a90973:0x803a8259833385a0",
+                "Image":"https://www.startpage.com/av/proxy-image?piurl=http%3A%2F%2Fwww.modernistlondon.co.uk%2Fuploads%2F1%2F0%2F2%2F5%2F10257505%2Ffinsbury_2_orig.jpg&sp=1701967063T76650c285e3413c1a13bed7e9841c75e0e077856f1ab6b94b0be014bbfdb7571",
+                "Description":"Housing development designed by Berthold Lubetkin"
               },
             "geometry": {
                 "coordinates": [
@@ -159,8 +159,8 @@
             "properties": {
                 "Title": "UCL Institute of Education (IOE)",
                 "URL": "https://www.google.com/maps/place/UCL+Institute+of+Education+(IOE)/data=!4m2!3m1!1s0x48761b3026950f73:0x7775028d83f78607",
-                "Image":"",
-                "Description":""
+                "Image":"https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fwww.ucl.ac.uk%2Fioe%2Fsites%2Fioe%2Ffiles%2Fstyles%2Flarge_image%2Fpublic%2F20-bedford-way.jpg%3Fitok%3DHrhcjHX6&sp=1701967155T078fbf75036aeddc151f8efac8d3c04e583e3fb1ceb54df1731bca018742e124",
+                "Description":"University building designed by architects Denys Lasdun and Partners"
 
               },
             "geometry": {
@@ -177,8 +177,8 @@
             "properties": {
                 "Title": "Chartered Accountants Hall",
                 "URL": "https://www.google.com/maps/place/Chartered+Accountants+Hall/data=!4m2!3m1!1s0x48761cab614c837d:0x7dc82de056821e10",
-                "Image":"",
-                "Description":""
+                "Image":"https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Flive.staticflickr.com%2F65535%2F51529085224_00dc320689_b.jpg&sp=1701967258T3486766e23ee1f0dc8266299d46b904c1025eb8057fab6838fe702f5b23adb85",
+                "Description":"Brutalist extension of existing building"
 
               },
             "geometry": {
@@ -212,8 +212,8 @@
             "properties": {
                 "Title": "Purcell Room",
                 "URL": "https://maps.app.goo.gl/hjqQrvWCuyZZHTkNA",
-                "Image":"",
-                "Description":""
+                "Image":"https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fs0.geograph.org.uk%2Fgeophotos%2F01%2F26%2F99%2F1269974_de48bcac.jpg&sp=1701967405T110399b0c1a66d574e7b66212deafb7cbc3027fafade6e7be74bb67c506218bc",
+                "Description":"Designed by architects Leslie Martin, Robert Matthew, and Sir Hubert Bennett"
             },
             "geometry": {
                 "coordinates": [
@@ -229,8 +229,8 @@
             "properties": {
                 "Title": "Salter's Hall",
                 "URL": "https://maps.app.goo.gl/kUfuTsfi4qneR5VAA",
-                "Image":"",
-                "Description":""
+                "Image":"https://www.startpage.com/av/proxy-image?piurl=http%3A%2F%2Fwww.phaidon.com%2Fresource%2Fsaltershall.jpg&sp=1701967488Tfb5a22f1ae3f50b1ffbd31c0bc56afbf91493332a97df5dbb91504dd14cb0e62",
+                "Description":"Designed by Sir Basil Spence. Since refurbished so it doesn't look like the original."
             },
             "geometry": {
                 "coordinates": [
@@ -246,8 +246,8 @@
             "properties": {
                 "Title": "Elephant and Rhinoceros Pavillion, London Zoo",
                 "URL": "https://maps.app.goo.gl/cJVQz1xfwfEkSko68",
-                "Image":"",
-                "Description":""
+                "Image":"https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Flive.staticflickr.com%2F5465%2F6913978568_a8348a134b_b.jpg&sp=1701967601T1ebac0db58f8b422da8bae797dd9713a235a44eac4028d7f5804c4cde166dbaf",
+                "Description":"Designed by Sir Hugh Casson."
             },
             "geometry": {
                 "coordinates": [
@@ -263,8 +263,8 @@
             "properties": {
                 "Title": "National Archives at Kew",
                 "URL": "https://maps.app.goo.gl/9gEy1dPbUHdt63oR8",
-                "Image":"",
-                "Description":""
+                "Image":"https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fcdn.rt.emap.com%2Fwp-content%2Fuploads%2Fsites%2F4%2F2023%2F03%2F07113901%2FNational-Archives-Kew-Image-by-Ron-Ellis-Shutterstock-1600x1067.jpg&sp=1701967686T45cacd37137ba42716bac0f3cb7ec8c41d034e71417c698521aad19616dfedca",
+                "Description":"Designed by Richard Rogers."
             },
             "geometry": {
                 "coordinates": [
@@ -297,8 +297,8 @@
             "properties": {
                 "Title": "National Theatre",
                 "URL": "https://www.google.com/maps/place/National+Theatre/data=!4m2!3m1!1s0x487604a3a9db8b75:0x1761ec87fcadd30d",
-                "Image":"",
-                "Description":""
+                "Image":"https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Flonelyplanetimages.imgix.net%2Fa%2Fg%2Fhi%2Ft%2F7c5e5bec9af3e1a022160d3652854bd3-national-theatre.jpg&sp=1701967749Td30853d8534b9f268bd7a80ace386c9c4c11f2e77488be0451dc41cd3b03ad3a",
+                "Description":"Designed by architect Sir Denys Lasdun and completed in 1976"
               },
             "geometry": {
                 "coordinates": [
@@ -331,8 +331,8 @@
             "properties": {
                 "Title": "Barbican Centre",
                 "URL": "https://www.google.com/maps/place/Barbican+Centre/data=!4m2!3m1!1s0x48761b56fb64b275:0xc756e26675d21f40",
-                "Image":"",
-                "Description":""
+                "Image":"https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fsoonafternoon.com%2Fwp-content%2Fuploads%2F2019%2F03%2FDSC09363.jpg&sp=1701967794Te493939e69529d1572dd0de69bd59221279f0bb27289f4e3ccd37b96082fff2e",
+                "Description":"Designed by architects Chamberlin, Powell and Bon and constructed between 1965 and 1982"
               },
             "geometry": {
                 "coordinates": [
@@ -348,8 +348,8 @@
             "properties": {
                 "Title": "Travelodge London Covent Garden",
                 "URL": "https://www.google.com/maps/place/Travelodge+London+Covent+Garden/data=!4m2!3m1!1s0x47df21225fc904c7:0xf49ee2f5f620fe50",
-                "Image":"",
-                "Description":""
+                "Image":"https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fdynamic-media-cdn.tripadvisor.com%2Fmedia%2Fphoto-o%2F13%2F6f%2Fbf%2Ffc%2Fexterior-view.jpg%3Fw%3D900%26h%3D-1%26s%3D1&sp=1701967852T7b64fc104e0dcf401b93dd9c6aa9ed70d295cf792673a849b773eb5cb62dbfed",
+                "Description":"Designed by Geoffrey Spyer & Partners"
 
               },
             "geometry": {
@@ -366,8 +366,8 @@
             "properties": {
                 "Title": "The Battleship Bldg",
                 "URL": "https://www.google.com/maps/place/The+Battleship+Bldg/data=!4m2!3m1!1s0x48761aabe70d019f:0x94eae23c7e6b1cb6",
-                "Image":"",
-                "Description":""
+                "Image":"https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fwww.frostmeadowcroft.com%2Fwp-content%2Fuploads%2Fee97efc35d57db5816f6380440d5ea1e-The20Battleship20Building2017920Harrow20Road20Paddington20W220Office20for20rent20West20London20Ext.jpg&sp=1701967967Tb39fdaa1551f5100e7c155aeea302b004786de98fe448bf38e2033f4447023ad",
+                "Description":"Designed by Bicknell and Hamilton as a British Rail Maintenance Depot in 1969 and known as Canal House"
 
               },
             "geometry": {
@@ -401,8 +401,8 @@
             "properties": {
                 "Title": "Strand Building, KCL",
                 "URL": "https://maps.app.goo.gl/oHQtYEFevi5sU9nB9",
-                "Image":"",
-                "Description":""
+                "Image":"https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fpreview.redd.it%2F9xknqhkdiv301.jpg%3Fauto%3Dwebp%26s%3D07bc3d1b851f9edbf616c9327c5ab84967531618&sp=1701968155Teef6606231ac7fa63665c4f5c200a915cf3f951fb3336a5ae91e9bd024d342e6",
+                "Description":"Part of the new buildings designed for King's College on the Strand by the firm of Troup, Steele & Scott along with consultant architect E.D. Jefferiss Mathews."
               },
             "geometry": {
                 "coordinates": [
@@ -419,7 +419,7 @@
                 "Title": "Swiss Cottage Library",
                 "URL": "https://www.google.com/maps/place/Swiss+Cottage+Library/data=!4m2!3m1!1s0x48761a91207a12cb:0xba6990c30eb20a02",
                 "Image": "https://www.startpage.com/av/proxy-image?piurl=http%3A%2F%2Fdhwovgqoc0sjq.cloudfront.net%2Fa%2FSwiss-Cottage-Library.jpg&sp=1701961256Tff470eae580da8f400b275d8f09c7b114f62f6e89e82a0368f60daba5dee3fcb",
-                "Description": "Recognised for its innovative design and functional spaces, reflecting a contemporary approach to public library design by architect Sir Basil Spence"
+                "Description": "Recognised for its innovative design and functional spaces, reflecting a contemporary approach to public library design by architect Sir Basil Spence."
             },
             "geometry": {
                 "coordinates": [
@@ -435,8 +435,8 @@
             "properties": {
                 "Title": "Macadam Building, KCL",
                 "URL": "https://maps.app.goo.gl/9veQ68J1hQkbMB4G7",
-                "Image":"",
-                "Description":""
+                "Image":"https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fmanchesterhistory.net%2Farchitecture%2F1970%2Fmacadam2.jpg&sp=1701968856T6491aee1916ba4a8974c6462ef996035f9184315bc74cdefa188995947f5895d",
+                "Description":"Part of the new buildings designed for King's College on the Strand by the firm of Troup, Steele & Scott along with consultant architect E.D. Jefferiss Mathews."
               },
             "geometry": {
                 "coordinates": [
