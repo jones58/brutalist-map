@@ -108,8 +108,8 @@ function getCheckbox(featureTitle) {
   console.log("hello");
 }
 
-// display how many values in  local storage in html number (-2 because mapbox stores two things in local storage by default) //
-let count = localStorage.length - 2;
+// display how many values in  local storage in html number //
+let count = localStorage.length;
 
 document.getElementById("counter").innerHTML =
   "Visited:" + count + "/67";
