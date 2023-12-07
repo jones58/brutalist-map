@@ -106,32 +106,57 @@ footer button,
   z-index: 2;
 }
 
-#popup h1,
-#popup h2,
-#popup p,
-#popup a {
+#popup {
   font-family: RealTextProRegular, Helvetica, sans-serif;
 }
 
 #popup h1,
 #popup h2 {
   font-size: 40px;
-  padding: 5vh 5vw;
+  padding: 5vh 0vw 1vh 3vw;
 }
+
 #popup p,
-#popup a {
-  font-size: 15px;
-  padding: 0 5vw;
+#popup a,
+#popup label {
+  font-size: 20px;
+  padding-top: 2vh;
+}
+
+#popup div {
+  width: 25vw;
+  padding: 0 3vw;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: space-between;
 }
 
 #popup img {
-  width: 300px;
-  height: 300px;
-  padding: 5vw;
+  object-fit: cover;
+  width: 350px;
+  height: 350px;
+  padding: 3vw;
+  position: absolute;
+  top: 37vh;
+  left: 20vw;
 }
 
 #popup a {
   color: #3f964a;
+}
+#popup svg {
+  width: 200px;
+  height: 200px;
+  padding: 3vw;
+  position: absolute;
+  top: 55vh;
+  left: 0px;
+}
+
+#popup input {
+  padding: 0 3vw;
+  cursor: pointer;
 }
 
 /* Media queries */
@@ -146,6 +171,51 @@ footer button,
     font-size: 15px;
     width: 22vw;
   }
+
+  #popup {
+    top: 10vh;
+    left: 0;
+    height: 80vh;
+    width: 100vw;
+    z-index: 2;
+  }
+
+  #popup h1,
+  #popup h2 {
+    font-size: 30px;
+    padding: 5vh 5vw 1vh 5vw;
+  }
+
+  #popup p,
+  #popup a,
+  #popup label {
+    font-size: 20px;
+  }
+
+  #popup div {
+    width: 80vw;
+    padding: 0 5vw;
+    justify-content: space-around;
+  }
+
+  #popup img {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    padding: 0vw;
+    position: absolute;
+    top: 42vh;
+    left: 35vw;
+  }
+
+  #popup svg {
+    width: 100px;
+    height: 100px;
+    padding: 0vw;
+    position: absolute;
+    top: 55vh;
+    left: 5vw;
+  }
 }
 
 /* Mobile */
@@ -153,7 +223,7 @@ footer button,
 @media only screen and (max-width: 600px) {
   header {
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 2vh 2vw;
   }
@@ -170,11 +240,12 @@ footer button,
 
   footer button,
   #counter {
-    font-size: 12px;
+    font-size: 15px;
   }
 
   footer {
-    padding: 2vh 2vw;
+    padding: 2vh 5vw;
+    justify-content: space-around;
   }
 }
 

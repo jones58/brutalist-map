@@ -14,7 +14,7 @@ function setupMap(coordinates) {
   });
 
   const nav = new mapboxgl.NavigationControl();
-  map.addControl(nav, "top-right");
+  map.addControl(nav, "top-left");
 }
 
 // setupMap() with initial coordinates
@@ -63,18 +63,30 @@ const onClick = (event) => {
   if (feature) {
     popup.innerHTML = `
     <h2>${feature.properties.Title}</h2>
-    <p>${feature.properties.Description}</p>
-    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, quidem voluptatibus </p>
+    <div class="description"><p>${feature.properties.Description}</p><p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, quidem voluptatibus </p> <a href="${feature.properties.URL}" target="_blank">View On Google Maps</a> <label for="visit"><p>Have you visited?</p><input type="checkbox" value="visit" id="visit"/></label>
+    </div>
     <img src="https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fcdn2.rsc.org.uk%2Fsitefinity%2Fimages%2Fbuildings-and-objects%2Fnon-rsc-buildings%2F1440barbican-theatre_-london_-external-shots_-2017_2017_photo-by-helen-maybanks-_c_-rsc_234482.tmb-gal-1340.jpg%3Fsfvrsn%3D4e6c1821_1&sp=1701943986T459d0d0db5aa64be2fe60310e66941c0972cae7018bbabb210fe260c15faf14c" />
     <img src="${feature.properties.Image}" alt="a photo of ${feature.properties.Title}"/>
-    <a href="${feature.properties.URL}" target="_blank">View On Google Maps</a>
-    <svg>
-    <use xlink:href="images/sprite.svg#icon-cross"></use>
+    <svg id="svg3551" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 579.85 580.86" onclick="popup.classList.add('hidden')">
+      <defs>
+        <style>
+          .cls-1 {
+            fill: #fff;
+          }
+
+          .cls-2 {
+            stroke: #fff;
+            stroke-width: 0px;
+          }
+        </style>
+      </defs>
+      <g id="g3561">
+        <path id="path3563" class="cls-2" d="M66.27,1.77C24.94,1.77,1.7,23.14,1.7,66.8v450.12c0,40.84,20.89,62.23,62.19,62.23h452.03c41.3,0,62.22-20.32,62.22-62.23V66.8c0-42.6-20.92-65.04-63.52-65.04,0,0-448.49-.14-448.35,0h0Z"/>
+        <path id="path3565" class="cls-1" d="M244.24,458.97L64.04,278.77,244.24,98.58h118.85L226.02,235.64H495.36v87.23H226.98l136.32,136.32-119.06-.22Z"/>
+      </g>
     </svg>
     `;
-
     popup.classList.remove("hidden");
-    map.classList.add("hidden");
   }
 };
 
@@ -82,3 +94,24 @@ const onClick = (event) => {
 map.on("click", onClick);
 
 const mapContainer = document.getElementById("map");
+
+// store checkbox click state//
+const checkbox = document.getElementById("visit");
+
+// Function to update the checkbox state for a specific feature
+function updateCheckbox(featureTitle, isChecked) {
+  localStorage.setItem(featureTitle, isChecked);
+  console.log("hello");
+}
+
+// Function to check the checkbox state for a specific feature
+function getCheckbox(featureTitle) {
+  return localStorage.getItem(featureTitle) === "true";
+  console.log("hello");
+}
+
+// display how many values in  local storage in html number (-2 because mapbox stores two things in local storage by default) //
+let count = localStorage.length - 2;
+
+document.getElementById("counter").innerHTML =
+  "Visited:" + count + "/68";
