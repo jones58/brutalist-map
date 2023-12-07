@@ -30,9 +30,13 @@
 ## TODO:
 
 - Finish implementing custom popup design
-  - see afdesign file.
+
+  - design for different screen sizes with media queries.
+  - use dom to set content of popup, at least clickable content. ie. not just inner html
+  - add local storage for each feature and click state of visited checkbox
   - add description to mapbox studio dataset
   - add image urls to mapbox studio dataset.
+
 - Small explanation of what brutalism is, could be a button/pop out.
 - maybe add css bootstrap.
 - share with cohort and reddit brutalist, family friends etc.
@@ -53,6 +57,7 @@
 - https://bluecrowmedia.com/products/brutalist-london-map
 - https://www.youtube.com/watch?v=UWhuHiL8Pug
 - https://www.youtube.com/watch?v=TvKi_hsJf3c
+- https://www.bloomberg.com/news/articles/2015-11-25/the-case-for-calling-brutalism-heroic-instead
 
 ### Maps:
 
