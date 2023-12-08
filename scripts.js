@@ -46,7 +46,8 @@ map.addControl(
     trackUserLocation: true,
     // Draw an arrow next to the location dot to indicate which direction the device is heading.
     showUserHeading: true,
-  })
+  }),
+  "top-left"
 );
 
 // Add event listener when click on a brutalist building marker to open popup //

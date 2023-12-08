@@ -30,6 +30,7 @@
     - Designing for different screen sizes using media queries.
     - Using javascript to set the content of the popup.
 - Editing Geojson data to add properties for an image and a description. I started doing this in Mapbox Studio but quickly realised it would be quicker to do edit the geojson in vscode and then update it by uploading the edited file.
+  - I noticed that the image links I'd gathered from startpage.com weren't working so I had to add them manually from the websites themselves.
 
 ## TODO:
 
@@ -39,7 +40,7 @@
   - add local storage for each feature and click state of visited checkbox.
   - maybe redesign checkbox so it's more like the back button/like night day switch on portfolio site.
 
-- add condition to local storage count, to not show the two mapbox bits.
+- Add condition to local storage count, to not show the two mapbox bits.
 
 - Small explanation of what brutalism is, could be a button/pop out.
 
@@ -63,6 +64,7 @@
 - https://www.youtube.com/watch?v=UWhuHiL8Pug
 - https://www.youtube.com/watch?v=TvKi_hsJf3c
 - https://www.bloomberg.com/news/articles/2015-11-25/the-case-for-calling-brutalism-heroic-instead
+  https://www.langhamhouseclose.com/
 
 ### Maps:
 
