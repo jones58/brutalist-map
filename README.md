@@ -34,13 +34,16 @@
 - I tried setting the checkbox with the input type="checkbox" but i decided i wanted more of a custom look so I made my own based on the back button I'm using and previously found on [Public domain vectors](https://publicdomainvectors.org).
 - Whilst building the site, I liked the look of the images but it was not as cohesive as it could be so I decided to use filter: grayscale(100%); to make the images look more similar, and blend with the aesthetic of the site better. I also added rounded corners to the images to match my checkbox and back button svg icons. I used calc() to get it in line with the back button.
 - I noticed that adding the checkbox was causing the back button's icon to have a thick stroke and set about trying to fix it. Changing the id for the svg was not successful so I had to change the class names inside the svg to unique numbers.
+- I initially start the design with a light and a dark mode but for the sake of simplicity, I decided to leave this out as I don't think it contributes to accessibility in its current form.
 
 ## TODO:
 
 - Add condition to local storage count, to not show the two mapbox bits.
 - Edit media queries for mobile
-- share with cohort and reddit brutalist, family friends etc.
-- check got all places from brutalist map.
+- Check that get directions opens in google maps app on mobile.
+
+- Share with cohort and reddit brutalist, family friends etc.
+- Check got all places from brutalist map.
 
 ### Maybe
 
