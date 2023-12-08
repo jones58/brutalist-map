@@ -33,27 +33,22 @@
   - I noticed that the image links I'd gathered from startpage.com weren't working so I had to add them manually from the websites themselves.
 - I tried setting the checkbox with the input type="checkbox" but i decided i wanted more of a custom look so I made my own based on the back button I'm using and previously found on [Public domain vectors](https://publicdomainvectors.org).
 - Whilst building the site, I liked the look of the images but it was not as cohesive as it could be so I decided to use filter: grayscale(100%); to make the images look more similar, and blend with the aesthetic of the site better. I also added rounded corners to the images to match my checkbox and back button svg icons. I used calc() to get it in line with the back button.
+- I noticed that adding the checkbox was causing the back button's icon to have a thick stroke and set about trying to fix it. Changing the id for the svg was not successful so I had to change the class names inside the svg to unique numbers.
 
 ## TODO:
 
-- Finish implementing custom popup design
-
-  - use dom to set content of popup, at least clickable content. ie. not just inner html.
-  - add local storage for each feature and click state of visited checkbox.
-
 - Add condition to local storage count, to not show the two mapbox bits.
-
-- Small explanation of what brutalism is, could be a button/pop out.
-
+- Edit media queries for mobile
 - share with cohort and reddit brutalist, family friends etc.
 - check got all places from brutalist map.
 
-### Things I'd like to do later
+### Maybe
 
-- maybe get photos with google places api: https://developers.google.com/maps/documentation/places/web-service/place-photos.
-- edit so highlights whole building not just dot.
-  -change color when hover/click on it.
-- maybe add css bootstrap.
+- Small explanation of what brutalism is, could be a button/pop out.
+- Maybe get photos with google places api: https://developers.google.com/maps/documentation/places/web-service/place-photos.
+- Edit mapbox studio data so highlights whole building not just dot.
+  - Change color when hover/click on it.
+- Add css bootstrap.
 
 ## Resources:
 
