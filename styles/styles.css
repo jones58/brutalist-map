@@ -88,7 +88,6 @@ footer {
 
 footer button,
 #counter {
-  font-family: RealTextProMedium, Helvetica, sans-serif;
   font-size: 40px;
   color: #000;
   background-color: #fff;
@@ -97,7 +96,7 @@ footer button,
   text-align: left;
 }
 
-/* Hidden Element */
+/* Hidden Elements */
 .hidden {
   display: none;
 }
@@ -114,15 +113,13 @@ footer button,
   z-index: 2;
 }
 
-#popup h1,
-#popup h2 {
+#popup h1 {
   font-size: 50px;
   padding: 5vh 3vw 1vh 3vw;
 }
 
 #popup p,
-#popup a,
-#popup label {
+#popup a {
   font-size: 25px;
   line-height: 28px;
   padding-top: 2vh;
@@ -145,7 +142,7 @@ footer button,
   top: calc(60vh - 300px);
   right: 2vw;
   filter: grayscale(100%);
-  border-radius: 80px;
+  border-radius: 20%;
 }
 
 #popup a {
@@ -162,17 +159,10 @@ footer button,
 }
 
 #popup #checkbox-container svg {
-  width: 200px;
-  height: 200px;
   padding: 3vw;
   position: absolute;
   top: calc(60vh - 300px);
   left: 0;
-}
-
-#popup input {
-  padding: 0 3vw;
-  cursor: pointer;
 }
 
 /* Media Queries */
@@ -236,36 +226,87 @@ footer button,
     padding: 3vw;
     position: absolute;
     top: 35vh;
-    left: 5vw;
   }
 }
 
 @media only screen and (max-width: 600px) {
   /* Mobile */
   header {
+    display: none;
+  }
+
+  #map {
+    top: 0;
+  }
+
+  /* popup on mobile */
+
+  #popup {
+    top: 0;
+  }
+
+  #popup h1,
+  #popup h2 {
+    font-size: 40px;
+    padding: 5vh 5vw 0vh 5vw;
+  }
+
+  #popup p,
+  #popup a {
+    font-size: 20px;
+    line-height: 25px;
+    padding-top: 2vh;
+    text-align: left;
+  }
+
+  #popup div {
+    padding: 0 5vw;
+    display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    padding: 2vh 2vw;
+    align-items: left;
+    justify-content: space-between;
   }
 
-  #title {
-    font-size: 24px;
+  #popup img {
+    width: 200px;
+    height: 200px;
+    padding: 5vw;
+    top: 40vh;
+    left: 0vw;
+    filter: grayscale(100%);
   }
 
-  #description {
-    font-size: 12px;
-    width: 100%;
-    text-align: center;
+  #popup a {
+    color: #3f964a;
+  }
+
+  #popup svg {
+    width: 100px;
+    height: 100px;
+    padding: 5vw;
+    top: 65vh;
+    left: 0vw;
+  }
+
+  #popup #checkbox-container svg {
+    width: 100px;
+    height: 100px;
+    padding: 5vw;
+    position: absolute;
+    left: unset;
+    right: 0;
+    top: 65vh;
   }
 
   footer button,
   #counter {
-    font-size: 15px;
+    font-size: 25px;
   }
 
   footer {
+    height: 20vh;
     padding: 2vh 5vw;
+    flex-direction: column;
     justify-content: space-around;
   }
 }
