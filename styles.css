@@ -1,7 +1,9 @@
+/* Global */
 * {
   box-sizing: border-box;
 }
 
+/* Fonts */
 @font-face {
   font-family: RealTextProRegular;
   src: url("fonts/Real Text Pro/RealTextPro-Regular.otf")
@@ -18,13 +20,14 @@
     format(opentype);
 }
 
+/* Header */
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
-  color: #000000;
-  background-color: #ffffff;
+  color: #000;
+  background-color: #fff;
   width: 100vw;
   height: 10vh;
   position: fixed;
@@ -47,11 +50,11 @@ p {
 
 #description {
   font-family: RealTextProRegular, Helvetica, sans-serif;
-  font-size: 15px;
+  font-size: 30px;
   text-align: right;
-  width: 14vw;
 }
 
+/* Map */
 #map {
   position: fixed;
   top: 10vh;
@@ -60,14 +63,16 @@ p {
   width: 100vw;
 }
 
+/* Links */
 a {
   text-decoration: none;
-  color: #000000;
+  color: #000;
 }
 
+/* Footer */
 footer {
   font-family: RealTextProMedium, Helvetica, sans-serif;
-  background-color: #ffffff;
+  background-color: #fff;
   width: 100vw;
   height: 10vh;
   position: fixed;
@@ -85,18 +90,21 @@ footer button,
 #counter {
   font-family: RealTextProMedium, Helvetica, sans-serif;
   font-size: 24px;
-  color: #000000;
-  background-color: #ffffff;
-  border: 0px;
+  color: #000;
+  background-color: #fff;
+  border: 0;
   cursor: pointer;
   text-align: left;
 }
 
+/* Hidden Element */
 .hidden {
   display: none;
 }
 
+/* Popup */
 #popup {
+  font-family: RealTextProRegular, Helvetica, sans-serif;
   background-color: #ebebeb;
   position: fixed;
   top: 10vh;
@@ -104,10 +112,6 @@ footer button,
   height: 80vh;
   width: 50vw;
   z-index: 2;
-}
-
-#popup {
-  font-family: RealTextProRegular, Helvetica, sans-serif;
 }
 
 #popup h1,
@@ -141,18 +145,20 @@ footer button,
   position: absolute;
   top: 30vh;
   left: 20vw;
+  filter: grayscale(100%);
 }
 
 #popup a {
   color: #3f964a;
 }
+
 #popup svg {
   width: 200px;
   height: 200px;
   padding: 3vw;
   position: absolute;
   top: 55vh;
-  left: 0px;
+  left: 0;
 }
 
 #popup input {
@@ -160,10 +166,9 @@ footer button,
   cursor: pointer;
 }
 
-/* Media queries */
-
-/* tablet and mobile */
+/* Media Queries */
 @media only screen and (max-width: 1077px) {
+  /* Tablet and Mobile */
   #title {
     font-size: 18px;
   }
@@ -203,7 +208,7 @@ footer button,
     object-fit: cover;
     width: 200px;
     height: 200px;
-    padding: 0vw;
+    padding: 0;
     position: absolute;
     top: 42vh;
     left: 35vw;
@@ -212,16 +217,15 @@ footer button,
   #popup svg {
     width: 100px;
     height: 100px;
-    padding: 0vw;
+    padding: 0;
     position: absolute;
     top: 55vh;
     left: 5vw;
   }
 }
 
-/* Mobile */
-
 @media only screen and (max-width: 600px) {
+  /* Mobile */
   header {
     flex-direction: column;
     justify-content: space-around;
@@ -250,12 +254,12 @@ footer button,
   }
 }
 
-/* mobile landscape */
-
 @media only screen and (max-height: 550px) and (orientation: landscape) {
+  /* Mobile Landscape */
   #description {
     width: 60vw;
   }
+
   footer button {
     font-size: 12px;
   }
