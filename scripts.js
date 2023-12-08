@@ -160,10 +160,15 @@ const onClick = (event) => {
 // linking event listener to map's built-in click function //
 map.on("click", onClick);
 
-// display how many values in  local storage in html number //
+// display how many values in  local storage in html number - using a regex here because mapbox adds two keys to local storage which we don't want to count.//
+
 function setCounter() {
+  const buildingsVisited = Object.keys(localStorage).filter(
+    (key) => !/mapbox/.test(key)
+  ).length;
+  console.log(buildingsVisited);
   document.getElementById("counter").innerHTML =
-    "Visited: " + localStorage.length + "/67";
+    "Visited: " + buildingsVisited + "/67";
 }
 
 setCounter();
