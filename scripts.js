@@ -113,4 +113,4 @@ function getCheckbox(featureTitle) {
 let count = localStorage.length;
 
 document.getElementById("counter").innerHTML =
-  "Visited:" + count + "/67";
+  "Visited: " + count + "/67";
