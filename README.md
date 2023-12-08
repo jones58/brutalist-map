@@ -1,4 +1,6 @@
-# brutalist-map
+# Brutalist Map
+
+A map for discovering London's Brutalist buildings, built using Mapbox's API.
 
 ## Planning:
 
