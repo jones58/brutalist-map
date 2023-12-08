@@ -64,7 +64,7 @@ const onClick = (event) => {
   if (feature) {
     popup.innerHTML = `
     <h2>${feature.properties.Title}</h2>
-    <div class="description"><p>${feature.properties.Description}</p><a href="${feature.properties.URL}" target="_blank">View On Google Maps</a> <label for="visit"><p>Have you visited?</p><input type="checkbox" value="visit" id="visit"/></label>
+    <div class="description"><p>${feature.properties.Description}</p><a href="${feature.properties.URL}" target="_blank">View On Google Maps</a> <label for="visit"><p>Visited?</p><input type="checkbox" value="visit" id="visit"/></label>
     </div>
     <img src="${feature.properties.Image}" alt="a photo of ${feature.properties.Title}"/>
     <svg id="svg3551" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 579.85 580.86" onclick="popup.classList.add('hidden')">
