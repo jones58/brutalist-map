@@ -114,6 +114,7 @@ footer button,
 }
 
 #popup h1 {
+  font-family: RealTextProMedium, Helvetica, sans-serif;
   font-size: 50px;
   padding: 5vh 3vw 1vh 3vw;
 }
@@ -298,9 +299,12 @@ footer button,
     top: 65vh;
   }
 
-  footer button,
-  #counter {
-    font-size: 25px;
+  footer #counter {
+    font-size: 40px;
+  }
+
+  footer button {
+    font-size: 20px;
   }
 
   footer {
