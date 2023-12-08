@@ -89,7 +89,7 @@ footer {
 footer button,
 #counter {
   font-family: RealTextProMedium, Helvetica, sans-serif;
-  font-size: 24px;
+  font-size: 40px;
   color: #000;
   background-color: #fff;
   border: 0;
@@ -123,8 +123,8 @@ footer button,
 #popup p,
 #popup a,
 #popup label {
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 25px;
+  line-height: 28px;
   padding-top: 2vh;
 }
 
@@ -139,13 +139,14 @@ footer button,
 
 #popup img {
   object-fit: cover;
-  width: 450px;
-  height: 450px;
+  width: 500px;
+  height: 500px;
   padding: 3vw;
   position: absolute;
-  top: 30vh;
-  left: 20vw;
+  top: calc(55vh - 300px);
+  right: 2vw;
   filter: grayscale(100%);
+  border-radius: 80px;
 }
 
 #popup a {
@@ -181,7 +182,6 @@ footer button,
   #popup {
     top: 10vh;
     left: 0;
-    height: 80vh;
     width: 100vw;
     z-index: 2;
   }
@@ -211,7 +211,7 @@ footer button,
     padding: 0;
     position: absolute;
     top: 42vh;
-    left: 35vw;
+    left: 38vw;
   }
 
   #popup svg {
