@@ -20,22 +20,6 @@ function setupMap(coordinates) {
 // setupMap() with initial coordinates
 setupMap(coordinates);
 
-/* dark and light mode for map */
-const lightModeToggle = document.getElementById("light-mode");
-const darkModeToggle = document.getElementById("dark-mode");
-
-lightModeToggle.addEventListener("click", () => {
-  map.setStyle("mapbox://styles/jones581/clp9xceyv004301o9eao60mvd");
-  lightModeToggle.classList.add("hidden");
-  darkModeToggle.classList.remove("hidden");
-});
-
-darkModeToggle.addEventListener("click", () => {
-  map.setStyle("mapbox://styles/jones581/clp8fym2g01u901qmbpzq0dde");
-  lightModeToggle.classList.remove("hidden");
-  darkModeToggle.classList.add("hidden");
-});
-
 // Add current location button to navigation //
 map.addControl(
   new mapboxgl.GeolocateControl({
@@ -63,7 +47,7 @@ const onClick = (event) => {
 
   if (feature) {
     popup.innerHTML = `
-    <h2>${feature.properties.Title}</h2>
+    <h1>${feature.properties.Title}</h1>
     <div class="description"><p>${feature.properties.Description}</p><a href="${feature.properties.URL}" target="_blank">Get Directions</a></div>
     <img src="${feature.properties.Image}" alt="a photo of ${feature.properties.Title}"/>
     <svg id="3540 "xmlns="http://www.w3.org/2000/svg" viewBox="0 0 579.85 580.86" onclick="popup.classList.add('hidden')">
