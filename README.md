@@ -31,6 +31,8 @@
     - Using javascript to set the content of the popup.
 - Editing Geojson data to add properties for an image and a description. I started doing this in Mapbox Studio but quickly realised it would be quicker to do edit the geojson in vscode and then update it by uploading the edited file.
   - I noticed that the image links I'd gathered from startpage.com weren't working so I had to add them manually from the websites themselves.
+- I tried setting the checkbox with the input type="checkbox" but i decided i wanted more of a custom look so I made my own based on the back button I'm using and previously found on [Public domain vectors](https://publicdomainvectors.org).
+- Whilst building the site, I liked the look of the images but it was not as cohesive as it could be so I decided to use filter: grayscale(100%); to make the images look more similar, and blend with the aesthetic of the site better. I also added rounded corners to the images to match my checkbox and back button svg icons. I used calc() to get it in line with the back button.
 
 ## TODO:
 
@@ -38,7 +40,6 @@
 
   - use dom to set content of popup, at least clickable content. ie. not just inner html.
   - add local storage for each feature and click state of visited checkbox.
-  - maybe redesign checkbox so it's more like the back button/like night day switch on portfolio site.
 
 - Add condition to local storage count, to not show the two mapbox bits.
 
