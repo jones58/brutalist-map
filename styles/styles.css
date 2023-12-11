@@ -116,7 +116,7 @@ footer button,
 }
 
 #popup h1 {
-  font-family: "RealTextPro Medium" Helvetica, sans-serif;
+  font-family: "RealTextPro Medium", Helvetica Medium, sans-serif;
   font-size: 40px;
   padding: 3vh 3vw 1vh 3vw;
 }
