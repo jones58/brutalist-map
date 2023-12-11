@@ -168,6 +168,16 @@ footer button,
   left: 0;
 }
 
+#visitedList {
+  position: fixed;
+  top: 10vh;
+  left: 50vw;
+  height: 80vh;
+  width: 100vw;
+  z-index: 2;
+  background-color: #ebebeb;
+}
+
 /* Media Queries */
 @media only screen and (max-width: 1077px) {
   /* Tablet and Mobile */

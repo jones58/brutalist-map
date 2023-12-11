@@ -38,6 +38,7 @@ A map for discovering London's Brutalist buildings, built using Mapbox's API.
 - I noticed that adding the checkbox was causing the back button's icon to have a thick stroke and set about trying to fix it. Changing the id for the svg was not successful so I had to change the class names inside the svg to unique numbers.
 - I initially start the design with a light and a dark mode but for the sake of simplicity, I decided to leave this out as I don't think it contributes to accessibility in its current form.
 - I realised that the visited count at the bottom was showing 2 places instead of 0 and looked in local storage to debug. I found two mapbox.event keys and used a regex to make sure they weren't counted in the visited count.
+- I noticed that touch events weren't happening right on the map - so I used a simple onTouch(event) to mimic an onClick(event).
 
 ## TODO:
 
@@ -47,7 +48,6 @@ A map for discovering London's Brutalist buildings, built using Mapbox's API.
 - Test on personal phone chrome and firefox.
   - Maybe do live edit with vscode.
   - work out why it looks much better on chrome than Firefox - extensions maybe.
-- On mobile, more flexibility with where can touch on screen ie. not exact point- look at mapbox docs maybe.
 - Accessibility - go through docs and see if there are any accessibility issues, use lighthouse too.
 - Eliminate edge cases, old browsers etc.
 - Check got all places from paper brutalist map. Add Alton Estate.
