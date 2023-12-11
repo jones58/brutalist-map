@@ -235,7 +235,7 @@ setCounter();
 
 // adding touch support to the map //
 
-function onTouch() {
+function onTouch(event) {
   event.preventDefault();
   var simulatedClick = new MouseEvent("click", {
     cancelable: true,
