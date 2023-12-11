@@ -216,13 +216,14 @@ footer button,
 
   #popup h1,
   #popup h2 {
-    font-size: 40px;
+    font-size: 25px;
+    line-height: 27px;
     padding: 5vh 5vw 0vh 5vw;
   }
 
   #popup p,
   #popup a {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 25px;
     padding-top: 2vh;
     text-align: left;
@@ -275,7 +276,7 @@ footer button,
 
   footer {
     height: 20vh;
-    padding: 1vh 5vw;
+    padding: 0vh 5vw;
     flex-direction: column;
     justify-content: space-around;
   }
