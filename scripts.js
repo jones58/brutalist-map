@@ -232,3 +232,16 @@ function setCounter() {
 }
 
 setCounter();
+
+// adding touch support to the map //
+
+function onTouch() {
+  event.preventDefault();
+  var simulatedClick = new MouseEvent("click", {
+    cancelable: true,
+    view: window,
+  });
+  event.target.dispatchEvent(simulatedClick);
+}
+
+map.addEventListener("touchstart", onTouch);
