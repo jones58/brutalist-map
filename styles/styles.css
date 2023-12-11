@@ -142,7 +142,7 @@ footer button,
   height: 400px;
   padding: 3vw;
   position: absolute;
-  top: calc(50vh - 200px);
+  top: calc(55vh - 200px);
   right: 2vw;
   filter: grayscale(100%);
   border-radius: 20%;
@@ -157,14 +157,14 @@ footer button,
   height: 200px;
   padding: 3vw;
   position: absolute;
-  top: 50vh;
+  top: 55vh;
   left: 0;
 }
 
 #popup #checkbox-container svg {
   padding: 3vw;
   position: absolute;
-  top: calc(50vh - 200px);
+  top: calc(55vh - 200px);
   left: 0;
 }
 
