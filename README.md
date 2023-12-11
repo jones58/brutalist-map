@@ -33,7 +33,7 @@ A map for discovering London's Brutalist buildings, built using Mapbox's API.
     - Using javascript to set the content of the popup.
 - Editing Geojson data to add properties for an image and a description. I started doing this in Mapbox Studio but quickly realised it would be quicker to do edit the geojson in vscode and then update it by uploading the edited file.
   - I noticed that the image links I'd gathered from startpage.com weren't working so I had to add them manually from the websites themselves.
-- I tried setting the checkbox with the input type="checkbox" but i decided i wanted more of a custom look so I made my own based on the back button I'm using and previously found on [Public domain vectors](https://publicdomainvectors.org).
+- I tried setting the checkbox with the input type="checkbox" but i decided i wanted more of a custom look so I made my own "tick" based on the back button I'm using which I previously found on [Public domain vectors](https://publicdomainvectors.org).
 - Whilst building the site, I liked the look of the images but it was not as cohesive as it could be so I decided to use filter: grayscale(100%); to make the images look more similar, and blend with the aesthetic of the site better. I also added rounded corners to the images to match my checkbox and back button svg icons. I used calc() to get it in line with the back button.
 - I noticed that adding the checkbox was causing the back button's icon to have a thick stroke and set about trying to fix it. Changing the id for the svg was not successful so I had to change the class names inside the svg to unique numbers.
 - I initially start the design with a light and a dark mode but for the sake of simplicity, I decided to leave this out as I don't think it contributes to accessibility in its current form.
@@ -41,18 +41,17 @@ A map for discovering London's Brutalist buildings, built using Mapbox's API.
 
 ## TODO:
 
+- Edit geojson dataset, "designed by: " "completed: ", " - finish doing this. Maybe add more info url.
 - Edit media queries for tablet, keep testing and editing for different screen sizes. Use chrome, safari, firefox. Also browserstack.
+- List of places visited - Could be in table format. when click visited.
 - Test on personal phone chrome and firefox.
   - Maybe do live edit with vscode.
   - work out why it looks much better on chrome than Firefox - extensions maybe.
 - On mobile, more flexibility with where can touch on screen ie. not exact point- look at mapbox docs maybe.
 - Accessibility - go through docs and see if there are any accessibility issues, use lighthouse too.
-- Check that get directions opens in google maps app on mobile - yep it does.
 - Eliminate edge cases, old browsers etc.
-- Check got all places from paper brutalist map.
+- Check got all places from paper brutalist map. Add Alton Estate.
 - Share with cohort and reddit brutalist, family, friends etc.
-- List of places visited - Could be in table format.
-- Edit geojson dataset, "designed by: " "completed: ", "find out more: "
 
 ### Maybe
 
