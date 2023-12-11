@@ -5,19 +5,22 @@
 
 /* Fonts */
 @font-face {
-  font-family: RealTextProRegular;
+  font-family: RealTextPro;
   src: url("fonts/Real Text Pro/RealTextPro-Regular.otf")
     format(opentype);
+  font-weight: normal;
 }
 @font-face {
-  font-family: RealTextProBold;
+  font-family: RealTextPro Bold;
   src: url("fonts/Real Text Pro Bold/RealTextPro-Bold.otf")
     format(opentype);
+  font-weight: bold;
 }
 @font-face {
-  font-family: RealTextProMedium;
+  font-family: RealTextPro Medium;
   src: url("fonts/Real Text Pro Medium/RealTextPro-Medium.otf")
     format(opentype);
+  font-weight: medium;
 }
 
 /* Header */
@@ -25,7 +28,6 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-direction: row;
   color: #000;
   background-color: #fff;
   width: 100vw;
@@ -39,7 +41,7 @@ header {
 }
 
 #title {
-  font-family: RealTextProBold, Helvetica Bold, sans-serif;
+  font-family: "RealTextPro Bold", "Helvetica Bold", sans-serif;
   font-size: 40px;
 }
 
@@ -49,7 +51,7 @@ p {
 }
 
 #description {
-  font-family: RealTextProRegular, Helvetica, sans-serif;
+  font-family: "RealTextPro Medium", Helvetica, sans-serif;
   font-size: 30px;
   text-align: right;
 }
@@ -71,7 +73,7 @@ a {
 
 /* Footer */
 footer {
-  font-family: RealTextProMedium, Helvetica, sans-serif;
+  font-family: "RealTextPro Medium", Helvetica, sans-serif;
   background-color: #fff;
   width: 100vw;
   height: 10vh;
@@ -103,7 +105,7 @@ footer button,
 
 /* Popup */
 #popup {
-  font-family: RealTextProRegular, Helvetica, sans-serif;
+  font-family: "RealTextPro", Helvetica, sans-serif;
   background-color: #ebebeb;
   position: fixed;
   top: 10vh;
@@ -114,14 +116,14 @@ footer button,
 }
 
 #popup h1 {
-  font-family: RealTextProMedium, Helvetica, sans-serif;
-  font-size: 50px;
-  padding: 5vh 3vw 1vh 3vw;
+  font-family: "RealTextPro Medium" Helvetica, sans-serif;
+  font-size: 40px;
+  padding: 3vh 3vw 1vh 3vw;
 }
 
 #popup p,
 #popup a {
-  font-size: 25px;
+  font-size: 20px;
   line-height: 28px;
   padding-top: 2vh;
 }
@@ -136,11 +138,11 @@ footer button,
 
 #popup img {
   object-fit: cover;
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
   padding: 3vw;
   position: absolute;
-  top: calc(60vh - 300px);
+  top: calc(50vh - 200px);
   right: 2vw;
   filter: grayscale(100%);
   border-radius: 20%;
@@ -155,14 +157,14 @@ footer button,
   height: 200px;
   padding: 3vw;
   position: absolute;
-  top: 60vh;
+  top: 50vh;
   left: 0;
 }
 
 #popup #checkbox-container svg {
   padding: 3vw;
   position: absolute;
-  top: calc(60vh - 300px);
+  top: calc(50vh - 200px);
   left: 0;
 }
 
@@ -175,58 +177,20 @@ footer button,
 
   #description {
     font-size: 15px;
-    width: 22vw;
   }
 
   #popup {
     top: 10vh;
-    left: 0;
-    width: 100vw;
-    z-index: 2;
   }
-
   #popup h1,
   #popup h2 {
     font-size: 30px;
-    padding: 5vh 5vw 1vh 5vw;
   }
 
   #popup p,
   #popup a,
   #popup label {
-    font-size: 20px;
-  }
-
-  #popup div {
-    padding: 0 5vw;
-    justify-content: space-around;
-  }
-
-  #popup img {
-    object-fit: cover;
-    width: 200px;
-    height: 200px;
-    padding: 0;
-    position: absolute;
-    top: 42vh;
-    left: 38vw;
-  }
-
-  #popup svg {
-    width: 100px;
-    height: 100px;
-    padding: 0;
-    position: absolute;
-    top: 55vh;
-    left: 5vw;
-  }
-
-  #popup #checkbox-container svg {
-    width: 100px;
-    height: 100px;
-    padding: 3vw;
-    position: absolute;
-    top: 35vh;
+    font-size: 15px;
   }
 }
 
@@ -244,6 +208,10 @@ footer button,
 
   #popup {
     top: 0;
+    left: 0;
+    height: 80vh;
+    width: 100vw;
+    z-index: 2;
   }
 
   #popup h1,
@@ -269,12 +237,11 @@ footer button,
   }
 
   #popup img {
-    width: 200px;
-    height: 200px;
+    width: 60vw;
+    height: 60vw;
     padding: 5vw;
-    top: 40vh;
-    left: 0vw;
-    filter: grayscale(100%);
+    top: 35vh;
+    right: 0;
   }
 
   #popup a {
@@ -293,14 +260,13 @@ footer button,
     width: 100px;
     height: 100px;
     padding: 5vw;
-    position: absolute;
     left: unset;
     right: 0;
     top: 65vh;
   }
 
   footer #counter {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   footer button {
@@ -309,7 +275,7 @@ footer button,
 
   footer {
     height: 20vh;
-    padding: 2vh 5vw;
+    padding: 1vh 5vw;
     flex-direction: column;
     justify-content: space-around;
   }

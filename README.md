@@ -41,17 +41,18 @@ A map for discovering London's Brutalist buildings, built using Mapbox's API.
 
 ## TODO:
 
-- Edit popup height on mobile - it overlaps with footer a bit atm.
 - Edit media queries for tablet, keep testing and editing for different screen sizes. Use chrome, safari, firefox. Also browserstack.
 - Test on personal phone chrome and firefox.
-  -Maybe do live edit with vscode.
-  - work out why it looks much better on chrome than Firefox - extensions maybe. s
+  - Maybe do live edit with vscode.
+  - work out why it looks much better on chrome than Firefox - extensions maybe.
 - On mobile, more flexibility with where can touch on screen ie. not exact point- look at mapbox docs maybe.
 - Accessibility - go through docs and see if there are any accessibility issues, use lighthouse too.
 - Check that get directions opens in google maps app on mobile - yep it does.
 - Eliminate edge cases, old browsers etc.
 - Check got all places from paper brutalist map.
 - Share with cohort and reddit brutalist, family, friends etc.
+- List of places visited - Could be in table format.
+- Edit geojson dataset, "designed by: " "completed: ", "find out more: "
 
 ### Maybe
 
