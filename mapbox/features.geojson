@@ -498,7 +498,8 @@
                 "Title": "Dowgate Fire Station",
                 "URL": "https://maps.app.goo.gl/vEEpoNK4bh48ZGN7A",
                 "Image":"https://blog.lessavine.co.uk/wp-content/uploads/2021/09/London-Fire-Brigade-Dowgate-Fire-Station-A28.jpg",
-                "Description":"Designed by Hubbard Ford & Partners in 1975."
+                "Designer": "Hubbard Ford & Partners",
+                "Completed":""
               },
             "geometry": {
                 "coordinates": [
@@ -515,7 +516,8 @@
                 "Title": "Embassy of Slovakia",
                 "URL": "https://maps.app.goo.gl/ATntxNX4SPWJW6Bh8",
                 "Image":"https://s0.geograph.org.uk/geophotos/01/09/13/1091355_3506de65.jpg",
-                "Description":"Designed by architects Jirí Kroha, Karel Filsak, and Josef Kotas."
+                "Designer": "Jirí Kroha, Karel Filsak, and Josef Kotas.",
+                "Completed":""
             },
             "geometry": {
                 "coordinates": [
@@ -532,7 +534,8 @@
                 "Title": "Hayward Gallery",
                 "URL": "https://www.google.com/maps/place/Hayward+Gallery/data=!4m2!3m1!1s0x487604b7e7c78711:0xea81dbe9938ed7b8",
                 "Image":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Staircase_on_the_Southern_Side_of_the_Hayward_Gallery.jpg/2560px-Staircase_on_the_Southern_Side_of_the_Hayward_Gallery.jpg",
-                "Description":"Designed by a group of architects from the Greater London Council's Department of Architecture, led by Norman Engleback, the building was completed in 1968. "
+                "Designer": "Norman Engleback",
+                "Completed":""
               },
             "geometry": {
                 "coordinates": [
@@ -549,7 +552,8 @@
                 "Title": "Brunswick Centre",
                 "URL": "https://maps.app.goo.gl/ioGxZ7WWSFefYMGq5",
                 "Image":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Brunswick_Centre_%284136275375%29.jpg/1920px-Brunswick_Centre_%284136275375%29.jpg",
-                "Description":"Designed by architects Patrick Hodgkinson and Michael Brawne."
+                "Designer": "Patrick Hodgkinson and Michael Brawne.",
+                "Completed":""
             },
             "geometry": {
                 "coordinates": [
@@ -566,7 +570,8 @@
                 "Title": "123 Victoria St",
                 "URL": "https://www.google.com/maps/place/123+Victoria+St/data=!4m2!3m1!1s0x487604de925884d5:0xf010f86f8f517b67",
                 "Image":"https://static.dezeen.com/uploads/2020/04/myo-london-office-interiors-soda_dezeen_2364_col_15-1704x884.jpg",
-                "Description":"Designed by the architectural firm Sheppard Robson and Partners."
+                "Designer": "Sheppard Robson and Partners",
+                "Completed":""
               },
             "geometry": {
                 "coordinates": [
@@ -583,7 +588,9 @@
                 "Title": "Centre Point",
                 "URL": "https://maps.app.goo.gl/w6psQyaJoSg9GULQ8",
                 "Image":"https://cdn.thespaces.com/wp-content/uploads/2018/03/Centre-Point-revamp-Conran-Partners-7.jpg",
-                "Description":"Designed by architect George Marsh of Richard Seifert & Partners"
+                "Designer": "George Marsh of Richard Seifert & Partners",
+                "Completed":""
+
             },
             "geometry": {
                 "coordinates": [
@@ -600,7 +607,8 @@
                 "Title": "Southwyck House",
                 "URL": "https://maps.app.goo.gl/E3d7kiiWgqWnDVCJ8",
                 "Image":"https://upload.wikimedia.org/wikipedia/commons/9/91/Southwyck_House%2C_Brixton_-_geograph.org.uk_-_220874.jpg",
-                "Description":"Also known as the Brixton Barrier Block. Designed by the architectural practice George Finch and Partners. "
+                "Designer": "George Finch & Partners",
+                "Completed":""
             },
             "geometry": {
                 "coordinates": [
@@ -617,7 +625,8 @@
                 "Title": "Space House",
                 "URL": "https://maps.app.goo.gl/Zo3o978dkJYwtFeX8",
                 "Image":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/1_Kemble_Street_09.jpg/1024px-1_Kemble_Street_09.jpg",
-                "Description":"Designed by Richard Seifert & Partners"
+                "Designer": "Richard Seifert & Partners",
+                "Completed":""
             },
             "geometry": {
                 "coordinates": [
@@ -634,7 +643,9 @@
                 "Title": "Bethnal Green Fire Station",
                 "URL": "https://maps.app.goo.gl/ZKGoPuR1iG8ypCXL7",
                 "Image": "https://www.london-fire.gov.uk/media/6809/bethnal-green-fire-station-3.jpg",
-                "Description": "Designed by the Greater London Council's Architects Department"
+                "Designer": "Greater London Council's Architects Department",
+                "Completed":""
+
             },
             "geometry": {
                 "coordinates": [
@@ -651,7 +662,8 @@
                 "Title": "Lillington Gardens Estate",
                 "URL": "https://maps.app.goo.gl/sdTueFT2ff32jWon7",
                 "Image":"http://www.archipicture.eu/2%20Bilder/Grossbritannien/Darbourne%20&%20Darke/Darbourne%20&%20Drake%20-%20Lillington%20Gardens%2010smr.jpg",
-                "Description":"Designed by architects Darbourne & Darke."
+                "Designer": "Darbourne & Darke",
+                "Completed":""
             },
             "geometry": {
                 "coordinates": [
@@ -668,7 +680,9 @@
                 "Title": "Langham House Close",
                 "URL": "https://www.google.com/maps/place/Langham+House+Cl/data=!4m2!3m1!1s0x48760c7449f4e5f1:0x7c6c9c14f38cbc60",
                 "Image":"https://www.copperline.co/wp-content/uploads/2015/10/Langham-House-Close-The-Modern-House-3.jpg",
-                "Description":"Designed by the architect James Stirlin."
+                "Designer": "James Stirlin",
+                "Completed":""
+
             },
             "geometry": {
                 "coordinates": [
@@ -685,7 +699,8 @@
                 "Title": "The Park Tower Knightsbridge, a Luxury Collection Hotel, London",
                 "URL": "https://www.google.com/maps/place/The+Park+Tower+Knightsbridge,+a+Luxury+Collection+Hotel,+London/data=!4m2!3m1!1s0x487605397f5feec5:0xebb91acde1ff46af",
                 "Image":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/The_Park_Tower_Knightsbridge_Hotel.JPG/1280px-The_Park_Tower_Knightsbridge_Hotel.JPG",
-                "Description":"Designed by the architecture firm Richard Seifert & Partners"
+                "Designer": "Richard Seifert & Partners",
+                "Completed":""
             },
             "geometry": {
                 "coordinates": [
@@ -702,7 +717,9 @@
                 "Title": "Minories Car Park",
                 "URL": "https://maps.app.goo.gl/Bo7hoDyjZfzJ5XfT7",
                 "Image":"https://www.kathmanduandbeyond.com/wp-content/uploads/2021/01/Minories-Car-Park-London-England-7.jpg",
-                "Description":"Designed by architect R.L. Moorcraft."
+                "Designer": "R.L. Moorcraft",
+                "Completed":""
+
             },
             "geometry": {
                 "coordinates": [
@@ -719,7 +736,8 @@
                 "Title": "30 Cannon St",
                 "URL": "https://www.google.com/maps/place/30+Cannon+St/data=!4m2!3m1!1s0x487604aa62773c8f:0xf06489f70051d72b",
                 "Image":"https://30cannonstreet.com/wp-content/uploads/2020/06/Exterior-Image-7.jpg",
-                "Description":"Designed by Whinney, Son & Austen Hall."
+                "Designer": "Whinney, Son & Austen Hall",
+                "Completed":""
             },
             "geometry": {
                 "coordinates": [
@@ -736,7 +754,8 @@
                 "Title": "Stoke Newington School & Sixth Form",
                 "URL": "https://www.google.com/maps/place/Stoke+Newington+School+%26+Sixth+Form/data=!4m2!3m1!1s0x48761c7d1189a7a3:0x9950689a3861f0fd",
                 "Image": "https://64.media.tumblr.com/140d2fac77dfafc071945b5cbd9c0313/c47a24523db2ed2d-b0/s2048x3072/9269777b6003401f7735d2b0c61ce12c40486407.jpg",
-                "Description": "School designed by the architectural firm Jestico + Whiles"
+                "Designer": "Jestico + Whiles",
+                "Completed":""
             },
             "geometry": {
                 "coordinates": [
@@ -753,7 +772,9 @@
                 "Title": "University of Westminster Cavendish Campus",
                 "URL": "https://www.google.com/maps/place/University+of+Westminster+Cavendish+Campus/data=!4m2!3m1!1s0x48761ad602153b7d:0x7cae57b547cdf178",
                 "Image":"https://manchesterhistory.net/architecture/1970/westminsterU2.jpg",
-                "Description":"Designed by Lyons, Israel and Ellis."
+                "Designer": "Lyons, Israel and Ellis",
+                "Completed":""
+
             },
             "geometry": {
                 "coordinates": [
