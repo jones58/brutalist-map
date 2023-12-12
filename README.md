@@ -46,7 +46,9 @@ A map for discovering London's Brutalist buildings, built using Mapbox's API.
 
 - Edit geojson dataset, "designed by: " "completed: ", " - finish doing this and upload.
 - Maybe add more info url to json and add to popup with js.
-- Edit media queries for tablet, keep testing and editing for different screen sizes. Use chrome, safari, firefox. Also browserstack and 192.168.0.254... on phone.
+- edit popup size for mobile - atm it's too big and covers visited count (see on personal phone).
+- Edit media queries for tablet
+- Keep testing and editing for different screen sizes. Use chrome, safari, firefox. Also browserstack and 192.168.0.254... on phone.
 - List of places visited - Could be in table format. when click on something - might be hard to add this to visited element.
 - Accessibility - go through docs and see if there are any accessibility issues, use lighthouse too.
 - Check got all places from paper brutalist map.
