@@ -41,6 +41,7 @@ A map for discovering London's Brutalist buildings, built using Mapbox's API.
 - I noticed that touch events weren't working right on the map - I thought the solution would be to use js, linking the touch and click events but I realised through reading github issues that the solution was simpler - i simply needed to wrap the map in a div with the attribute: data-tap-disabled="true". During debugging, I found [this site](https://www.charlemagne-icon.ac.uk/trail/claverley-church-trail/) and liked the functionality of the map: the way in how clicking slightly off from the marker still opens the necessary popup - so I looked at the code. I realised this would be difficult to implement in Mapbox Studio (where the markers are made for you), so I thought of another solution. I used a wide stroke width (set to 0 opacity), so that the marker would appear 50px wider than it was to touch events but to the human eye would still be 5px.
 - Following some user feedback, I realised it wasn't super obvious what the tick box was for without a tick in it. I changed the otherwise blank box to a faded tick, using the color #272b2f from the map. Editing the svg in Illustrator allowed me to quickly make the necessary edits to my svg file.
 - Whilst debugging the mobile CSS I used my phone and live server on the ip address of my computer to view the site on my phone.
+- I wanted a list of the places visited to show up when clicking the counter (0/67 etc.). i wrapped the counter in a div to make it clickable then wrote the necessary code in js. I originally thought about writing all the places in the list by accessing the geojson file but I thought keeping the complete list viewable only in map format enhanced the experience of exploration and intrigue from the website. I don't want to serve everything to visitors on a plate but instead let them discover places for themselves with the map. I left it to a list of the places visited, accessed via the saved local storage keys.
 
 ## TODO:
 
@@ -49,7 +50,6 @@ A map for discovering London's Brutalist buildings, built using Mapbox's API.
 - edit popup size for mobile - atm it's too big and covers visited count (see on personal phone).
 - Edit media queries for tablet
 - Keep testing and editing for different screen sizes. Use chrome, safari, firefox. Also browserstack and 192.168.0.254... on phone.
-- List of places visited - Could be in table format. when click on something - might be hard to add this to visited element.
 - Accessibility - go through docs and see if there are any accessibility issues, use lighthouse too.
 - Check got all places from paper brutalist map.
 - Add Alton Estate.
