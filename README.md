@@ -49,17 +49,16 @@ A map for discovering London's Brutalist buildings, built using Mapbox's API.
 
 - Edit geojson dataset
 
-  - fill in data for alton west estate, economist, lunar house, baynard house, no 1 croydon, national sports centre to geojson.
+  - Fill in data for alton west estate, economist, lunar house, baynard house, no 1 croydon, national sports centre.
   - Add "completed: " for each
-  - western section of the Alton Estate in Roehampton, the most direct imitation of Corbusier's 'Cite Radieuse' concept to be found in the UK.
   - Maybe add more info url to json and add to popup with js.
-  - Finish and upload geojson file
+  - Finish above and upload geojson file
 
-- Media queries
+- Edit media queries
 
-  - Edit popup size for mobile - atm it's too big and covers visited count (see on personal phone).
   - Edit media queries for tablet
   - Keep testing and editing for different screen sizes. Use chrome, safari, firefox. Also browserstack and 192.168.0.254... on phone.
+  - Edit popup size for mobile - atm it's too big and covers visited count (see on personal phone). Could get around this by hiding github link on mobile maybe.
 
 - Accessibility
 
