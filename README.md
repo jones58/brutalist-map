@@ -42,6 +42,8 @@ A map for discovering London's Brutalist buildings, built using Mapbox's API.
 - Following some user feedback, I realised it wasn't super obvious what the tick box was for without a tick in it. I changed the otherwise blank box to a faded tick, using the color #272b2f from the map. Editing the svg in Illustrator allowed me to quickly make the necessary edits to my svg file.
 - Whilst debugging the mobile CSS I used my phone and live server on the ip address of my computer to view the site on my phone.
 - I wanted a list of the places visited to show up when clicking the counter (0/67 etc.). i wrapped the counter in a div to make it clickable then wrote the necessary code in js. I originally thought about writing all the places in the list by accessing the geojson file but I thought keeping the complete list viewable only in map format enhanced the experience of exploration and intrigue from the website. I don't want to serve everything to visitors on a plate but instead let them discover places for themselves with the map. I left it to a list of the places visited, accessed via the saved local storage keys.
+- added an underline on hover to the links (github, list of places visited, description of brutalism) to make it more clear they are clickable on desktop.
+- added a description of what brutalism is in a popup when clicking on the description of the map.
 
 ## TODO:
 
@@ -53,17 +55,27 @@ A map for discovering London's Brutalist buildings, built using Mapbox's API.
   - Maybe add more info url to json and add to popup with js.
   - Finish and upload geojson file
 
-- Edit popup size for mobile - atm it's too big and covers visited count (see on personal phone).
-- Edit media queries for tablet
-- Keep testing and editing for different screen sizes. Use chrome, safari, firefox. Also browserstack and 192.168.0.254... on phone.
-- Accessibility - go through docs and see if there are any accessibility issues, use lighthouse too.
-- Check got all places from paper brutalist map.
+- Media queries
 
-- Share with cohort and reddit brutalist, family, friends etc.
+  - Edit popup size for mobile - atm it's too big and covers visited count (see on personal phone).
+  - Edit media queries for tablet
+  - Keep testing and editing for different screen sizes. Use chrome, safari, firefox. Also browserstack and 192.168.0.254... on phone.
+
+- Accessibility
+
+  - Go through docs and see if there are any accessibility issues.
+  - check in lighthouse.
+
+- Share it
+  - cohort
+  - reddit
+    - Brutalist
+    - London
+  - family
+  - friends etc.
 
 ### Maybe
 
-- Small explanation of what brutalism is, could be a button and another pop out like the buildings one.
 - Maybe get photos with google places api: https://developers.google.com/maps/documentation/places/web-service/place-photos.
 - Edit mapbox studio data so highlights whole building not just dot.
   - Change color when hover/click on it.
