@@ -769,7 +769,12 @@
     {
       "type": "Feature",
       "properties": {
-        "Title": "Alton West Estate"
+        "Title": "Alton West Estate",
+        "URL": "",
+        "Image": "",
+        "Designer": "",
+        "Completed": ""
+
       },
       "geometry": {
         "coordinates": [
