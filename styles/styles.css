@@ -88,6 +88,10 @@ footer {
   align-items: center;
 }
 
+#click-counter {
+  min-width: 40vw;
+}
+
 footer button,
 #counter {
   font-size: 40px;
@@ -104,7 +108,7 @@ footer button,
 }
 
 /* Popup */
-#popup {
+.popup {
   font-family: "RealTextPro", Helvetica, sans-serif;
   background-color: #ebebeb;
   position: fixed;
@@ -115,20 +119,20 @@ footer button,
   z-index: 2;
 }
 
-#popup h1 {
+.popup h1 {
   font-family: "RealTextPro Medium", Helvetica Medium, sans-serif;
   font-size: 40px;
   padding: 3vh 3vw 1vh 3vw;
 }
 
-#popup p,
-#popup a {
+.popup p,
+.popup a {
   font-size: 20px;
   line-height: 28px;
   padding-top: 2vh;
 }
 
-#popup div {
+.popup div {
   padding: 0 3vw;
   display: flex;
   flex-direction: column;
@@ -136,7 +140,7 @@ footer button,
   justify-content: space-between;
 }
 
-#popup img {
+.popup img {
   object-fit: cover;
   width: 400px;
   height: 400px;
@@ -148,11 +152,11 @@ footer button,
   border-radius: 20%;
 }
 
-#popup a {
+.popup a {
   color: #3f964a;
 }
 
-#popup svg {
+.popup svg {
   width: 200px;
   height: 200px;
   padding: 3vw;
@@ -161,7 +165,7 @@ footer button,
   left: 0;
 }
 
-#popup #checkbox-container svg {
+.popup #checkbox-container svg {
   padding: 3vw;
   position: absolute;
   top: calc(55vh - 200px);
@@ -179,17 +183,17 @@ footer button,
     font-size: 15px;
   }
 
-  #popup {
+  .popup {
     top: 10vh;
   }
-  #popup h1,
-  #popup h2 {
+  .popup h1,
+  .popup h2 {
     font-size: 30px;
   }
 
-  #popup p,
-  #popup a,
-  #popup label {
+  .popup p,
+  .popup a,
+  .popup label {
     font-size: 15px;
   }
 }
@@ -206,7 +210,7 @@ footer button,
 
   /* popup on mobile */
 
-  #popup {
+  .popup {
     top: 0;
     left: 0;
     height: 80vh;
@@ -214,22 +218,22 @@ footer button,
     z-index: 2;
   }
 
-  #popup h1,
-  #popup h2 {
+  .popup h1,
+  .popup h2 {
     font-size: 25px;
     line-height: 27px;
     padding: 5vh 5vw 0vh 5vw;
   }
 
-  #popup p,
-  #popup a {
+  .popup p,
+  .popup a {
     font-size: 18px;
     line-height: 25px;
     padding-top: 2vh;
     text-align: left;
   }
 
-  #popup div {
+  .popup div {
     padding: 0 5vw;
     display: flex;
     flex-direction: column;
@@ -237,7 +241,7 @@ footer button,
     justify-content: space-between;
   }
 
-  #popup img {
+  .popup img {
     width: 60vw;
     height: 60vw;
     padding: 5vw;
@@ -245,11 +249,11 @@ footer button,
     right: 0;
   }
 
-  #popup a {
+  .popup a {
     color: #3f964a;
   }
 
-  #popup svg {
+  .popup svg {
     width: 100px;
     height: 100px;
     padding: 5vw;
@@ -257,7 +261,7 @@ footer button,
     left: 0vw;
   }
 
-  #popup #checkbox-container svg {
+  .popup #checkbox-container svg {
     width: 100px;
     height: 100px;
     padding: 5vw;

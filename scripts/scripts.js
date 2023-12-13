@@ -165,23 +165,54 @@ function setCounter() {
 
 setCounter();
 
-/* adding touch support to the map
+// listing all places visited in the popup //
 
-
-
-
-
-function onTouch(event) {
-  event.preventDefault();
-  var simulatedClick = new MouseEvent("click", {
-    cancelable: true,
-    view: window,
+const clickCounter = document.getElementById("click-counter");
+clickCounter.addEventListener("click", () => {
+  const newPopup = document.getElementById("new-popup");
+  newPopup.innerHTML = `<h1>Places Visited:</h1>
+  <svg id="3541" "xmlns="http://www.w3.org/2000/svg" viewBox="0 0 579.85 580.86" onclick="hideNewPopup()">
+      <defs>
+        <style>
+          .cls-4 {
+            fill: #fff;
+            stroke: #000;
+            stroke-width: 0px;
+          }
+          .cls-5 {
+            stroke: #fff;
+            stroke-width: 0px;
+          }
+        </style>
+      </defs>
+      <g id="g3561">
+        <path id="path3563" class="cls-5" d="M66.27,1.77C24.94,1.77,1.7,23.14,1.7,66.8v450.12c0,40.84,20.89,62.23,62.19,62.23h452.03c41.3,0,62.22-20.32,62.22-62.23V66.8c0-42.6-20.92-65.04-63.52-65.04,0,0-448.49-.14-448.35,0h0Z"/>
+        <path id="path3565" class="cls-4" d="M244.24,458.97L64.04,278.77,244.24,98.58h118.85L226.02,235.64H495.36v87.23H226.98l136.32,136.32-119.06-.22Z"/>
+      </g>
+    </svg>`;
+  // getting the geojson data from file for list of places//
+  const buildingsVisited = Object.keys(localStorage).filter(
+    (key) => !/mapbox/.test(key)
+  );
+  const placesInPopup = newPopup.querySelectorAll(".places-list p");
+  placesInPopup.forEach((place) => {
+    place.remove();
   });
-  event.target.dispatchEvent(simulatedClick);
+  for (let i = 0; i < buildingsVisited.length; i++) {
+    newPopup.innerHTML += `<div class="places-list"><p>${buildingsVisited[i]}</p></div>`;
+  }
+  newPopup.classList.remove("hidden");
+});
+
+//clicking on new popup back button closes it//
+function hideNewPopup() {
+  const newPopup = document.getElementById("new-popup");
+  newPopup.classList.add("hidden");
 }
 
-const maptouch = document.getElementById("map");
-
-maptouch.addEventListener("touchstart", onTouch);
-
+/* fetching from local geojson file - potentially useful later on
+ fetch("mapbox-data/features.geojson")
+.then((response) => response.json())
+.then((data) => {
+  const features = data.features;
 */
