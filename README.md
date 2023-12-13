@@ -46,13 +46,15 @@ A map for discovering London's Brutalist buildings, built using Mapbox's API.
 ## TODO:
 
 - Edit geojson dataset, "designed by: " "completed: ", " - finish doing this and upload.
+- Add Alton Estate to geojson.
 - Maybe add more info url to json and add to popup with js.
-- edit popup size for mobile - atm it's too big and covers visited count (see on personal phone).
+
+- Edit popup size for mobile - atm it's too big and covers visited count (see on personal phone).
 - Edit media queries for tablet
 - Keep testing and editing for different screen sizes. Use chrome, safari, firefox. Also browserstack and 192.168.0.254... on phone.
 - Accessibility - go through docs and see if there are any accessibility issues, use lighthouse too.
 - Check got all places from paper brutalist map.
-- Add Alton Estate.
+
 - Share with cohort and reddit brutalist, family, friends etc.
 
 ### Maybe
