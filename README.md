@@ -49,9 +49,7 @@ A map for discovering London's Brutalist buildings, built using Mapbox's API.
 
 - Edit geojson dataset
 
-  - Fill in data for alton west estate, economist, lunar house, baynard house, no 1 croydon, national sports centre.
-  - Add "completed: " for each
-  - Maybe add more info url to json and add to popup with js.
+  - finish adding completed dates for each from dowgate fire station downwards.
   - Finish above and upload geojson file
 
 - Edit media queries
@@ -75,7 +73,8 @@ A map for discovering London's Brutalist buildings, built using Mapbox's API.
 
 ### Maybe
 
-- Maybe get photos with google places api: https://developers.google.com/maps/documentation/places/web-service/place-photos.
+- Add more info url to json and add to popup with js.
+- Get photos with google places api: https://developers.google.com/maps/documentation/places/web-service/place-photos.
 - Edit mapbox studio data so highlights whole building not just dot.
   - Change color when hover/click on it.
 - Add css bootstrap.

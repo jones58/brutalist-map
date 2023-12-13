@@ -6,8 +6,8 @@
         "Title": "Acland Burghley School",
         "URL": "https://www.google.com/maps/place/Acland+Burghley+School/data=!4m2!3m1!1s0x48761baa830186f7:0x48bb44ae89bb41f2",
         "Image": "https://d25hwkr75zzfa.cloudfront.net/store/photo/large/building_2882_img_7956_430ccd0e0987c2c34c14f8e6147ee266.jpg",
-        "Designer": "",
-        "Completed": ""
+        "Designer": "Howell, Killick, Partridge & Amis",
+        "Completed": "1968"
       },
       "geometry": {
         "coordinates": [
@@ -25,7 +25,7 @@
         "URL": "https://maps.app.goo.gl/kmeVKCcPy83XUb5v7",
         "Image": "https://www.e-architect.com/images/jpgs/london/golden_lane_estate_nw120909_3.jpg",
         "Designer": "Chamberlin, Powell and Bon",
-        "Completed": ""
+        "Completed": "1962"
       },
       "geometry": {
         "coordinates": [
@@ -43,7 +43,7 @@
         "URL": "https://www.google.com/maps/place/78+S+Hill+Park/data=!4m2!3m1!1s0x48761a5fdbbd5557:0x9f9ed90fe7b67bbb",
         "Image": "https://heartbrut.com/wp-content/plugins/phastpress/phast.php/c2/VydmljZT1pbWFnZXMmc3JjPWh0dHBzJTNBJTJGJTJGaGVhcnRicnV0LmNvbSUyRndwLWNvbnRlbnQlMkZ1cGxvYWRzJTJGMjAxOSUyRjA1JTJGMDUxNTE5LUhPVVNERU5IT1VTRS0lMjVDMiUyNUE5SEVBUlRCUlVULTcwMHB4LTYuanBnJmNhY2hlTWFya2VyPTE2MDMzNzgxMjQtNDQ2MTM2JnRva2VuPTZhYjgxZDY3ZjhmZTE0MzQ.q.jpg",
         "Designer": "Brian Housden",
-        "Completed": ""
+        "Completed": "1965"
       },
       "geometry": {
         "coordinates": [
@@ -60,8 +60,8 @@
         "Title": "Royal College of Physicians",
         "URL": "https://maps.app.goo.gl/UBwU4CzuWno8JF7J6",
         "Image": "https://www.e-architect.com/wp-content/uploads/2014/03/royal-college-physicians-london-r120314-6.jpg#main",
-        "Designer": "Brian Housden",
-        "Completed": ""
+        "Designer": "Denys Lasdun",
+        "Completed": "1964"
       },
       "geometry": {
         "coordinates": [
@@ -75,7 +75,11 @@
     {
       "type": "Feature",
       "properties": {
-        "Title": "Lunar House"
+        "Title": "Lunar House",
+        "URL": "https://maps.app.goo.gl/KEkVA7WhpK2oj7hv7",
+        "Image": "http://1.bp.blogspot.com/-znufmFzgFXI/UmP5-jG-SlI/AAAAAAAAAng/E_HoWJ7Gzsw/s1600/Lunar+Shadow.JPG",
+        "Designer": "Denis Crump & Partners",
+        "Completed": "1970"
       },
       "geometry": {
         "coordinates": [
@@ -92,8 +96,8 @@
         "Title": "Stockwell Bus Garage",
         "URL": "https://www.google.com/maps/place/Stockwell+Bus+Garage/data=!4m2!3m1!1s0x487604f614bf1597:0x57e191c738659033",
         "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Stockwell_Bus_Garage_1%2C_London%2C_UK_-_Diliff.jpg/2880px-Stockwell_Bus_Garage_1%2C_London%2C_UK_-_Diliff.jpg",
-        "Designer": "Brian Housden",
-        "Completed": ""
+        "Designer": "Adie, Button & Partners",
+        "Completed": "1953"
       },
       "geometry": {
         "coordinates": [
@@ -110,8 +114,8 @@
         "Title": "Quaker Meeting House",
         "URL": "https://maps.app.goo.gl/9J6TZa2JLwJB8hyBA",
         "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Blackheath_Quaker_Meeting_House%2C_south_aspect_%28rotated%29.jpg/1920px-Blackheath_Quaker_Meeting_House%2C_south_aspect_%28rotated%29.jpg",
-        "Designer": "Brian Housden",
-        "Completed": ""
+        "Designer": "Trevor Dannatt",
+        "Completed": "1972"
       },
       "geometry": {
         "coordinates": [
@@ -128,8 +132,8 @@
         "Title": "Camberwell Submarine",
         "URL": "https://www.google.com/maps/place/Camberwell+Submarine/data=!4m2!3m1!1s0x487604629dffcccb:0x4ac0f3f60c5cd8d3",
         "Image": "https://c20society.org.uk/wp-content/uploads/2019/11/1008541019_1297de9a11_b-588x408.jpg",
-        "Designer": "Brian Housden",
-        "Completed": ""
+        "Designer": "Lambeth Department of Architecture",
+        "Completed": "1975"
       },
       "geometry": {
         "coordinates": [
@@ -146,8 +150,8 @@
         "Title": "Standard Hotel",
         "URL": "https://maps.app.goo.gl/Q8FubYrEYUvpbwhi7",
         "Image": "https://cdn.vox-cdn.com/thumbor/3k6o_zHFy5rmzoBu_P7LcD4oMv0=/0x0:818x614/1820x1213/filters:focal(344x242:474x372):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/65600632/hotel9.0.jpg",
-        "Designer": "Brian Housden",
-        "Completed": ""
+        "Designer": "Camden Architects Department",
+        "Completed": "1974"
       },
       "geometry": {
         "coordinates": [
@@ -164,8 +168,8 @@
         "Title": "Finsbury Estate",
         "URL": "https://www.google.com/maps/place/Finsbury+Estate/data=!4m2!3m1!1s0x48761b5ab2a90973:0x803a8259833385a0",
         "Image": "http://www.modernistlondon.co.uk/uploads/1/0/2/5/10257505/finsbury_2_orig.jpg",
-        "Designer": "Brian Housden",
-        "Completed": ""
+        "Designer": "Emberton, Franck & Tardrew",
+        "Completed": "1965"
       },
       "geometry": {
         "coordinates": [
@@ -182,8 +186,8 @@
         "Title": "UCL Institute of Education (IOE)",
         "URL": "https://www.google.com/maps/place/UCL+Institute+of+Education+(IOE)/data=!4m2!3m1!1s0x48761b3026950f73:0x7775028d83f78607",
         "Image": "https://heartbrut.com/wp-content/plugins/phastpress/phast.php/c2VydmljZT1pbWFnZX/Mmc3JjPWh0dHBzJTNBJTJGJTJGaGVhcnRicnV0LmNvbSUyRndwLWNvbnRlbnQlMkZ1cGxvYWRzJTJGMjAxOSUyRjA1JTJGMDUxNTE5LVVDTC1JTlNUSVRVVEVPRkVEVUNBVElPTi0lMjVDMiUyNUE5SEVBUlRCUlVULTcwMHB4LTMuanBnJmNhY2hlTWFya2VyPTE2MDMzNzgxMjQtNTE3Nzg5JnRva2VuPThmMDY2YTlmZDhhODI2NDI.q.jpg",
-        "Designer": "Brian Housden",
-        "Completed": ""
+        "Designer": "Denys Lasdun",
+        "Completed": "1975"
       },
       "geometry": {
         "coordinates": [
@@ -197,11 +201,11 @@
     {
       "type": "Feature",
       "properties": {
-        "Title": "Chartered Accountants Hall",
+        "Title": "Chartered Accountants Hall Extension",
         "URL": "https://www.google.com/maps/place/Chartered+Accountants+Hall/data=!4m2!3m1!1s0x48761cab614c837d:0x7dc82de056821e10",
         "Image": "https://historicengland.org.uk/etl/1064586/a71ef4e1-82f3-45cd-b0cf-ed0f668954e7.jpg?autorotate=true&height=500&mode=max&quality=80",
-        "Designer": "Brian Housden",
-        "Completed": ""
+        "Designer": "William Whitfield ",
+        "Completed": "1970"
       },
       "geometry": {
         "coordinates": [
@@ -218,8 +222,8 @@
         "Title": "Trellick Tower",
         "URL": "https://www.google.com/maps/place/Trellick+Tower/data=!4m2!3m1!1s0x4876101a2135c6c7:0xb5a16107bbcd260",
         "Image": "https://www.e-architect.com/wp-content/uploads/2016/02/trellick-tower-building-london-wc20216-ma2.jpg",
-        "Designer": "",
-        "Completed": ""
+        "Designer": "Ernö Goldfinger",
+        "Completed": "1972"
       },
       "geometry": {
         "coordinates": [
@@ -236,8 +240,8 @@
         "Title": "Purcell Room",
         "URL": "https://maps.app.goo.gl/hjqQrvWCuyZZHTkNA",
         "Image": "https://www.tagvenue.com/resize/24/ee/widen-1680-noupsize;5102-purcell-room-room.jpg",
-        "Designer": "Leslie Martin, Robert Matthew, and Sir Hubert Bennett",
-        "Completed": ""
+        "Designer": "Leslie Martin, Robert Matthew, and Hubert Bennett",
+        "Completed": "1967"
       },
       "geometry": {
         "coordinates": [
@@ -251,11 +255,11 @@
     {
       "type": "Feature",
       "properties": {
-        "Title": "Salter's Hall",
+        "Title": "Salters' Hall",
         "URL": "https://maps.app.goo.gl/kUfuTsfi4qneR5VAA",
         "Image": "https://thespaces.com/wp-content/uploads/2016/07/SaltersHall_035-1050x680.jpg",
         "Designer": "Sir Basil Spence",
-        "Completed": ""
+        "Completed": "1976"
       },
       "geometry": {
         "coordinates": [
@@ -273,7 +277,7 @@
         "URL": "https://maps.app.goo.gl/cJVQz1xfwfEkSko68",
         "Image": "https://historicengland.org.uk/etl/1323694/5b5f71a6-4788-4cbb-acff-27dcb328f3c9.jpg",
         "Designer": "Hugh Casson",
-        "Completed": ""
+        "Completed": "1965"
       },
       "geometry": {
         "coordinates": [
@@ -290,8 +294,8 @@
         "Title": "National Archives at Kew",
         "URL": "https://maps.app.goo.gl/9gEy1dPbUHdt63oR8",
         "Image": "https://cdn.rt.emap.com/wp-content/uploads/sites/4/2023/03/07113901/National-Archives-Kew-Image-by-Ron-Ellis-Shutterstock-1600x1067.jpg",
-        "Designer": "Richard Rogers",
-        "Completed": ""
+        "Designer": "John Cecil Clavering",
+        "Completed": "1976"
       },
       "geometry": {
         "coordinates": [
@@ -309,7 +313,7 @@
         "URL": "https://www.google.com/maps/place/Balfron+Tower/data=!4m2!3m1!1s0x487602ad1fe244f1:0x9f4bcf464d6ae570",
         "Image": "https://www.bailygarner.co.uk/wp-content/uploads/balfron_1.jpg",
         "Designer": "Ernö Goldfinger",
-        "Completed": ""
+        "Completed": "1967"
       },
       "geometry": {
         "coordinates": [
@@ -326,8 +330,8 @@
         "Title": "National Theatre",
         "URL": "https://www.google.com/maps/place/National+Theatre/data=!4m2!3m1!1s0x487604a3a9db8b75:0x1761ec87fcadd30d",
         "Image": "http://construirunmundonuevo.com/wp-content/uploads/2017/11/iStock-460156937.jpg",
-        "Designer": "Sir Basil Spence",
-        "Completed": ""
+        "Designer": "Denys Lasdun",
+        "Completed": "1976"
       },
       "geometry": {
         "coordinates": [
@@ -344,8 +348,8 @@
         "Title": "Hendon Hall Court",
         "URL": "https://maps.app.goo.gl/gXAG1SpWaE4v8h2r5",
         "Image": "https://www.modernism-in-metroland.co.uk/uploads/1/0/2/5/10257505/img-4374-edit_orig.jpg",
-        "Designer": "",
-        "Completed": ""
+        "Designer": "Owen Luder",
+        "Completed": "1964"
       },
       "geometry": {
         "coordinates": [
@@ -359,7 +363,11 @@
     {
       "type": "Feature",
       "properties": {
-        "Title": "National Sports Centre"
+        "Title": "National Sports Centre",
+        "URL": "https://maps.app.goo.gl/MT6Y6LY8y325ZxnB6",
+        "Image": "http://4.bp.blogspot.com/-eBVMJSiHYpk/UGqLxvbvwMI/AAAAAAAAOes/e7Q5XcDwf_k/s640/DSC_3425.JPG",
+        "Designer": "LCC Architects Department",
+        "Completed": "1964"
       },
       "geometry": {
         "coordinates": [
@@ -377,7 +385,7 @@
         "URL": "https://www.google.com/maps/place/Barbican+Centre/data=!4m2!3m1!1s0x48761b56fb64b275:0xc756e26675d21f40",
         "Image": "https://soonafternoon.com/wp-content/uploads/2019/03/DSC09525.jpg",
         "Designer": "Chamberlin, Powell and Bon",
-        "Completed": ""
+        "Completed": "1982"
       },
       "geometry": {
         "coordinates": [
@@ -395,7 +403,7 @@
         "URL": "https://www.google.com/maps/place/Travelodge+London+Covent+Garden/data=!4m2!3m1!1s0x47df21225fc904c7:0xf49ee2f5f620fe50",
         "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiK00YDq_K01hsxhxbb-OYAmuzginJk9CI6LKdhNjJ4p8EMyYg4wyFhJjBtaAib80Zx8o1IVzUp2iO09S4gAvZqwvwLXod63vfi3A7JFb0-2WF0z951VMvFktvedsUg0YbB484GgZwiXSKk/s1600/Travelodge+Covent+Garden,+London+9.JPG",
         "Designer": "Geoffrey Spyer & Partners",
-        "Completed": ""
+        "Completed": "1972"
       },
       "geometry": {
         "coordinates": [
@@ -409,11 +417,11 @@
     {
       "type": "Feature",
       "properties": {
-        "Title": "The Battleship Bldg",
+        "Title": "The Battleship Building",
         "URL": "https://www.google.com/maps/place/The+Battleship+Bldg/data=!4m2!3m1!1s0x48761aabe70d019f:0x94eae23c7e6b1cb6",
         "Image": "https://as-images.imgix.net/ee97efc35d57db5816f6380440d5ea1e-The%20Battleship%20Building%20179%20Harrow%20Road%20Paddington%20W2%20Office%20for%20rent%20West%20London%20Ext.jpg",
         "Designer": "Bicknell and Hamilton",
-        "Completed": ""
+        "Completed": "1969"
       },
       "geometry": {
         "coordinates": [
@@ -431,7 +439,7 @@
         "URL": "https://maps.app.goo.gl/t83mXu8VAE22nXWR9",
         "Image": "https://modernistpilgrimage.files.wordpress.com/2017/02/img_3371.jpg",
         "Designer": "Denys Lasdun & Partners",
-        "Completed": ""
+        "Completed": "1958"
       },
       "geometry": {
         "coordinates": [
@@ -449,7 +457,7 @@
         "URL": "https://maps.app.goo.gl/oHQtYEFevi5sU9nB9",
         "Image": "https://manchesterhistory.net/architecture/1970/strand3.jpg",
         "Designer": "Troup, Steele & Scott",
-        "Completed": ""
+        "Completed": "1972"
       },
       "geometry": {
         "coordinates": [
@@ -467,7 +475,7 @@
         "URL": "https://www.google.com/maps/place/Swiss+Cottage+Library/data=!4m2!3m1!1s0x48761a91207a12cb:0xba6990c30eb20a02",
         "Image": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Swiss_Cottage_Library_Geograph-2779962-by-Stephen-Richards.jpg",
         "Designer": "Basil Spence",
-        "Completed": ""
+        "Completed": "1964"
       },
       "geometry": {
         "coordinates": [
@@ -485,7 +493,7 @@
         "URL": "https://maps.app.goo.gl/9veQ68J1hQkbMB4G7",
         "Image": "https://manchesterhistory.net/architecture/1970/macadam2.jpg",
         "Designer": "Troup, Steele & Scott",
-        "Completed": ""
+        "Completed": "1975"
       },
       "geometry": {
         "coordinates": [
@@ -503,7 +511,7 @@
         "URL": "https://www.google.com/maps/place/Thamesmead/data=!4m2!3m1!1s0x47d8af4dd90ae2eb:0x434f8c23f47012a7",
         "Image": "https://hidden-london.com/wp-content/uploads/2011/09/Southmere-Flats-2012-George-Rex-742.png",
         "Designer": "Robert Rigg and Eric Lyons",
-        "Completed": ""
+        "Completed": "1969"
       },
       "geometry": {
         "coordinates": [
@@ -770,9 +778,9 @@
       "type": "Feature",
       "properties": {
         "Title": "Alton West Estate",
-        "URL": "",
-        "Image": "",
-        "Designer": "",
+        "URL": "https://maps.app.goo.gl/qPEFubWnkGN8cfHy5",
+        "Image": "https://d36pgh4m67wnlt.cloudfront.net/listings/98758/o_1a9d60ph5tti1dglsvj5b51a312.JPG",
+        "Designer": "LCC Architects Department",
         "Completed": ""
 
       },
@@ -1130,7 +1138,12 @@
     {
       "type": "Feature",
       "properties": {
-        "Title": "Baynard House"
+        "Title": "Baynard House",
+        "URL": "https://manchesterhistory.net/architecture/1970/baynardhouse8.jpg",
+        "Image": "",
+        "Designer": "",
+        "Completed": ""
+
       },
       "geometry": {
         "coordinates": [
@@ -1198,7 +1211,11 @@
     {
       "type": "Feature",
       "properties": {
-        "Title": "No. 1 Croydon"
+        "Title": "No. 1 Croydon",
+        "URL": "https://maps.app.goo.gl/Vou6HWQVwJD7ymxSA",
+        "Image": "https://www.onecroydon.co.uk/img/content/home/gallery/1.jpg",
+        "Designer": "Richard Seifert & Partners",
+        "Completed": "1970"
       },
       "geometry": {
         "coordinates": [
@@ -1250,9 +1267,9 @@
       "properties": {
         "Title": "The Economist Building",
         "URL": "https://maps.app.goo.gl/h9ZM1NZV1T4d8Wnn6",
-        "Image": "",
-        "Completed": "",
-        "Designer": ""
+        "Image": "https://api.architectuul.org/media/51097c87-72ac-4b80-9dea-02286d7b5f76/1312x.jpg",
+        "Completed": "1964",
+        "Designer": "Alison and Peter Smithson"
       },
       "geometry": {
         "coordinates": [
