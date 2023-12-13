@@ -49,6 +49,7 @@ A map for discovering London's Brutalist buildings, built using Mapbox's API.
 
   - Add "completed: " for each
   - Add Alton Estate to geojson.
+  - add places from here: https://www.reddit.com/r/london/comments/8rik1p/made_this_map_of_brutalist_architecture_in_london/to map and https://www.reddit.com/r/london/comments/j3fi42/where_are_the_best_brutalist_architecture_spots/
   - Maybe add more info url to json and add to popup with js.
   - Finish and upload geojson file
 
