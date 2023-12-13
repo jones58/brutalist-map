@@ -56,6 +56,11 @@ p {
   text-align: right;
 }
 
+#description:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 /* Map */
 #map {
   position: fixed;
@@ -92,14 +97,24 @@ footer {
   min-width: 40vw;
 }
 
+#counter:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 footer button,
 #counter {
   font-size: 40px;
-  color: #000;
   background-color: #fff;
+  color: #000;
   border: 0;
   cursor: pointer;
   text-align: left;
+}
+
+footer button:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 /* Hidden Elements */

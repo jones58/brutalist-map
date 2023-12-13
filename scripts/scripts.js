@@ -39,6 +39,8 @@ map.addControl(
 const popup = document.getElementById("popup");
 
 const onClick = (event) => {
+  hideBrutalistPopup();
+  hideNewPopup();
   // find if a feature was clicked //
   const [feature] = map.queryRenderedFeatures(event.point, {
     layers: ["brutalist-map"],
@@ -51,7 +53,7 @@ const onClick = (event) => {
     <h1>${feature.properties.Title}</h1>
     <div><p>Designed by: ${feature.properties.Designer}</p><p>Completed: ${feature.properties.Completed}</p><p><a href="${feature.properties.URL}" target="_blank">Get Directions</a></div>
     <img src="${feature.properties.Image}" alt="a photo of ${feature.properties.Title}"/>
-    <svg id="3540 "xmlns="http://www.w3.org/2000/svg" viewBox="0 0 579.85 580.86" onclick="popup.classList.add('hidden')">
+    <svg id="3540 "xmlns="http://www.w3.org/2000/svg" viewBox="0 0 579.85 580.86" onclick="hidePopup()">
       <defs>
         <style>
           .cls-4 {
@@ -152,6 +154,11 @@ const onClick = (event) => {
 // linking event listener to map's built-in click function //
 map.on("click", onClick);
 
+function hidePopup() {
+  const popup = document.getElementById("popup");
+  popup.classList.add("hidden");
+}
+
 // display how many values in  local storage in html number - using a regex here because mapbox adds two keys to local storage which we don't want to count.//
 
 function setCounter() {
@@ -160,7 +167,7 @@ function setCounter() {
   ).length;
   console.log(buildingsVisited);
   document.getElementById("counter").innerHTML =
-    "Visited: " + buildingsVisited + "/67";
+    "Visited: " + buildingsVisited + "/73";
 }
 
 setCounter();
@@ -169,6 +176,8 @@ setCounter();
 
 const clickCounter = document.getElementById("click-counter");
 clickCounter.addEventListener("click", () => {
+  hideBrutalistPopup();
+  hidePopup();
   const newPopup = document.getElementById("new-popup");
   newPopup.innerHTML = `<h1>Places Visited:</h1>
   <svg id="3541" "xmlns="http://www.w3.org/2000/svg" viewBox="0 0 579.85 580.86" onclick="hideNewPopup()">
@@ -208,6 +217,42 @@ clickCounter.addEventListener("click", () => {
 function hideNewPopup() {
   const newPopup = document.getElementById("new-popup");
   newPopup.classList.add("hidden");
+}
+
+// adding description of what brutalism is in popup //
+
+const description = document.getElementById("description");
+description.addEventListener("click", () => {
+  hideNewPopup();
+  hidePopup();
+  const brutalistPopup = document.getElementById("brutalist-popup");
+  brutalistPopup.innerHTML = `<h1>What is Brutalism? </h1>
+  <div><p>Brutalism is an architectural style that emerged in the 1950s. It is characterized by its use of raw, unfinished concrete, bold geometric shapes, and an expressive design approach. The term "brutalism" originates from Le Corbusier's phrase in French : "béton brut," which means "raw concrete." <p></div>
+  <svg id="3541" "xmlns="http://www.w3.org/2000/svg" viewBox="0 0 579.85 580.86" onclick="hideBrutalistPopup()">
+      <defs>
+        <style>
+          .cls-4 {
+            fill: #fff;
+            stroke: #000;
+            stroke-width: 0px;
+          }
+          .cls-5 {
+            stroke: #fff;
+            stroke-width: 0px;
+          }
+        </style>
+      </defs>
+      <g id="g3561">
+        <path id="path3563" class="cls-5" d="M66.27,1.77C24.94,1.77,1.7,23.14,1.7,66.8v450.12c0,40.84,20.89,62.23,62.19,62.23h452.03c41.3,0,62.22-20.32,62.22-62.23V66.8c0-42.6-20.92-65.04-63.52-65.04,0,0-448.49-.14-448.35,0h0Z"/>
+        <path id="path3565" class="cls-4" d="M244.24,458.97L64.04,278.77,244.24,98.58h118.85L226.02,235.64H495.36v87.23H226.98l136.32,136.32-119.06-.22Z"/>
+      </g>
+    </svg>`;
+  brutalistPopup.classList.remove("hidden");
+});
+
+function hideBrutalistPopup() {
+  const BrutalistPopup = document.getElementById("brutalist-popup");
+  BrutalistPopup.classList.add("hidden");
 }
 
 /* fetching from local geojson file - potentially useful later on
