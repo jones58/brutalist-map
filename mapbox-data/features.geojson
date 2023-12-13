@@ -1,1230 +1,1299 @@
 {
-    "features": [
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "Acland Burghley School",
-                "URL": "https://www.google.com/maps/place/Acland+Burghley+School/data=!4m2!3m1!1s0x48761baa830186f7:0x48bb44ae89bb41f2",
-                "Image": "https://d25hwkr75zzfa.cloudfront.net/store/photo/large/building_2882_img_7956_430ccd0e0987c2c34c14f8e6147ee266.jpg",
-                "Designer": "",
-                "Completed":""
-            },
-            "geometry": {
-                "coordinates": [
-                    -0.139789,
-                    51.557455
-                ],
-                "type": "Point"
-            },
-            "id": "0100cfdb96a6d9dde940047ed2a8bfde"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "Golden Lane Estate",
-                "URL": "https://maps.app.goo.gl/kmeVKCcPy83XUb5v7",
-                "Image":"https://www.e-architect.com/images/jpgs/london/golden_lane_estate_nw120909_3.jpg",
-                "Designer": "Chamberlin, Powell and Bon",
-                "Completed":""
-
-            },
-            "geometry": {
-                "coordinates": [
-                    -0.09545,
-                    51.522489
-                ],
-                "type": "Point"
-            },
-            "id": "04a9d94e8ecbb7149056bbfe6466ed4f"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "Housden House",
-                "URL": "https://www.google.com/maps/place/78+S+Hill+Park/data=!4m2!3m1!1s0x48761a5fdbbd5557:0x9f9ed90fe7b67bbb",
-                "Image": "https://heartbrut.com/wp-content/plugins/phastpress/phast.php/c2/VydmljZT1pbWFnZXMmc3JjPWh0dHBzJTNBJTJGJTJGaGVhcnRicnV0LmNvbSUyRndwLWNvbnRlbnQlMkZ1cGxvYWRzJTJGMjAxOSUyRjA1JTJGMDUxNTE5LUhPVVNERU5IT1VTRS0lMjVDMiUyNUE5SEVBUlRCUlVULTcwMHB4LTYuanBnJmNhY2hlTWFya2VyPTE2MDMzNzgxMjQtNDQ2MTM2JnRva2VuPTZhYjgxZDY3ZjhmZTE0MzQ.q.jpg",
-                "Designer": "Brian Housden",
-                "Completed":""
-            },
-            "geometry": {
-                "coordinates": [
-                    -0.16442,
-                    51.55819
-                ],
-                "type": "Point"
-            },
-            "id": "0bab79af7626668d4ed74587b5337673"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "Royal College of Physicians",
-                "URL": "https://maps.app.goo.gl/UBwU4CzuWno8JF7J6",
-                "Image":"https://www.e-architect.com/wp-content/uploads/2014/03/royal-college-physicians-london-r120314-6.jpg#main",
-                "Designer": "Brian Housden",
-                "Completed":""
-
-            },
-            "geometry": {
-                "coordinates": [
-                    -0.145165,
-                    51.525788
-                ],
-                "type": "Point"
-            },
-            "id": "0ffe426a4b8812c673f0decb3a588fc6"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "Stockwell Bus Garage",
-                "URL": "https://www.google.com/maps/place/Stockwell+Bus+Garage/data=!4m2!3m1!1s0x487604f614bf1597:0x57e191c738659033",
-                "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Stockwell_Bus_Garage_1%2C_London%2C_UK_-_Diliff.jpg/2880px-Stockwell_Bus_Garage_1%2C_London%2C_UK_-_Diliff.jpg",
-                "Designer": "Brian Housden",
-                "Completed":""
-              },
-            "geometry": {
-                "coordinates": [
-                    -0.123654,
-                    51.473239
-                ],
-                "type": "Point"
-            },
-            "id": "221be5450c7c7f11ba23ec525cb26146"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "Quaker Meeting House",
-                "URL": "https://maps.app.goo.gl/9J6TZa2JLwJB8hyBA",
-                "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Blackheath_Quaker_Meeting_House%2C_south_aspect_%28rotated%29.jpg/1920px-Blackheath_Quaker_Meeting_House%2C_south_aspect_%28rotated%29.jpg",
-                "Designer": "Brian Housden",
-                "Completed":""
-            },
-            "geometry": {
-                "coordinates": [
-                    0.00668,
-                    51.46508
-                ],
-                "type": "Point"
-            },
-            "id": "239efb755b4e2dd20b1b84bbe51df386"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "Camberwell Submarine",
-                "URL": "https://www.google.com/maps/place/Camberwell+Submarine/data=!4m2!3m1!1s0x487604629dffcccb:0x4ac0f3f60c5cd8d3",
-                "Image":"https://c20society.org.uk/wp-content/uploads/2019/11/1008541019_1297de9a11_b-588x408.jpg",
-                "Designer": "Brian Housden",
-                "Completed":""
-              },
-            "geometry": {
-                "coordinates": [
-                    -0.106727,
-                    51.474678
-                ],
-                "type": "Point"
-            },
-            "id": "243d5a23fae6c482de6e00652f53d583"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "Standard Hotel",
-                "URL": "https://maps.app.goo.gl/Q8FubYrEYUvpbwhi7",
-                "Image":"https://cdn.vox-cdn.com/thumbor/3k6o_zHFy5rmzoBu_P7LcD4oMv0=/0x0:818x614/1820x1213/filters:focal(344x242:474x372):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/65600632/hotel9.0.jpg",
-                "Designer": "Brian Housden",
-                "Completed":""
-            },
-            "geometry": {
-                "coordinates": [
-                    -0.125503,
-                    51.528985
-                ],
-                "type": "Point"
-            },
-            "id": "27d9431bc2c7960ecc603be21ef3b440"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "Finsbury Estate",
-                "URL": "https://www.google.com/maps/place/Finsbury+Estate/data=!4m2!3m1!1s0x48761b5ab2a90973:0x803a8259833385a0",
-                "Image":"http://www.modernistlondon.co.uk/uploads/1/0/2/5/10257505/finsbury_2_orig.jpg",
-                "Designer": "Brian Housden",
-                "Completed":""
-              },
-            "geometry": {
-                "coordinates": [
-                    -0.10691,
-                    51.52681
-                ],
-                "type": "Point"
-            },
-            "id": "27e6f996cf6d2b5d9bc0e3af51a12d15"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "UCL Institute of Education (IOE)",
-                "URL": "https://www.google.com/maps/place/UCL+Institute+of+Education+(IOE)/data=!4m2!3m1!1s0x48761b3026950f73:0x7775028d83f78607",
-                "Image":"https://heartbrut.com/wp-content/plugins/phastpress/phast.php/c2VydmljZT1pbWFnZX/Mmc3JjPWh0dHBzJTNBJTJGJTJGaGVhcnRicnV0LmNvbSUyRndwLWNvbnRlbnQlMkZ1cGxvYWRzJTJGMjAxOSUyRjA1JTJGMDUxNTE5LVVDTC1JTlNUSVRVVEVPRkVEVUNBVElPTi0lMjVDMiUyNUE5SEVBUlRCUlVULTcwMHB4LTMuanBnJmNhY2hlTWFya2VyPTE2MDMzNzgxMjQtNTE3Nzg5JnRva2VuPThmMDY2YTlmZDhhODI2NDI.q.jpg",
-                "Designer": "Brian Housden",
-                "Completed":""
-
-              },
-            "geometry": {
-                "coordinates": [
-                    -0.130199,
-                    51.52289
-                ],
-                "type": "Point"
-            },
-            "id": "29a4bf79d263341d57ee9145e94963f6"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "Chartered Accountants Hall",
-                "URL": "https://www.google.com/maps/place/Chartered+Accountants+Hall/data=!4m2!3m1!1s0x48761cab614c837d:0x7dc82de056821e10",
-                "Image":"https://historicengland.org.uk/etl/1064586/a71ef4e1-82f3-45cd-b0cf-ed0f668954e7.jpg?autorotate=true&height=500&mode=max&quality=80",
-                "Designer": "Brian Housden",
-                "Completed":""
-
-              },
-            "geometry": {
-                "coordinates": [
-                    -0.088341,
-                    51.516399
-                ],
-                "type": "Point"
-            },
-            "id": "2a26a9e1debfa60586d7fb84458bde65"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "Trellick Tower",
-                "URL": "https://www.google.com/maps/place/Trellick+Tower/data=!4m2!3m1!1s0x4876101a2135c6c7:0xb5a16107bbcd260",
-                "Image": "https://www.e-architect.com/wp-content/uploads/2016/02/trellick-tower-building-london-wc20216-ma2.jpg",
-                "Designer": "",
-                "Completed":""
-            },
-            "geometry": {
-                "coordinates": [
-                    -0.205764,
-                    51.523613
-                ],
-                "type": "Point"
-            },
-            "id": "2b7cc048c07bbb2fb13d7a28f7eaea79"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "Purcell Room",
-                "URL": "https://maps.app.goo.gl/hjqQrvWCuyZZHTkNA",
-                "Image":"https://www.tagvenue.com/resize/24/ee/widen-1680-noupsize;5102-purcell-room-room.jpg",
-                "Designer": "Leslie Martin, Robert Matthew, and Sir Hubert Bennett",
-                "Completed":""
-            },
-            "geometry": {
-                "coordinates": [
-                    -0.116148,
-                    51.506517
-                ],
-                "type": "Point"
-            },
-            "id": "2bbd588e2b4b2bc9add217539e28f48a"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "Salter's Hall",
-                "URL": "https://maps.app.goo.gl/kUfuTsfi4qneR5VAA",
-                "Image":"https://thespaces.com/wp-content/uploads/2016/07/SaltersHall_035-1050x680.jpg",
-                "Designer": "Sir Basil Spence",
-                "Completed":""
-            },
-            "geometry": {
-                "coordinates": [
-                    -0.092183,
-                    51.518208
-                ],
-                "type": "Point"
-            },
-            "id": "2bc73ee0a7dfd2e89668b9569b648717"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "Elephant and Rhinoceros Pavillion, London Zoo",
-                "URL": "https://maps.app.goo.gl/cJVQz1xfwfEkSko68",
-                "Image":"https://historicengland.org.uk/etl/1323694/5b5f71a6-4788-4cbb-acff-27dcb328f3c9.jpg",
-                "Designer": "Hugh Casson",
-                "Completed":""
-            },
-            "geometry": {
-                "coordinates": [
-                    -0.154566,
-                    51.534482
-                ],
-                "type": "Point"
-            },
-            "id": "2d769e6b894f6887f67e5591445204ae"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "National Archives at Kew",
-                "URL": "https://maps.app.goo.gl/9gEy1dPbUHdt63oR8",
-                "Image":"https://cdn.rt.emap.com/wp-content/uploads/sites/4/2023/03/07113901/National-Archives-Kew-Image-by-Ron-Ellis-Shutterstock-1600x1067.jpg",
-                "Designer": "Richard Rogers",
-                "Completed":""
-            },
-            "geometry": {
-                "coordinates": [
-                    -0.279601,
-                    51.481256
-                ],
-                "type": "Point"
-            },
-            "id": "3226971da487759a7f9cd28db144078f"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "Balfron Tower",
-                "URL": "https://www.google.com/maps/place/Balfron+Tower/data=!4m2!3m1!1s0x487602ad1fe244f1:0x9f4bcf464d6ae570",
-                "Image": "https://www.bailygarner.co.uk/wp-content/uploads/balfron_1.jpg",
-                "Designer": "Ernö Goldfinger",
-                "Completed":""
-            },
-            "geometry": {
-                "coordinates": [
-                    -0.008849,
-                    51.51355
-                ],
-                "type": "Point"
-            },
-            "id": "3843ad8d4752940e669f2a0f584d677e"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "National Theatre",
-                "URL": "https://www.google.com/maps/place/National+Theatre/data=!4m2!3m1!1s0x487604a3a9db8b75:0x1761ec87fcadd30d",
-                "Image":"http://construirunmundonuevo.com/wp-content/uploads/2017/11/iStock-460156937.jpg",
-                "Designer": "Sir Basil Spence",
-                "Completed":""
-              },
-            "geometry": {
-                "coordinates": [
-                    -0.114446,
-                    51.507238
-                ],
-                "type": "Point"
-            },
-            "id": "3ad00caadd8e88e80473170390a47ecb"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "Hendon Hall Court",
-                "URL": "https://maps.app.goo.gl/gXAG1SpWaE4v8h2r5",
-                "Image": "https://www.modernism-in-metroland.co.uk/uploads/1/0/2/5/10257505/img-4374-edit_orig.jpg",
-                "Designer": "",
-                "Completed":""
-            },
-            "geometry": {
-                "coordinates": [
-                    -0.217942,
-                    51.594806
-                ],
-                "type": "Point"
-            },
-            "id": "3ba23a67adc45759e65c6123452a1952"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "Barbican Centre",
-                "URL": "https://www.google.com/maps/place/Barbican+Centre/data=!4m2!3m1!1s0x48761b56fb64b275:0xc756e26675d21f40",
-                "Image":"https://soonafternoon.com/wp-content/uploads/2019/03/DSC09525.jpg",
-                "Designer": "Chamberlin, Powell and Bon",
-                "Completed":""
-              },
-            "geometry": {
-                "coordinates": [
-                    -0.096157,
-                    51.519979
-                ],
-                "type": "Point"
-            },
-            "id": "4438d25a9e7cf0f23e6081e713888084"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "Travelodge London Covent Garden",
-                "URL": "https://www.google.com/maps/place/Travelodge+London+Covent+Garden/data=!4m2!3m1!1s0x47df21225fc904c7:0xf49ee2f5f620fe50",
-                "Image":"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiK00YDq_K01hsxhxbb-OYAmuzginJk9CI6LKdhNjJ4p8EMyYg4wyFhJjBtaAib80Zx8o1IVzUp2iO09S4gAvZqwvwLXod63vfi3A7JFb0-2WF0z951VMvFktvedsUg0YbB484GgZwiXSKk/s1600/Travelodge+Covent+Garden,+London+9.JPG",
-                "Designer": "Geoffrey Spyer & Partners",
-                "Completed":""
-
-              },
-            "geometry": {
-                "coordinates": [
-                    -0.124477,
-                    51.516006
-                ],
-                "type": "Point"
-            },
-            "id": "45dac100f6beb378551280a45ddc5dd0"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "The Battleship Bldg",
-                "URL": "https://www.google.com/maps/place/The+Battleship+Bldg/data=!4m2!3m1!1s0x48761aabe70d019f:0x94eae23c7e6b1cb6",
-                "Image":"https://as-images.imgix.net/ee97efc35d57db5816f6380440d5ea1e-The%20Battleship%20Building%20179%20Harrow%20Road%20Paddington%20W2%20Office%20for%20rent%20West%20London%20Ext.jpg",
-                "Designer": "Bicknell and Hamilton",
-                "Completed":""
-
-
-              },
-            "geometry": {
-                "coordinates": [
-                    -0.181195,
-                    51.520143
-                ],
-                "type": "Point"
-            },
-            "id": "4a29eb7f66808d962b1cc3f26a289444"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "Trevelyan House",
-                "URL": "https://maps.app.goo.gl/t83mXu8VAE22nXWR9",
-                "Image": "https://modernistpilgrimage.files.wordpress.com/2017/02/img_3371.jpg",
-                "Designer": "Denys Lasdun & Partners",
-                "Completed":""
-
-            },
-            "geometry": {
-                "coordinates": [
-                    -0.046913,
-                    51.527205
-                ],
-                "type": "Point"
-            },
-            "id": "4c5bc2e432ae8df02324a4e93b0bad03"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "Strand Building, KCL",
-                "URL": "https://maps.app.goo.gl/oHQtYEFevi5sU9nB9",
-                "Image":"https://manchesterhistory.net/architecture/1970/strand3.jpg",
-                "Designer": "Troup, Steele & Scott",
-                "Completed":""
-              },
-            "geometry": {
-                "coordinates": [
-                    -0.116315,
-                    51.512005
-                ],
-                "type": "Point"
-            },
-            "id": "530f9697c949ba4ab2b9b319adbe70aa"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "Swiss Cottage Library",
-                "URL": "https://www.google.com/maps/place/Swiss+Cottage+Library/data=!4m2!3m1!1s0x48761a91207a12cb:0xba6990c30eb20a02",
-                "Image": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Swiss_Cottage_Library_Geograph-2779962-by-Stephen-Richards.jpg",
-                "Designer": "Basil Spence",
-                "Completed":""            },
-            "geometry": {
-                "coordinates": [
-                    -0.173543,
-                    51.542327
-                ],
-                "type": "Point"
-            },
-            "id": "55b5df5bb87fa3a24c02ac6329f15448"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "Macadam Building, KCL",
-                "URL": "https://maps.app.goo.gl/9veQ68J1hQkbMB4G7",
-                "Image":"https://manchesterhistory.net/architecture/1970/macadam2.jpg",
-                "Designer": "Troup, Steele & Scott",
-                "Completed":""              },
-            "geometry": {
-                "coordinates": [
-                    -0.115258,
-                    51.511276
-                ],
-                "type": "Point"
-            },
-            "id": "567717b260adbfe9eb30837249629f96"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "Thamesmead",
-                "URL": "https://www.google.com/maps/place/Thamesmead/data=!4m2!3m1!1s0x47d8af4dd90ae2eb:0x434f8c23f47012a7",
-                "Image": "https://hidden-london.com/wp-content/uploads/2011/09/Southmere-Flats-2012-George-Rex-742.png",
-                "Designer": "Robert Rigg and Eric Lyons",
-                "Completed":""
-            },
-            "geometry": {
-                "coordinates": [
-                    0.115312,
-                    51.506499
-                ],
-                "type": "Point"
-            },
-            "id": "5b223a0ad277cabc2422c6bd357db28c"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "Dowgate Fire Station",
-                "URL": "https://maps.app.goo.gl/vEEpoNK4bh48ZGN7A",
-                "Image":"https://blog.lessavine.co.uk/wp-content/uploads/2021/09/London-Fire-Brigade-Dowgate-Fire-Station-A28.jpg",
-                "Designer": "Hubbard Ford & Partners",
-                "Completed":""
-              },
-            "geometry": {
-                "coordinates": [
-                    -0.090214,
-                    51.51002
-                ],
-                "type": "Point"
-            },
-            "id": "5e476def495b3ab153097ac71da8b6ce"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "Embassy of Slovakia",
-                "URL": "https://maps.app.goo.gl/ATntxNX4SPWJW6Bh8",
-                "Image":"https://s0.geograph.org.uk/geophotos/01/09/13/1091355_3506de65.jpg",
-                "Designer": "Jirí Kroha, Karel Filsak, and Josef Kotas.",
-                "Completed":""
-            },
-            "geometry": {
-                "coordinates": [
-                    -0.19288,
-                    51.509273
-                ],
-                "type": "Point"
-            },
-            "id": "698c8dd139a381e96b1c1a6275ddaf8e"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "Hayward Gallery",
-                "URL": "https://www.google.com/maps/place/Hayward+Gallery/data=!4m2!3m1!1s0x487604b7e7c78711:0xea81dbe9938ed7b8",
-                "Image":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Staircase_on_the_Southern_Side_of_the_Hayward_Gallery.jpg/2560px-Staircase_on_the_Southern_Side_of_the_Hayward_Gallery.jpg",
-                "Designer": "Norman Engleback",
-                "Completed":""
-              },
-            "geometry": {
-                "coordinates": [
-                    -0.115632,
-                    51.506118
-                ],
-                "type": "Point"
-            },
-            "id": "6b80fef81e03f0f40037309d5b782c46"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "Brunswick Centre",
-                "URL": "https://maps.app.goo.gl/ioGxZ7WWSFefYMGq5",
-                "Image":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Brunswick_Centre_%284136275375%29.jpg/1920px-Brunswick_Centre_%284136275375%29.jpg",
-                "Designer": "Patrick Hodgkinson and Michael Brawne.",
-                "Completed":""
-            },
-            "geometry": {
-                "coordinates": [
-                    -0.1235,
-                    51.52427
-                ],
-                "type": "Point"
-            },
-            "id": "6c54558b8f1b777128d44806e3413f48"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "123 Victoria St",
-                "URL": "https://www.google.com/maps/place/123+Victoria+St/data=!4m2!3m1!1s0x487604de925884d5:0xf010f86f8f517b67",
-                "Image":"https://static.dezeen.com/uploads/2020/04/myo-london-office-interiors-soda_dezeen_2364_col_15-1704x884.jpg",
-                "Designer": "Sheppard Robson and Partners",
-                "Completed":""
-              },
-            "geometry": {
-                "coordinates": [
-                    -0.137609,
-                    51.496909
-                ],
-                "type": "Point"
-            },
-            "id": "75107b20ef781aaae0438651b2dc693b"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "Centre Point",
-                "URL": "https://maps.app.goo.gl/w6psQyaJoSg9GULQ8",
-                "Image":"https://cdn.thespaces.com/wp-content/uploads/2018/03/Centre-Point-revamp-Conran-Partners-7.jpg",
-                "Designer": "George Marsh of Richard Seifert & Partners",
-                "Completed":""
-
-            },
-            "geometry": {
-                "coordinates": [
-                    -0.129177,
-                    51.516553
-                ],
-                "type": "Point"
-            },
-            "id": "75f21df02e109633f2c43b6af5a56813"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "Southwyck House",
-                "URL": "https://maps.app.goo.gl/E3d7kiiWgqWnDVCJ8",
-                "Image":"https://upload.wikimedia.org/wikipedia/commons/9/91/Southwyck_House%2C_Brixton_-_geograph.org.uk_-_220874.jpg",
-                "Designer": "George Finch & Partners",
-                "Completed":""
-            },
-            "geometry": {
-                "coordinates": [
-                    -0.108492,
-                    51.462363
-                ],
-                "type": "Point"
-            },
-            "id": "7aad41e362bdd3b16b30812e764a87ba"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "Space House",
-                "URL": "https://maps.app.goo.gl/Zo3o978dkJYwtFeX8",
-                "Image":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/1_Kemble_Street_09.jpg/1024px-1_Kemble_Street_09.jpg",
-                "Designer": "Richard Seifert & Partners",
-                "Completed":""
-            },
-            "geometry": {
-                "coordinates": [
-                    -0.1194,
-                    51.514871
-                ],
-                "type": "Point"
-            },
-            "id": "7b36ed79f1fec9f3c9a36e517103648e"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "Bethnal Green Fire Station",
-                "URL": "https://maps.app.goo.gl/ZKGoPuR1iG8ypCXL7",
-                "Image": "https://www.london-fire.gov.uk/media/6809/bethnal-green-fire-station-3.jpg",
-                "Designer": "Greater London Council's Architects Department",
-                "Completed":""
-
-            },
-            "geometry": {
-                "coordinates": [
-                    -0.05335,
-                    51.52788
-                ],
-                "type": "Point"
-            },
-            "id": "7b7337f8f000d2f7667bed5e0b481f17"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "Lillington Gardens Estate",
-                "URL": "https://maps.app.goo.gl/sdTueFT2ff32jWon7",
-                "Image":"http://www.archipicture.eu/2%20Bilder/Grossbritannien/Darbourne%20&%20Darke/Darbourne%20&%20Drake%20-%20Lillington%20Gardens%2010smr.jpg",
-                "Designer": "Darbourne & Darke",
-                "Completed":""
-            },
-            "geometry": {
-                "coordinates": [
-                    -0.135863,
-                    51.491363
-                ],
-                "type": "Point"
-            },
-            "id": "81233f534c4f91a17691539e074223d1"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "Langham House Close",
-                "URL": "https://www.google.com/maps/place/Langham+House+Cl/data=!4m2!3m1!1s0x48760c7449f4e5f1:0x7c6c9c14f38cbc60",
-                "Image":"https://www.copperline.co/wp-content/uploads/2015/10/Langham-House-Close-The-Modern-House-3.jpg",
-                "Designer": "James Stirlin",
-                "Completed":""
-
-            },
-            "geometry": {
-                "coordinates": [
-                    -0.30997,
-                    51.43316
-                ],
-                "type": "Point"
-            },
-            "id": "857a3d54f4a5bbd1511b6c6eb92e91d5"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "The Park Tower Knightsbridge, a Luxury Collection Hotel, London",
-                "URL": "https://www.google.com/maps/place/The+Park+Tower+Knightsbridge,+a+Luxury+Collection+Hotel,+London/data=!4m2!3m1!1s0x487605397f5feec5:0xebb91acde1ff46af",
-                "Image":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/The_Park_Tower_Knightsbridge_Hotel.JPG/1280px-The_Park_Tower_Knightsbridge_Hotel.JPG",
-                "Designer": "Richard Seifert & Partners",
-                "Completed":""
-            },
-            "geometry": {
-                "coordinates": [
-                    -0.158725,
-                    51.501725
-                ],
-                "type": "Point"
-            },
-            "id": "873a5360bbe9cc132f6f075f0fc6e5ed"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "Minories Car Park",
-                "URL": "https://maps.app.goo.gl/Bo7hoDyjZfzJ5XfT7",
-                "Image":"https://www.kathmanduandbeyond.com/wp-content/uploads/2021/01/Minories-Car-Park-London-England-7.jpg",
-                "Designer": "R.L. Moorcraft",
-                "Completed":""
-
-            },
-            "geometry": {
-                "coordinates": [
-                    -0.073548,
-                    51.510427
-                ],
-                "type": "Point"
-            },
-            "id": "8bad12f79b172945a50b8eb63c96c1c7"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "30 Cannon St",
-                "URL": "https://www.google.com/maps/place/30+Cannon+St/data=!4m2!3m1!1s0x487604aa62773c8f:0xf06489f70051d72b",
-                "Image":"https://30cannonstreet.com/wp-content/uploads/2020/06/Exterior-Image-7.jpg",
-                "Designer": "Whinney, Son & Austen Hall",
-                "Completed":""
-            },
-            "geometry": {
-                "coordinates": [
-                    -0.09493,
-                    51.512356
-                ],
-                "type": "Point"
-            },
-            "id": "913572d24b388aea2c082dabe3c92477"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "Stoke Newington School & Sixth Form",
-                "URL": "https://www.google.com/maps/place/Stoke+Newington+School+%26+Sixth+Form/data=!4m2!3m1!1s0x48761c7d1189a7a3:0x9950689a3861f0fd",
-                "Image": "https://64.media.tumblr.com/140d2fac77dfafc071945b5cbd9c0313/c47a24523db2ed2d-b0/s2048x3072/9269777b6003401f7735d2b0c61ce12c40486407.jpg",
-                "Designer": "Jestico + Whiles",
-                "Completed":""
-            },
-            "geometry": {
-                "coordinates": [
-                    -0.084414,
-                    51.559329
-                ],
-                "type": "Point"
-            },
-            "id": "a7985ce48b4271971797a7b7448b4170"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "University of Westminster Cavendish Campus",
-                "URL": "https://www.google.com/maps/place/University+of+Westminster+Cavendish+Campus/data=!4m2!3m1!1s0x48761ad602153b7d:0x7cae57b547cdf178",
-                "Image":"https://manchesterhistory.net/architecture/1970/westminsterU2.jpg",
-                "Designer": "Lyons, Israel and Ellis",
-                "Completed":""
-
-            },
-            "geometry": {
-                "coordinates": [
-                    -0.116634,
-                    51.514276
-                ],
-                "type": "Point"
-            },
-            "id": "b1f7680970ede36a1fe03857a76eb9f6"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "Queen Elizabeth Hall",
-                "URL": "https://www.google.com/maps/place/Queen+Elizabeth+Hall+Roof+Garden+Bar+%26+Cafe/data=!4m2!3m1!1s0x487604b7dd7b934f:0x2a93681dab24d666",
-                "Image":"https://photoeverywhere.co.uk/britain/london/slides/brutalist_queen_elizabeth_hallP1049786.jpg",
-                "Designer": "Hubert Benett, Jack Whittle, Geoffrey Horsefall and F.G. West",
-                "Completed":""
-
-            },
-            "geometry": {
-                "coordinates": [
-                    -0.116547,
-                    51.506537
-                ],
-                "type": "Point"
-            },
-            "id": "b4b1dd873c963639a363ddca3aca604b"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "Lambeth Towers",
-                "URL": "https://maps.app.goo.gl/jDr9wnMMpKSkdqtr8",
-                "Image":"https://manchesterhistory.net/architecture/1960/lambethtower5.jpg",
-                "Designer": "George Finch",
-                "Completed":""
-            },
-            "geometry": {
-                "coordinates": [
-                    -0.111853,
-                    51.496032
-                ],
-                "type": "Point"
-            },
-            "id": "b55f90f7f3a8878cf33bad820677cd0c"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "Worlds End Estate",
-                "URL": "https://www.google.com/maps/place/Worlds+End+Estate/data=!4m2!3m1!1s0x4876057b0734665d:0x4091e91b6a8fc437",
-                "Image":"https://www.worlds-end.org.uk/pics/worlds_end_from_the_air.png",
-                "Designer": "Eric Lyons & Partners",
-                "Completed":""
-            },
-            "geometry": {
-                "coordinates": [
-                    -0.18057,
-                    51.48088
-                ],
-                "type": "Point"
-            },
-            "id": "b6d3c68a1913a7307bd801fa7860531a"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "Ministry of Justice Offices",
-                "URL": "https://maps.app.goo.gl/RqvZ5jNDZyeEHu9Y9",
-                "Image":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/HomeOffice_QueenAnnesGate.jpg/1024px-HomeOffice_QueenAnnesGate.jpg",
-                "Designer": "Basil Spence",
-                "Completed":""
-
-            },
-            "geometry": {
-                "coordinates": [
-                    -0.1346,
-                    51.50004
-                ],
-                "type": "Point"
-            },
-            "id": "b7e8a168154213e0be9a10e9b97cc657"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "45 Park Lane",
-                "URL": "https://www.google.com/maps/place/45+Park+Lane/data=!4m2!3m1!1s0x4876052fd30ef46d:0xc7222b8995002d19",
-                "Image":"https://imageio.forbes.com/specials-images/imageserve/5d60495068cb0a0008c03d1d/45-Park-Lane-by-night/0x0.jpg?format=jpg&crop=2330,3780,x60,y0,safe&width=1440",
-                "Designer": "Paul Davis + Partners",
-                "Completed":""
-
-            },
-            "geometry": {
-                "coordinates": [
-                    -0.15162,
-                    51.50639
-                ],
-                "type": "Point"
-            },
-            "id": "b9ab5c05d048eb67dcf40a6dce9cf8c7"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "Royal College of Art Darwin Building",
-                "URL": "https://maps.app.goo.gl/SJnck4hzArS4g8gh6",
-                "Image":"https://rca-media.rca.ac.uk/images/RCA-10-13-781.width-750.jpg",
-                "Designer": "HOK",
-                "Completed":""
-
-            },
-            "geometry": {
-                "coordinates": [
-                    -0.178913,
-                    51.501306
-                ],
-                "type": "Point"
-            },
-            "id": "c019e60d7314bc300304eb444a22d919"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "Metropolitan Police Central Communications Command Centre, Lambeth",
-                "URL": "https://www.google.com/maps/place/Metropolitan+Police+Central+Communications+Command+Centre,+Lambeth/data=!4m2!3m1!1s0x487604c008da9239:0xd5441f127de91141",
-                "Image":"https://www.kathmanduandbeyond.com/wp-content/uploads/2021/01/Metropolitan-Police-Forensic-Science-Laboratory-London-England-15.jpg",
-                "Designer": "Sheppard Robson",
-                "Completed":""
-            },
-            "geometry": {
-                "coordinates": [
-                    -0.117198,
-                    51.494799
-                ],
-                "type": "Point"
-            },
-            "id": "c6d3b7fae6ec90c22f62cfae355238dd"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "Haggerston School",
-                "URL": "https://maps.app.goo.gl/yVcxEQEBxPH1zbAx6",
-                "Image": "https://modernistpilgrimage.files.wordpress.com/2015/05/img_2382.jpg",
-                "Designer": "Ernö Goldfinger",
-                "Completed":""
-            },
-            "geometry": {
-                "coordinates": [
-                    -0.071194,
-                    51.53232
-                ],
-                "type": "Point"
-            },
-            "id": "c9768c0d281875aa3d2d154356906df4"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "Robin Hood Gardens",
-                "URL": "https://www.google.com/maps/place/Robin+Hood+Gardens/data=!4m2!3m1!1s0x487602ae809bbc61:0xcdb77e5ccab23ad1",
-                "Image": "https://api.architectuul.org/media/514c2b7d-ce6c-4995-a5fb-4ced6d7b5f76/1312x.jpg",
-                "Designer": "Alison and Peter Smithson",
-                "Completed":""
-
-            },
-            "geometry": {
-                "coordinates": [
-                    -0.008463,
-                    51.50938
-                ],
-                "type": "Point"
-            },
-            "id": "c9d59eea69775a41ce98b8f200daa954"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "St Giles Hotel",
-                "URL": "https://maps.app.goo.gl/QUP4P3ijWoSY2mfb6",
-                "Image":"https://media-cdn.tripadvisor.com/media/photo-s/03/b1/86/35/st-giles-hotel-london.jpg",
-                "Designer": "Fitzroy Robinson & Partners",
-                "Completed":""
-            },
-            "geometry": {
-                "coordinates": [
-                    -0.130547,
-                    51.517403
-                ],
-                "type": "Point"
-            },
-            "id": "cad8b146f3035f8023afa3af9bbe1321"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "Cotton Gardens Estate",
-                "URL": "https://maps.app.goo.gl/SFFLYFd47MPxTsFP6",
-                "Image":"https://api.architectuul.org/media/5bc9d9fb-48f0-47f4-9b34-5e6c6d7b5e1b/1312x.jpg",
-                "Designer": "George Finch & Partners",
-                "Completed":""
-
-            },
-            "geometry": {
-                "coordinates": [
-                    -0.107505,
-                    51.490591
-                ],
-                "type": "Point"
-            },
-            "id": "cb405dd511ab48db63043b9f043e1e45"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "SOAS Library",
-                "URL": "https://www.google.com/maps/place/SOAS+Library/data=!4m2!3m1!1s0x48761b30d9a1e971:0x653021fb9efef8db",
-                "Image":"https://i0.wp.com/www.thebrutalist.co.uk/wp-content/uploads/2020/01/DSC09477_8_9.jpg?w=1500&ssl=1",
-                "Designer": "Denys Lasdun & Partners",
-                "Completed":""
-            },
-            "geometry": {
-                "coordinates": [
-                    -0.12921,
-                    51.522487
-                ],
-                "type": "Point"
-            },
-            "id": "d03808f4be05e0f0de935784bcd3b014"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "Eros House",
-                "URL": "https://maps.app.goo.gl/GLzwSHEToHB6siZ77",
-                "Image": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Eros_house.jpg",
-                "Designer": "Owen Luder",
-                "Completed":""
-            },
-            "geometry": {
-                "coordinates": [
-                    -0.01883,
-                    51.44583
-                ],
-                "type": "Point"
-            },
-            "id": "d276b2442f7a6ef505bfb988d6a119f7"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "Brixton Recreation Centre",
-                "URL": "https://www.google.com/maps/place/Brixton+Recreation+Centre/data=!4m2!3m1!1s0x4876046640c1352d:0x7bab925e4631fb68",
-                "Image":"https://www.artstreetecture.com/uploads/img/389.jpeg",
-                "Designer": "George Finch & Partners",
-                "Completed":""
-            },
-            "geometry": {
-                "coordinates": [
-                    -0.11527,
-                    51.463402
-                ],
-                "type": "Point"
-            },
-            "id": "d2d5e5591c661ba80d5391d13ea80ab6"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "Dawson's Hill",
-                "URL": "https://www.google.com/maps/place/Dawson's+Hill/data=!4m2!3m1!1s0x487603c1eaef715d:0x4746d47c0a991bd0",
-                "Image": "https://api.architectuul.org/media/5bc9d588-77c4-4e25-80d1-59cc6d7b5e1b/864x.jpg",
-                "Designer": "Kate Macintosh",
-                "Completed":""
-            },
-            "geometry": {
-                "coordinates": [
-                    -0.068564,
-                    51.448452
-                ],
-                "type": "Point"
-            },
-            "id": "d73c46d8643e58698272ded2eff4507e"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "National Theatre Studio",
-                "URL": "https://maps.app.goo.gl/eAjjbN8X8WUEwwG98",
-                "Image":"https://www.london-se1.co.uk/whatson/imageuploads/1233502647_80.177.117.97.jpg",
-                "Designer": "Denys Lasdun & Partners",
-                "Completed":""
-            },
-            "geometry": {
-                "coordinates": [
-                    -0.10904,
-                    51.502315
-                ],
-                "type": "Point"
-            },
-            "id": "d9e276682e3ce4b522b06996d15c8731"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "Hyde Park Barracks",
-                "URL": "https://maps.app.goo.gl/GeQz3GDhrfNhmrwj8",
-                "Image":"https://brutalistconstructions.files.wordpress.com/2015/11/img_1534.jpg",
-                "Designer": "Basil Spence",
-                "Completed":""
-            },
-            "geometry": {
-                "coordinates": [
-                    -0.165276,
-                    51.501987
-                ],
-                "type": "Point"
-            },
-            "id": "dfa2c2f919f7fadd7751dc648a019615"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "Keeling House",
-                "URL": "https://www.google.com/maps/place/Keeling+House/data=!4m2!3m1!1s0x48761cc37c0d03a9:0x3629abfce9a6e333",
-                "Image": "https://i0.wp.com/heritagecalling.com/wp-content/uploads/2017/08/2-keeling-house-dp138156.jpg?resize=950%2C1285&ssl=1",
-                "Designer": "Denys Lasdun",
-                "Completed":""
-            },
-            "geometry": {
-                "coordinates": [
-                    -0.061094,
-                    51.530962
-                ],
-                "type": "Point"
-            },
-            "id": "e6206b0b58d3d09804b5c4d50a1f05a7"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "Kensington and Chelsea Town Hall",
-                "URL": "https://www.google.com/maps/place/Kensington+Town+Hall/data=!4m2!3m1!1s0x48760ff0bfbfbd9b:0x6152b1c3894b7675",
-                "Image":"https://manchesterhistory.net/architecture/1970/townhall1.jpg",
-                "Designer": "Basil Spence",
-                "Completed":""
-            },
-            "geometry": {
-                "coordinates": [
-                    -0.194648,
-                    51.501233
-                ],
-                "type": "Point"
-            },
-            "id": "ea1c7d1e0c433d745d994704b2543c97"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "Brunel University London",
-                "URL": "https://www.google.com/maps/place/Brunel+University+London/data=!4m2!3m1!1s0x48766e0a6fcc751f:0x43eae5c365df7a7a",
-                "Image":"https://www.brunel.ac.uk/news-and-events/news/images/brunel11.jpeg?q=70&f=webp",
-                "Designer": "Richard Sheppard, Robson and Partners/Stillman & Eastwick-Field",
-                "Completed":""
-            },
-            "geometry": {
-                "coordinates": [
-                    -0.476442,
-                    51.533152
-                ],
-                "type": "Point"
-            },
-            "id": "ed1a02441505668edabaa55b2cdc88aa"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "Weston Rise Estate",
-                "URL": "https://maps.app.goo.gl/CsGCy6ox92hxERsu7",
-                "Image":"http://www.modernistlondon.co.uk/uploads/1/0/2/5/10257505/img-5497-edit_orig.jpg",
-                "Designer": "Howell, Killick, Partridge & Amis",
-                "Completed":""
-
-            },
-            "geometry": {
-                "coordinates": [
-                    -0.115653,
-                    51.530855
-                ],
-                "type": "Point"
-            },
-            "id": "ee6aceeeffb9feb11d9c3bd095d3f30b"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "Alexandra & Ainsworth Estate",
-                "URL": "https://www.google.com/maps/place/Alexandra+%26+Ainsworth+Estate/data=!4m2!3m1!1s0x48761a9eb2d81049:0xc11d601645b0eb28",
-                "Image": "https://www.cktravels.com/wp-content/uploads/2020/07/alexandra-estate-5.jpg",
-                "Designer": "Neave Brown",
-                "Completed":""
-            },
-            "geometry": {
-                "coordinates": [
-                    -0.184563,
-                    51.538778
-                ],
-                "type": "Point"
-            },
-            "id": "f02a1a089e7d6cda05a940a56e08cadf"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "Embassy of the Czech Republic",
-                "URL": "https://maps.app.goo.gl/Z28pnWPBuuGRZMXU7",
-                "Image":"https://upload.wikimedia.org/wikipedia/commons/6/61/Czech_Embassy_London_01965.JPG",
-                "Designer": "Jirí Kroha, Karel Filsak, and Josef Kotas",
-                "Completed":""
-            },
-            "geometry": {
-                "coordinates": [
-                    -0.193565,
-                    51.509402
-                ],
-                "type": "Point"
-            },
-            "id": "f5c7b35a4ba4409092167db902db12a5"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Title": "Weeks Hall, Imperial College",
-                "URL": "https://maps.app.goo.gl/SZ9ebJAmdxsEAcJeA",
-                "Image":"https://s3.britishlistedbuildings.co.uk/lbimg/101/263/062/101263062-98745-800.jpg",
-                "Designer": "Sheppard Robson & Partners",
-                "Completed":""
-
-            },
-            "geometry": {
-                "coordinates": [
-                    -0.171971,
-                    51.500167
-                ],
-                "type": "Point"
-            },
-            "id": "feda3d64001ecce14e7f5101d511fb84"
-        }
-    ],
-    "type": "FeatureCollection"
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Acland Burghley School",
+        "URL": "https://www.google.com/maps/place/Acland+Burghley+School/data=!4m2!3m1!1s0x48761baa830186f7:0x48bb44ae89bb41f2",
+        "Image": "https://d25hwkr75zzfa.cloudfront.net/store/photo/large/building_2882_img_7956_430ccd0e0987c2c34c14f8e6147ee266.jpg",
+        "Designer": "",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.139789,
+          51.557455
+        ],
+        "type": "Point"
+      },
+      "id": "0100cfdb96a6d9dde940047ed2a8bfde"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Golden Lane Estate",
+        "URL": "https://maps.app.goo.gl/kmeVKCcPy83XUb5v7",
+        "Image": "https://www.e-architect.com/images/jpgs/london/golden_lane_estate_nw120909_3.jpg",
+        "Designer": "Chamberlin, Powell and Bon",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.09545,
+          51.522489
+        ],
+        "type": "Point"
+      },
+      "id": "04a9d94e8ecbb7149056bbfe6466ed4f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Housden House",
+        "URL": "https://www.google.com/maps/place/78+S+Hill+Park/data=!4m2!3m1!1s0x48761a5fdbbd5557:0x9f9ed90fe7b67bbb",
+        "Image": "https://heartbrut.com/wp-content/plugins/phastpress/phast.php/c2/VydmljZT1pbWFnZXMmc3JjPWh0dHBzJTNBJTJGJTJGaGVhcnRicnV0LmNvbSUyRndwLWNvbnRlbnQlMkZ1cGxvYWRzJTJGMjAxOSUyRjA1JTJGMDUxNTE5LUhPVVNERU5IT1VTRS0lMjVDMiUyNUE5SEVBUlRCUlVULTcwMHB4LTYuanBnJmNhY2hlTWFya2VyPTE2MDMzNzgxMjQtNDQ2MTM2JnRva2VuPTZhYjgxZDY3ZjhmZTE0MzQ.q.jpg",
+        "Designer": "Brian Housden",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.16442,
+          51.55819
+        ],
+        "type": "Point"
+      },
+      "id": "0bab79af7626668d4ed74587b5337673"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Royal College of Physicians",
+        "URL": "https://maps.app.goo.gl/UBwU4CzuWno8JF7J6",
+        "Image": "https://www.e-architect.com/wp-content/uploads/2014/03/royal-college-physicians-london-r120314-6.jpg#main",
+        "Designer": "Brian Housden",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.145165,
+          51.525788
+        ],
+        "type": "Point"
+      },
+      "id": "0ffe426a4b8812c673f0decb3a588fc6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Lunar House"
+      },
+      "geometry": {
+        "coordinates": [
+          -0.098738,
+          51.378297
+        ],
+        "type": "Point"
+      },
+      "id": "1eb43e8a02b72a7fdc9e767e02c78b9c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Stockwell Bus Garage",
+        "URL": "https://www.google.com/maps/place/Stockwell+Bus+Garage/data=!4m2!3m1!1s0x487604f614bf1597:0x57e191c738659033",
+        "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Stockwell_Bus_Garage_1%2C_London%2C_UK_-_Diliff.jpg/2880px-Stockwell_Bus_Garage_1%2C_London%2C_UK_-_Diliff.jpg",
+        "Designer": "Brian Housden",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.123654,
+          51.473239
+        ],
+        "type": "Point"
+      },
+      "id": "221be5450c7c7f11ba23ec525cb26146"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Quaker Meeting House",
+        "URL": "https://maps.app.goo.gl/9J6TZa2JLwJB8hyBA",
+        "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Blackheath_Quaker_Meeting_House%2C_south_aspect_%28rotated%29.jpg/1920px-Blackheath_Quaker_Meeting_House%2C_south_aspect_%28rotated%29.jpg",
+        "Designer": "Brian Housden",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          0.00668,
+          51.46508
+        ],
+        "type": "Point"
+      },
+      "id": "239efb755b4e2dd20b1b84bbe51df386"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Camberwell Submarine",
+        "URL": "https://www.google.com/maps/place/Camberwell+Submarine/data=!4m2!3m1!1s0x487604629dffcccb:0x4ac0f3f60c5cd8d3",
+        "Image": "https://c20society.org.uk/wp-content/uploads/2019/11/1008541019_1297de9a11_b-588x408.jpg",
+        "Designer": "Brian Housden",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.106727,
+          51.474678
+        ],
+        "type": "Point"
+      },
+      "id": "243d5a23fae6c482de6e00652f53d583"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Standard Hotel",
+        "URL": "https://maps.app.goo.gl/Q8FubYrEYUvpbwhi7",
+        "Image": "https://cdn.vox-cdn.com/thumbor/3k6o_zHFy5rmzoBu_P7LcD4oMv0=/0x0:818x614/1820x1213/filters:focal(344x242:474x372):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/65600632/hotel9.0.jpg",
+        "Designer": "Brian Housden",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.125503,
+          51.528985
+        ],
+        "type": "Point"
+      },
+      "id": "27d9431bc2c7960ecc603be21ef3b440"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Finsbury Estate",
+        "URL": "https://www.google.com/maps/place/Finsbury+Estate/data=!4m2!3m1!1s0x48761b5ab2a90973:0x803a8259833385a0",
+        "Image": "http://www.modernistlondon.co.uk/uploads/1/0/2/5/10257505/finsbury_2_orig.jpg",
+        "Designer": "Brian Housden",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.10691,
+          51.52681
+        ],
+        "type": "Point"
+      },
+      "id": "27e6f996cf6d2b5d9bc0e3af51a12d15"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "UCL Institute of Education (IOE)",
+        "URL": "https://www.google.com/maps/place/UCL+Institute+of+Education+(IOE)/data=!4m2!3m1!1s0x48761b3026950f73:0x7775028d83f78607",
+        "Image": "https://heartbrut.com/wp-content/plugins/phastpress/phast.php/c2VydmljZT1pbWFnZX/Mmc3JjPWh0dHBzJTNBJTJGJTJGaGVhcnRicnV0LmNvbSUyRndwLWNvbnRlbnQlMkZ1cGxvYWRzJTJGMjAxOSUyRjA1JTJGMDUxNTE5LVVDTC1JTlNUSVRVVEVPRkVEVUNBVElPTi0lMjVDMiUyNUE5SEVBUlRCUlVULTcwMHB4LTMuanBnJmNhY2hlTWFya2VyPTE2MDMzNzgxMjQtNTE3Nzg5JnRva2VuPThmMDY2YTlmZDhhODI2NDI.q.jpg",
+        "Designer": "Brian Housden",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.130199,
+          51.52289
+        ],
+        "type": "Point"
+      },
+      "id": "29a4bf79d263341d57ee9145e94963f6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Chartered Accountants Hall",
+        "URL": "https://www.google.com/maps/place/Chartered+Accountants+Hall/data=!4m2!3m1!1s0x48761cab614c837d:0x7dc82de056821e10",
+        "Image": "https://historicengland.org.uk/etl/1064586/a71ef4e1-82f3-45cd-b0cf-ed0f668954e7.jpg?autorotate=true&height=500&mode=max&quality=80",
+        "Designer": "Brian Housden",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.088341,
+          51.516399
+        ],
+        "type": "Point"
+      },
+      "id": "2a26a9e1debfa60586d7fb84458bde65"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Trellick Tower",
+        "URL": "https://www.google.com/maps/place/Trellick+Tower/data=!4m2!3m1!1s0x4876101a2135c6c7:0xb5a16107bbcd260",
+        "Image": "https://www.e-architect.com/wp-content/uploads/2016/02/trellick-tower-building-london-wc20216-ma2.jpg",
+        "Designer": "",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.205764,
+          51.523613
+        ],
+        "type": "Point"
+      },
+      "id": "2b7cc048c07bbb2fb13d7a28f7eaea79"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Purcell Room",
+        "URL": "https://maps.app.goo.gl/hjqQrvWCuyZZHTkNA",
+        "Image": "https://www.tagvenue.com/resize/24/ee/widen-1680-noupsize;5102-purcell-room-room.jpg",
+        "Designer": "Leslie Martin, Robert Matthew, and Sir Hubert Bennett",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.116148,
+          51.506517
+        ],
+        "type": "Point"
+      },
+      "id": "2bbd588e2b4b2bc9add217539e28f48a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Salter's Hall",
+        "URL": "https://maps.app.goo.gl/kUfuTsfi4qneR5VAA",
+        "Image": "https://thespaces.com/wp-content/uploads/2016/07/SaltersHall_035-1050x680.jpg",
+        "Designer": "Sir Basil Spence",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.092183,
+          51.518208
+        ],
+        "type": "Point"
+      },
+      "id": "2bc73ee0a7dfd2e89668b9569b648717"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Elephant and Rhinoceros Pavillion, London Zoo",
+        "URL": "https://maps.app.goo.gl/cJVQz1xfwfEkSko68",
+        "Image": "https://historicengland.org.uk/etl/1323694/5b5f71a6-4788-4cbb-acff-27dcb328f3c9.jpg",
+        "Designer": "Hugh Casson",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.154566,
+          51.534482
+        ],
+        "type": "Point"
+      },
+      "id": "2d769e6b894f6887f67e5591445204ae"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "National Archives at Kew",
+        "URL": "https://maps.app.goo.gl/9gEy1dPbUHdt63oR8",
+        "Image": "https://cdn.rt.emap.com/wp-content/uploads/sites/4/2023/03/07113901/National-Archives-Kew-Image-by-Ron-Ellis-Shutterstock-1600x1067.jpg",
+        "Designer": "Richard Rogers",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.279601,
+          51.481256
+        ],
+        "type": "Point"
+      },
+      "id": "3226971da487759a7f9cd28db144078f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Balfron Tower",
+        "URL": "https://www.google.com/maps/place/Balfron+Tower/data=!4m2!3m1!1s0x487602ad1fe244f1:0x9f4bcf464d6ae570",
+        "Image": "https://www.bailygarner.co.uk/wp-content/uploads/balfron_1.jpg",
+        "Designer": "Ernö Goldfinger",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.008849,
+          51.51355
+        ],
+        "type": "Point"
+      },
+      "id": "3843ad8d4752940e669f2a0f584d677e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "National Theatre",
+        "URL": "https://www.google.com/maps/place/National+Theatre/data=!4m2!3m1!1s0x487604a3a9db8b75:0x1761ec87fcadd30d",
+        "Image": "http://construirunmundonuevo.com/wp-content/uploads/2017/11/iStock-460156937.jpg",
+        "Designer": "Sir Basil Spence",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.114446,
+          51.507238
+        ],
+        "type": "Point"
+      },
+      "id": "3ad00caadd8e88e80473170390a47ecb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Hendon Hall Court",
+        "URL": "https://maps.app.goo.gl/gXAG1SpWaE4v8h2r5",
+        "Image": "https://www.modernism-in-metroland.co.uk/uploads/1/0/2/5/10257505/img-4374-edit_orig.jpg",
+        "Designer": "",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.217942,
+          51.594806
+        ],
+        "type": "Point"
+      },
+      "id": "3ba23a67adc45759e65c6123452a1952"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "National Sports Centre"
+      },
+      "geometry": {
+        "coordinates": [
+          -0.06739,
+          51.42113
+        ],
+        "type": "Point"
+      },
+      "id": "3cf78748704a9b257b90da76f34a86f2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Barbican Centre",
+        "URL": "https://www.google.com/maps/place/Barbican+Centre/data=!4m2!3m1!1s0x48761b56fb64b275:0xc756e26675d21f40",
+        "Image": "https://soonafternoon.com/wp-content/uploads/2019/03/DSC09525.jpg",
+        "Designer": "Chamberlin, Powell and Bon",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.096157,
+          51.519979
+        ],
+        "type": "Point"
+      },
+      "id": "4438d25a9e7cf0f23e6081e713888084"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Travelodge London Covent Garden",
+        "URL": "https://www.google.com/maps/place/Travelodge+London+Covent+Garden/data=!4m2!3m1!1s0x47df21225fc904c7:0xf49ee2f5f620fe50",
+        "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiK00YDq_K01hsxhxbb-OYAmuzginJk9CI6LKdhNjJ4p8EMyYg4wyFhJjBtaAib80Zx8o1IVzUp2iO09S4gAvZqwvwLXod63vfi3A7JFb0-2WF0z951VMvFktvedsUg0YbB484GgZwiXSKk/s1600/Travelodge+Covent+Garden,+London+9.JPG",
+        "Designer": "Geoffrey Spyer & Partners",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.124477,
+          51.516006
+        ],
+        "type": "Point"
+      },
+      "id": "45dac100f6beb378551280a45ddc5dd0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "The Battleship Bldg",
+        "URL": "https://www.google.com/maps/place/The+Battleship+Bldg/data=!4m2!3m1!1s0x48761aabe70d019f:0x94eae23c7e6b1cb6",
+        "Image": "https://as-images.imgix.net/ee97efc35d57db5816f6380440d5ea1e-The%20Battleship%20Building%20179%20Harrow%20Road%20Paddington%20W2%20Office%20for%20rent%20West%20London%20Ext.jpg",
+        "Designer": "Bicknell and Hamilton",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.181195,
+          51.520143
+        ],
+        "type": "Point"
+      },
+      "id": "4a29eb7f66808d962b1cc3f26a289444"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Trevelyan House",
+        "URL": "https://maps.app.goo.gl/t83mXu8VAE22nXWR9",
+        "Image": "https://modernistpilgrimage.files.wordpress.com/2017/02/img_3371.jpg",
+        "Designer": "Denys Lasdun & Partners",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.046913,
+          51.527205
+        ],
+        "type": "Point"
+      },
+      "id": "4c5bc2e432ae8df02324a4e93b0bad03"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Strand Building, KCL",
+        "URL": "https://maps.app.goo.gl/oHQtYEFevi5sU9nB9",
+        "Image": "https://manchesterhistory.net/architecture/1970/strand3.jpg",
+        "Designer": "Troup, Steele & Scott",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.116315,
+          51.512005
+        ],
+        "type": "Point"
+      },
+      "id": "530f9697c949ba4ab2b9b319adbe70aa"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Swiss Cottage Library",
+        "URL": "https://www.google.com/maps/place/Swiss+Cottage+Library/data=!4m2!3m1!1s0x48761a91207a12cb:0xba6990c30eb20a02",
+        "Image": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Swiss_Cottage_Library_Geograph-2779962-by-Stephen-Richards.jpg",
+        "Designer": "Basil Spence",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.173543,
+          51.542327
+        ],
+        "type": "Point"
+      },
+      "id": "55b5df5bb87fa3a24c02ac6329f15448"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Macadam Building, KCL",
+        "URL": "https://maps.app.goo.gl/9veQ68J1hQkbMB4G7",
+        "Image": "https://manchesterhistory.net/architecture/1970/macadam2.jpg",
+        "Designer": "Troup, Steele & Scott",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.115258,
+          51.511276
+        ],
+        "type": "Point"
+      },
+      "id": "567717b260adbfe9eb30837249629f96"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Thamesmead",
+        "URL": "https://www.google.com/maps/place/Thamesmead/data=!4m2!3m1!1s0x47d8af4dd90ae2eb:0x434f8c23f47012a7",
+        "Image": "https://hidden-london.com/wp-content/uploads/2011/09/Southmere-Flats-2012-George-Rex-742.png",
+        "Designer": "Robert Rigg and Eric Lyons",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          0.115312,
+          51.506499
+        ],
+        "type": "Point"
+      },
+      "id": "5b223a0ad277cabc2422c6bd357db28c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Dowgate Fire Station",
+        "URL": "https://maps.app.goo.gl/vEEpoNK4bh48ZGN7A",
+        "Image": "https://blog.lessavine.co.uk/wp-content/uploads/2021/09/London-Fire-Brigade-Dowgate-Fire-Station-A28.jpg",
+        "Designer": "Hubbard Ford & Partners",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.090214,
+          51.51002
+        ],
+        "type": "Point"
+      },
+      "id": "5e476def495b3ab153097ac71da8b6ce"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Embassy of Slovakia",
+        "URL": "https://maps.app.goo.gl/ATntxNX4SPWJW6Bh8",
+        "Image": "https://s0.geograph.org.uk/geophotos/01/09/13/1091355_3506de65.jpg",
+        "Designer": "Jirí Kroha, Karel Filsak, and Josef Kotas.",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.19288,
+          51.509273
+        ],
+        "type": "Point"
+      },
+      "id": "698c8dd139a381e96b1c1a6275ddaf8e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Hayward Gallery",
+        "URL": "https://www.google.com/maps/place/Hayward+Gallery/data=!4m2!3m1!1s0x487604b7e7c78711:0xea81dbe9938ed7b8",
+        "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Staircase_on_the_Southern_Side_of_the_Hayward_Gallery.jpg/2560px-Staircase_on_the_Southern_Side_of_the_Hayward_Gallery.jpg",
+        "Designer": "Norman Engleback",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.115632,
+          51.506118
+        ],
+        "type": "Point"
+      },
+      "id": "6b80fef81e03f0f40037309d5b782c46"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Brunswick Centre",
+        "URL": "https://maps.app.goo.gl/ioGxZ7WWSFefYMGq5",
+        "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Brunswick_Centre_%284136275375%29.jpg/1920px-Brunswick_Centre_%284136275375%29.jpg",
+        "Designer": "Patrick Hodgkinson and Michael Brawne.",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.1235,
+          51.52427
+        ],
+        "type": "Point"
+      },
+      "id": "6c54558b8f1b777128d44806e3413f48"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "123 Victoria St",
+        "URL": "https://www.google.com/maps/place/123+Victoria+St/data=!4m2!3m1!1s0x487604de925884d5:0xf010f86f8f517b67",
+        "Image": "https://static.dezeen.com/uploads/2020/04/myo-london-office-interiors-soda_dezeen_2364_col_15-1704x884.jpg",
+        "Designer": "Sheppard Robson and Partners",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.137609,
+          51.496909
+        ],
+        "type": "Point"
+      },
+      "id": "75107b20ef781aaae0438651b2dc693b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Centre Point",
+        "URL": "https://maps.app.goo.gl/w6psQyaJoSg9GULQ8",
+        "Image": "https://cdn.thespaces.com/wp-content/uploads/2018/03/Centre-Point-revamp-Conran-Partners-7.jpg",
+        "Designer": "George Marsh of Richard Seifert & Partners",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.129176,
+          51.516553
+        ],
+        "type": "Point"
+      },
+      "id": "75f21df02e109633f2c43b6af5a56813"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Southwyck House",
+        "URL": "https://maps.app.goo.gl/E3d7kiiWgqWnDVCJ8",
+        "Image": "https://upload.wikimedia.org/wikipedia/commons/9/91/Southwyck_House%2C_Brixton_-_geograph.org.uk_-_220874.jpg",
+        "Designer": "George Finch & Partners",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.108492,
+          51.462363
+        ],
+        "type": "Point"
+      },
+      "id": "7aad41e362bdd3b16b30812e764a87ba"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Space House",
+        "URL": "https://maps.app.goo.gl/Zo3o978dkJYwtFeX8",
+        "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/1_Kemble_Street_09.jpg/1024px-1_Kemble_Street_09.jpg",
+        "Designer": "Richard Seifert & Partners",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.1194,
+          51.514871
+        ],
+        "type": "Point"
+      },
+      "id": "7b36ed79f1fec9f3c9a36e517103648e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Bethnal Green Fire Station",
+        "URL": "https://maps.app.goo.gl/ZKGoPuR1iG8ypCXL7",
+        "Image": "https://www.london-fire.gov.uk/media/6809/bethnal-green-fire-station-3.jpg",
+        "Designer": "Greater London Council's Architects Department",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.05335,
+          51.52788
+        ],
+        "type": "Point"
+      },
+      "id": "7b7337f8f000d2f7667bed5e0b481f17"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Lillington Gardens Estate",
+        "URL": "https://maps.app.goo.gl/sdTueFT2ff32jWon7",
+        "Image": "http://www.archipicture.eu/2%20Bilder/Grossbritannien/Darbourne%20&%20Darke/Darbourne%20&%20Drake%20-%20Lillington%20Gardens%2010smr.jpg",
+        "Designer": "Darbourne & Darke",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.135863,
+          51.491363
+        ],
+        "type": "Point"
+      },
+      "id": "81233f534c4f91a17691539e074223d1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Langham House Close",
+        "URL": "https://www.google.com/maps/place/Langham+House+Cl/data=!4m2!3m1!1s0x48760c7449f4e5f1:0x7c6c9c14f38cbc60",
+        "Image": "https://www.copperline.co/wp-content/uploads/2015/10/Langham-House-Close-The-Modern-House-3.jpg",
+        "Designer": "James Stirlin",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.30997,
+          51.43316
+        ],
+        "type": "Point"
+      },
+      "id": "857a3d54f4a5bbd1511b6c6eb92e91d5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "The Park Tower Knightsbridge, a Luxury Collection Hotel, London",
+        "URL": "https://www.google.com/maps/place/The+Park+Tower+Knightsbridge,+a+Luxury+Collection+Hotel,+London/data=!4m2!3m1!1s0x487605397f5feec5:0xebb91acde1ff46af",
+        "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/The_Park_Tower_Knightsbridge_Hotel.JPG/1280px-The_Park_Tower_Knightsbridge_Hotel.JPG",
+        "Designer": "Richard Seifert & Partners",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.158725,
+          51.501725
+        ],
+        "type": "Point"
+      },
+      "id": "873a5360bbe9cc132f6f075f0fc6e5ed"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Minories Car Park",
+        "URL": "https://maps.app.goo.gl/Bo7hoDyjZfzJ5XfT7",
+        "Image": "https://www.kathmanduandbeyond.com/wp-content/uploads/2021/01/Minories-Car-Park-London-England-7.jpg",
+        "Designer": "R.L. Moorcraft",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.073548,
+          51.510427
+        ],
+        "type": "Point"
+      },
+      "id": "8bad12f79b172945a50b8eb63c96c1c7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "30 Cannon St",
+        "URL": "https://www.google.com/maps/place/30+Cannon+St/data=!4m2!3m1!1s0x487604aa62773c8f:0xf06489f70051d72b",
+        "Image": "https://30cannonstreet.com/wp-content/uploads/2020/06/Exterior-Image-7.jpg",
+        "Designer": "Whinney, Son & Austen Hall",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.09493,
+          51.512356
+        ],
+        "type": "Point"
+      },
+      "id": "913572d24b388aea2c082dabe3c92477"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Alton West Estate"
+      },
+      "geometry": {
+        "coordinates": [
+          -0.248093,
+          51.453948
+        ],
+        "type": "Point"
+      },
+      "id": "a330cd601baf0c1499ebd985fd05e0c4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Stoke Newington School & Sixth Form",
+        "URL": "https://www.google.com/maps/place/Stoke+Newington+School+%26+Sixth+Form/data=!4m2!3m1!1s0x48761c7d1189a7a3:0x9950689a3861f0fd",
+        "Image": "https://64.media.tumblr.com/140d2fac77dfafc071945b5cbd9c0313/c47a24523db2ed2d-b0/s2048x3072/9269777b6003401f7735d2b0c61ce12c40486407.jpg",
+        "Designer": "Jestico + Whiles",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.084414,
+          51.559329
+        ],
+        "type": "Point"
+      },
+      "id": "a7985ce48b4271971797a7b7448b4170"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "University of Westminster Cavendish Campus",
+        "URL": "https://www.google.com/maps/place/University+of+Westminster+Cavendish+Campus/data=!4m2!3m1!1s0x48761ad602153b7d:0x7cae57b547cdf178",
+        "Image": "https://manchesterhistory.net/architecture/1970/westminsterU2.jpg",
+        "Designer": "Lyons, Israel and Ellis",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.116634,
+          51.514276
+        ],
+        "type": "Point"
+      },
+      "id": "b1f7680970ede36a1fe03857a76eb9f6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Queen Elizabeth Hall",
+        "URL": "https://www.google.com/maps/place/Queen+Elizabeth+Hall+Roof+Garden+Bar+%26+Cafe/data=!4m2!3m1!1s0x487604b7dd7b934f:0x2a93681dab24d666",
+        "Image": "https://photoeverywhere.co.uk/britain/london/slides/brutalist_queen_elizabeth_hallP1049786.jpg",
+        "Designer": "Hubert Benett, Jack Whittle, Geoffrey Horsefall and F.G. West",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.116547,
+          51.506537
+        ],
+        "type": "Point"
+      },
+      "id": "b4b1dd873c963639a363ddca3aca604b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Lambeth Towers",
+        "URL": "https://maps.app.goo.gl/jDr9wnMMpKSkdqtr8",
+        "Image": "https://manchesterhistory.net/architecture/1960/lambethtower5.jpg",
+        "Designer": "George Finch",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.111853,
+          51.496032
+        ],
+        "type": "Point"
+      },
+      "id": "b55f90f7f3a8878cf33bad820677cd0c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Worlds End Estate",
+        "URL": "https://www.google.com/maps/place/Worlds+End+Estate/data=!4m2!3m1!1s0x4876057b0734665d:0x4091e91b6a8fc437",
+        "Image": "https://www.worlds-end.org.uk/pics/worlds_end_from_the_air.png",
+        "Designer": "Eric Lyons & Partners",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.18057,
+          51.48088
+        ],
+        "type": "Point"
+      },
+      "id": "b6d3c68a1913a7307bd801fa7860531a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Ministry of Justice Offices",
+        "URL": "https://maps.app.goo.gl/RqvZ5jNDZyeEHu9Y9",
+        "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/HomeOffice_QueenAnnesGate.jpg/1024px-HomeOffice_QueenAnnesGate.jpg",
+        "Designer": "Basil Spence",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.1346,
+          51.50004
+        ],
+        "type": "Point"
+      },
+      "id": "b7e8a168154213e0be9a10e9b97cc657"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "45 Park Lane",
+        "URL": "https://www.google.com/maps/place/45+Park+Lane/data=!4m2!3m1!1s0x4876052fd30ef46d:0xc7222b8995002d19",
+        "Image": "https://imageio.forbes.com/specials-images/imageserve/5d60495068cb0a0008c03d1d/45-Park-Lane-by-night/0x0.jpg?format=jpg&crop=2330,3780,x60,y0,safe&width=1440",
+        "Designer": "Paul Davis + Partners",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.15162,
+          51.50639
+        ],
+        "type": "Point"
+      },
+      "id": "b9ab5c05d048eb67dcf40a6dce9cf8c7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Royal College of Art Darwin Building",
+        "URL": "https://maps.app.goo.gl/SJnck4hzArS4g8gh6",
+        "Image": "https://rca-media.rca.ac.uk/images/RCA-10-13-781.width-750.jpg",
+        "Designer": "HOK",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.178913,
+          51.501306
+        ],
+        "type": "Point"
+      },
+      "id": "c019e60d7314bc300304eb444a22d919"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Metropolitan Police Central Communications Command Centre, Lambeth",
+        "URL": "https://www.google.com/maps/place/Metropolitan+Police+Central+Communications+Command+Centre,+Lambeth/data=!4m2!3m1!1s0x487604c008da9239:0xd5441f127de91141",
+        "Image": "https://www.kathmanduandbeyond.com/wp-content/uploads/2021/01/Metropolitan-Police-Forensic-Science-Laboratory-London-England-15.jpg",
+        "Designer": "Sheppard Robson",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.117198,
+          51.494799
+        ],
+        "type": "Point"
+      },
+      "id": "c6d3b7fae6ec90c22f62cfae355238dd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Haggerston School",
+        "URL": "https://maps.app.goo.gl/yVcxEQEBxPH1zbAx6",
+        "Image": "https://modernistpilgrimage.files.wordpress.com/2015/05/img_2382.jpg",
+        "Designer": "Ernö Goldfinger",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.071194,
+          51.53232
+        ],
+        "type": "Point"
+      },
+      "id": "c9768c0d281875aa3d2d154356906df4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Robin Hood Gardens",
+        "URL": "https://www.google.com/maps/place/Robin+Hood+Gardens/data=!4m2!3m1!1s0x487602ae809bbc61:0xcdb77e5ccab23ad1",
+        "Image": "https://api.architectuul.org/media/514c2b7d-ce6c-4995-a5fb-4ced6d7b5f76/1312x.jpg",
+        "Designer": "Alison and Peter Smithson",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.008463,
+          51.50938
+        ],
+        "type": "Point"
+      },
+      "id": "c9d59eea69775a41ce98b8f200daa954"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "St Giles Hotel",
+        "URL": "https://maps.app.goo.gl/QUP4P3ijWoSY2mfb6",
+        "Image": "https://media-cdn.tripadvisor.com/media/photo-s/03/b1/86/35/st-giles-hotel-london.jpg",
+        "Designer": "Fitzroy Robinson & Partners",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.130547,
+          51.517403
+        ],
+        "type": "Point"
+      },
+      "id": "cad8b146f3035f8023afa3af9bbe1321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Cotton Gardens Estate",
+        "URL": "https://maps.app.goo.gl/SFFLYFd47MPxTsFP6",
+        "Image": "https://api.architectuul.org/media/5bc9d9fb-48f0-47f4-9b34-5e6c6d7b5e1b/1312x.jpg",
+        "Designer": "George Finch & Partners",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.107505,
+          51.490591
+        ],
+        "type": "Point"
+      },
+      "id": "cb405dd511ab48db63043b9f043e1e45"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "SOAS Library",
+        "URL": "https://www.google.com/maps/place/SOAS+Library/data=!4m2!3m1!1s0x48761b30d9a1e971:0x653021fb9efef8db",
+        "Image": "https://i0.wp.com/www.thebrutalist.co.uk/wp-content/uploads/2020/01/DSC09477_8_9.jpg?w=1500&ssl=1",
+        "Designer": "Denys Lasdun & Partners",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.129209,
+          51.522487
+        ],
+        "type": "Point"
+      },
+      "id": "d03808f4be05e0f0de935784bcd3b014"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Eros House",
+        "URL": "https://maps.app.goo.gl/GLzwSHEToHB6siZ77",
+        "Image": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Eros_house.jpg",
+        "Designer": "Owen Luder",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.01883,
+          51.44583
+        ],
+        "type": "Point"
+      },
+      "id": "d276b2442f7a6ef505bfb988d6a119f7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Brixton Recreation Centre",
+        "URL": "https://www.google.com/maps/place/Brixton+Recreation+Centre/data=!4m2!3m1!1s0x4876046640c1352d:0x7bab925e4631fb68",
+        "Image": "https://www.artstreetecture.com/uploads/img/389.jpeg",
+        "Designer": "George Finch & Partners",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.11527,
+          51.463402
+        ],
+        "type": "Point"
+      },
+      "id": "d2d5e5591c661ba80d5391d13ea80ab6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Dawson's Hill",
+        "URL": "https://www.google.com/maps/place/Dawson's+Hill/data=!4m2!3m1!1s0x487603c1eaef715d:0x4746d47c0a991bd0",
+        "Image": "https://api.architectuul.org/media/5bc9d588-77c4-4e25-80d1-59cc6d7b5e1b/864x.jpg",
+        "Designer": "Kate Macintosh",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.068564,
+          51.448452
+        ],
+        "type": "Point"
+      },
+      "id": "d73c46d8643e58698272ded2eff4507e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "National Theatre Studio",
+        "URL": "https://maps.app.goo.gl/eAjjbN8X8WUEwwG98",
+        "Image": "https://www.london-se1.co.uk/whatson/imageuploads/1233502647_80.177.117.97.jpg",
+        "Designer": "Denys Lasdun & Partners",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.10904,
+          51.502315
+        ],
+        "type": "Point"
+      },
+      "id": "d9e276682e3ce4b522b06996d15c8731"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Hyde Park Barracks",
+        "URL": "https://maps.app.goo.gl/GeQz3GDhrfNhmrwj8",
+        "Image": "https://brutalistconstructions.files.wordpress.com/2015/11/img_1534.jpg",
+        "Designer": "Basil Spence",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.165276,
+          51.501987
+        ],
+        "type": "Point"
+      },
+      "id": "dfa2c2f919f7fadd7751dc648a019615"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Baynard House"
+      },
+      "geometry": {
+        "coordinates": [
+          -0.100696,
+          51.511847
+        ],
+        "type": "Point"
+      },
+      "id": "e508a9b41c9295ee228adee9d2b1928a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Keeling House",
+        "URL": "https://www.google.com/maps/place/Keeling+House/data=!4m2!3m1!1s0x48761cc37c0d03a9:0x3629abfce9a6e333",
+        "Image": "https://i0.wp.com/heritagecalling.com/wp-content/uploads/2017/08/2-keeling-house-dp138156.jpg?resize=950%2C1285&ssl=1",
+        "Designer": "Denys Lasdun",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.061094,
+          51.530962
+        ],
+        "type": "Point"
+      },
+      "id": "e6206b0b58d3d09804b5c4d50a1f05a7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Kensington and Chelsea Town Hall",
+        "URL": "https://www.google.com/maps/place/Kensington+Town+Hall/data=!4m2!3m1!1s0x48760ff0bfbfbd9b:0x6152b1c3894b7675",
+        "Image": "https://manchesterhistory.net/architecture/1970/townhall1.jpg",
+        "Designer": "Basil Spence",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.194648,
+          51.501233
+        ],
+        "type": "Point"
+      },
+      "id": "ea1c7d1e0c433d745d994704b2543c97"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Brunel University London",
+        "URL": "https://www.google.com/maps/place/Brunel+University+London/data=!4m2!3m1!1s0x48766e0a6fcc751f:0x43eae5c365df7a7a",
+        "Image": "https://www.brunel.ac.uk/news-and-events/news/images/brunel11.jpeg?q=70&f=webp",
+        "Designer": "Richard Sheppard, Robson and Partners/Stillman & Eastwick-Field",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.476442,
+          51.533152
+        ],
+        "type": "Point"
+      },
+      "id": "ed1a02441505668edabaa55b2cdc88aa"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "No. 1 Croydon"
+      },
+      "geometry": {
+        "coordinates": [
+          -0.09108,
+          51.375048
+        ],
+        "type": "Point"
+      },
+      "id": "eda3d7bd63a1df2c96db9aef501331cd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Weston Rise Estate",
+        "URL": "https://maps.app.goo.gl/CsGCy6ox92hxERsu7",
+        "Image": "http://www.modernistlondon.co.uk/uploads/1/0/2/5/10257505/img-5497-edit_orig.jpg",
+        "Designer": "Howell, Killick, Partridge & Amis",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.115653,
+          51.530855
+        ],
+        "type": "Point"
+      },
+      "id": "ee6aceeeffb9feb11d9c3bd095d3f30b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Alexandra & Ainsworth Estate",
+        "URL": "https://www.google.com/maps/place/Alexandra+%26+Ainsworth+Estate/data=!4m2!3m1!1s0x48761a9eb2d81049:0xc11d601645b0eb28",
+        "Image": "https://www.cktravels.com/wp-content/uploads/2020/07/alexandra-estate-5.jpg",
+        "Designer": "Neave Brown",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.184563,
+          51.538778
+        ],
+        "type": "Point"
+      },
+      "id": "f02a1a089e7d6cda05a940a56e08cadf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "The Economist Building",
+        "URL": "https://maps.app.goo.gl/h9ZM1NZV1T4d8Wnn6",
+        "Image": "",
+        "Completed": "",
+        "Designer": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.138757,
+          51.506852
+        ],
+        "type": "Point"
+      },
+      "id": "f4db49b4b669da730ec9dd0e86fd3314"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Embassy of the Czech Republic",
+        "URL": "https://maps.app.goo.gl/Z28pnWPBuuGRZMXU7",
+        "Image": "https://upload.wikimedia.org/wikipedia/commons/6/61/Czech_Embassy_London_01965.JPG",
+        "Designer": "Jirí Kroha, Karel Filsak, and Josef Kotas",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.193565,
+          51.509402
+        ],
+        "type": "Point"
+      },
+      "id": "f5c7b35a4ba4409092167db902db12a5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "Weeks Hall, Imperial College",
+        "URL": "https://maps.app.goo.gl/SZ9ebJAmdxsEAcJeA",
+        "Image": "https://s3.britishlistedbuildings.co.uk/lbimg/101/263/062/101263062-98745-800.jpg",
+        "Designer": "Sheppard Robson & Partners",
+        "Completed": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -0.171971,
+          51.500167
+        ],
+        "type": "Point"
+      },
+      "id": "feda3d64001ecce14e7f5101d511fb84"
+    }
+  ],
+  "type": "FeatureCollection"
 }

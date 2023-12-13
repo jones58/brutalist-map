@@ -47,7 +47,7 @@ A map for discovering London's Brutalist buildings, built using Mapbox's API.
 
 - Edit geojson dataset
 
-  - Add Alton Estate, pimlico academy, crescent house, economist building, baynard house, lunar house, No. 1 Croydon, national sports centre to geojson.
+  - fill in data for alton west estate, economist, lunar house, baynard house, no 1 croydon, national sports centre to geojson.
   - Add "completed: " for each
   - western section of the Alton Estate in Roehampton, the most direct imitation of Corbusier's 'Cite Radieuse' concept to be found in the UK.
   - Maybe add more info url to json and add to popup with js.
