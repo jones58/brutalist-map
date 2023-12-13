@@ -45,9 +45,12 @@ A map for discovering London's Brutalist buildings, built using Mapbox's API.
 
 ## TODO:
 
-- Edit geojson dataset, "designed by: " "completed: ", " - finish doing this and upload.
-- Add Alton Estate to geojson.
-- Maybe add more info url to json and add to popup with js.
+- Edit geojson dataset
+
+  - Add "completed: " for each
+  - Add Alton Estate to geojson.
+  - Maybe add more info url to json and add to popup with js.
+  - Finish and upload geojson file
 
 - Edit popup size for mobile - atm it's too big and covers visited count (see on personal phone).
 - Edit media queries for tablet

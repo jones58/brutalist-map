@@ -791,7 +791,9 @@
                 "Title": "Queen Elizabeth Hall",
                 "URL": "https://www.google.com/maps/place/Queen+Elizabeth+Hall+Roof+Garden+Bar+%26+Cafe/data=!4m2!3m1!1s0x487604b7dd7b934f:0x2a93681dab24d666",
                 "Image":"https://photoeverywhere.co.uk/britain/london/slides/brutalist_queen_elizabeth_hallP1049786.jpg",
-                "Description":"Designed by a team led by Hubert Bennett, head of the architects department of the Greater London Council, with Jack Whittle, F.G. West and Geoffrey Horsefall."
+                "Designer": "Hubert Benett, Jack Whittle, Geoffrey Horsefall and F.G. West",
+                "Completed":""
+
             },
             "geometry": {
                 "coordinates": [
@@ -808,7 +810,8 @@
                 "Title": "Lambeth Towers",
                 "URL": "https://maps.app.goo.gl/jDr9wnMMpKSkdqtr8",
                 "Image":"https://manchesterhistory.net/architecture/1960/lambethtower5.jpg",
-                "Description":"Designed by George Finch."
+                "Designer": "George Finch",
+                "Completed":""
             },
             "geometry": {
                 "coordinates": [
@@ -825,7 +828,8 @@
                 "Title": "Worlds End Estate",
                 "URL": "https://www.google.com/maps/place/Worlds+End+Estate/data=!4m2!3m1!1s0x4876057b0734665d:0x4091e91b6a8fc437",
                 "Image":"https://www.worlds-end.org.uk/pics/worlds_end_from_the_air.png",
-                "Description":"Designed by the architectural firm Eric Lyons & Partners."
+                "Designer": "Eric Lyons & Partners",
+                "Completed":""
             },
             "geometry": {
                 "coordinates": [
@@ -842,7 +846,9 @@
                 "Title": "Ministry of Justice Offices",
                 "URL": "https://maps.app.goo.gl/RqvZ5jNDZyeEHu9Y9",
                 "Image":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/HomeOffice_QueenAnnesGate.jpg/1024px-HomeOffice_QueenAnnesGate.jpg",
-                "Description":"Designed by Basil Spence."
+                "Designer": "Basil Spence",
+                "Completed":""
+
             },
             "geometry": {
                 "coordinates": [
@@ -859,7 +865,9 @@
                 "Title": "45 Park Lane",
                 "URL": "https://www.google.com/maps/place/45+Park+Lane/data=!4m2!3m1!1s0x4876052fd30ef46d:0xc7222b8995002d19",
                 "Image":"https://imageio.forbes.com/specials-images/imageserve/5d60495068cb0a0008c03d1d/45-Park-Lane-by-night/0x0.jpg?format=jpg&crop=2330,3780,x60,y0,safe&width=1440",
-                "Description":"Designed by Paul Davis + Partners with The Office of Thierry W. Despont."
+                "Designer": "Paul Davis + Partners",
+                "Completed":""
+
             },
             "geometry": {
                 "coordinates": [
@@ -876,7 +884,9 @@
                 "Title": "Royal College of Art Darwin Building",
                 "URL": "https://maps.app.goo.gl/SJnck4hzArS4g8gh6",
                 "Image":"https://rca-media.rca.ac.uk/images/RCA-10-13-781.width-750.jpg",
-                "Description":"Designed by the architectural firm HOK (formerly known as Hellmuth, Obata + Kassabaum)."
+                "Designer": "HOK",
+                "Completed":""
+
             },
             "geometry": {
                 "coordinates": [
@@ -893,7 +903,8 @@
                 "Title": "Metropolitan Police Central Communications Command Centre, Lambeth",
                 "URL": "https://www.google.com/maps/place/Metropolitan+Police+Central+Communications+Command+Centre,+Lambeth/data=!4m2!3m1!1s0x487604c008da9239:0xd5441f127de91141",
                 "Image":"https://www.kathmanduandbeyond.com/wp-content/uploads/2021/01/Metropolitan-Police-Forensic-Science-Laboratory-London-England-15.jpg",
-                "Description":"Designed by the architectural firm Sheppard Robson."
+                "Designer": "Sheppard Robson",
+                "Completed":""
             },
             "geometry": {
                 "coordinates": [
@@ -910,7 +921,8 @@
                 "Title": "Haggerston School",
                 "URL": "https://maps.app.goo.gl/yVcxEQEBxPH1zbAx6",
                 "Image": "https://modernistpilgrimage.files.wordpress.com/2015/05/img_2382.jpg",
-                "Description": "School designed by the architectural practice of Ernö Goldfinger."
+                "Designer": "Ernö Goldfinger",
+                "Completed":""
             },
             "geometry": {
                 "coordinates": [
@@ -926,8 +938,10 @@
             "properties": {
                 "Title": "Robin Hood Gardens",
                 "URL": "https://www.google.com/maps/place/Robin+Hood+Gardens/data=!4m2!3m1!1s0x487602ae809bbc61:0xcdb77e5ccab23ad1",
-                "Description": "Residential estate designed by Alison and Peter Smithson.",
-                "Image": "https://api.architectuul.org/media/514c2b7d-ce6c-4995-a5fb-4ced6d7b5f76/1312x.jpg"
+                "Image": "https://api.architectuul.org/media/514c2b7d-ce6c-4995-a5fb-4ced6d7b5f76/1312x.jpg",
+                "Designer": "Alison and Peter Smithson",
+                "Completed":""
+
             },
             "geometry": {
                 "coordinates": [
@@ -944,7 +958,8 @@
                 "Title": "St Giles Hotel",
                 "URL": "https://maps.app.goo.gl/QUP4P3ijWoSY2mfb6",
                 "Image":"https://media-cdn.tripadvisor.com/media/photo-s/03/b1/86/35/st-giles-hotel-london.jpg",
-                "Description":"Designed by the architectural firm Fitzroy Robinson & Partners."
+                "Designer": "Fitzroy Robinson & Partners",
+                "Completed":""
             },
             "geometry": {
                 "coordinates": [
@@ -961,7 +976,9 @@
                 "Title": "Cotton Gardens Estate",
                 "URL": "https://maps.app.goo.gl/SFFLYFd47MPxTsFP6",
                 "Image":"https://api.architectuul.org/media/5bc9d9fb-48f0-47f4-9b34-5e6c6d7b5e1b/1312x.jpg",
-                "Description":"Designed by George Finch & Partners."
+                "Designer": "George Finch & Partners",
+                "Completed":""
+
             },
             "geometry": {
                 "coordinates": [
@@ -978,7 +995,8 @@
                 "Title": "SOAS Library",
                 "URL": "https://www.google.com/maps/place/SOAS+Library/data=!4m2!3m1!1s0x48761b30d9a1e971:0x653021fb9efef8db",
                 "Image":"https://i0.wp.com/www.thebrutalist.co.uk/wp-content/uploads/2020/01/DSC09477_8_9.jpg?w=1500&ssl=1",
-                "Description":"Designed by Denys Lasdun & Partners."
+                "Designer": "Denys Lasdun & Partners",
+                "Completed":""
             },
             "geometry": {
                 "coordinates": [
@@ -995,7 +1013,8 @@
                 "Title": "Eros House",
                 "URL": "https://maps.app.goo.gl/GLzwSHEToHB6siZ77",
                 "Image": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Eros_house.jpg",
-                "Description": "Designed by architect Owen Luder, distinguished by its prominent sculptural forms."
+                "Designer": "Owen Luder",
+                "Completed":""
             },
             "geometry": {
                 "coordinates": [
@@ -1012,7 +1031,8 @@
                 "Title": "Brixton Recreation Centre",
                 "URL": "https://www.google.com/maps/place/Brixton+Recreation+Centre/data=!4m2!3m1!1s0x4876046640c1352d:0x7bab925e4631fb68",
                 "Image":"https://www.artstreetecture.com/uploads/img/389.jpeg",
-                "Description":"Designed by George Finch & Partners"
+                "Designer": "George Finch & Partners",
+                "Completed":""
             },
             "geometry": {
                 "coordinates": [
@@ -1029,7 +1049,8 @@
                 "Title": "Dawson's Hill",
                 "URL": "https://www.google.com/maps/place/Dawson's+Hill/data=!4m2!3m1!1s0x487603c1eaef715d:0x4746d47c0a991bd0",
                 "Image": "https://api.architectuul.org/media/5bc9d588-77c4-4e25-80d1-59cc6d7b5e1b/864x.jpg",
-                "Description": "Dawson's Hill, also known as Dawson's Heights, is a distinctive residential complex designed by architect Kate Macintosh, offering unique communal spaces and striking geometric forms."
+                "Designer": "Kate Macintosh",
+                "Completed":""
             },
             "geometry": {
                 "coordinates": [
@@ -1046,7 +1067,8 @@
                 "Title": "National Theatre Studio",
                 "URL": "https://maps.app.goo.gl/eAjjbN8X8WUEwwG98",
                 "Image":"https://www.london-se1.co.uk/whatson/imageuploads/1233502647_80.177.117.97.jpg",
-                "Description":"Designed by Denys Lasdun & Partners."
+                "Designer": "Denys Lasdun & Partners",
+                "Completed":""
             },
             "geometry": {
                 "coordinates": [
@@ -1063,7 +1085,8 @@
                 "Title": "Hyde Park Barracks",
                 "URL": "https://maps.app.goo.gl/GeQz3GDhrfNhmrwj8",
                 "Image":"https://brutalistconstructions.files.wordpress.com/2015/11/img_1534.jpg",
-                "Description":"Designed by Basil Spence."
+                "Designer": "Basil Spence",
+                "Completed":""
             },
             "geometry": {
                 "coordinates": [
@@ -1080,7 +1103,8 @@
                 "Title": "Keeling House",
                 "URL": "https://www.google.com/maps/place/Keeling+House/data=!4m2!3m1!1s0x48761cc37c0d03a9:0x3629abfce9a6e333",
                 "Image": "https://i0.wp.com/heritagecalling.com/wp-content/uploads/2017/08/2-keeling-house-dp138156.jpg?resize=950%2C1285&ssl=1",
-                "Description": "16-storey block of flats designed by Denys Lasdun"
+                "Designer": "Denys Lasdun",
+                "Completed":""
             },
             "geometry": {
                 "coordinates": [
@@ -1097,7 +1121,8 @@
                 "Title": "Kensington and Chelsea Town Hall",
                 "URL": "https://www.google.com/maps/place/Kensington+Town+Hall/data=!4m2!3m1!1s0x48760ff0bfbfbd9b:0x6152b1c3894b7675",
                 "Image":"https://manchesterhistory.net/architecture/1970/townhall1.jpg",
-                "Description":"Designed by Basil Spence."
+                "Designer": "Basil Spence",
+                "Completed":""
             },
             "geometry": {
                 "coordinates": [
@@ -1114,7 +1139,8 @@
                 "Title": "Brunel University London",
                 "URL": "https://www.google.com/maps/place/Brunel+University+London/data=!4m2!3m1!1s0x48766e0a6fcc751f:0x43eae5c365df7a7a",
                 "Image":"https://www.brunel.ac.uk/news-and-events/news/images/brunel11.jpeg?q=70&f=webp",
-                "Description":"Designed by Richard Sheppard, Robson and Partners/Stillman & Eastwick-Field."
+                "Designer": "Richard Sheppard, Robson and Partners/Stillman & Eastwick-Field",
+                "Completed":""
             },
             "geometry": {
                 "coordinates": [
@@ -1131,7 +1157,9 @@
                 "Title": "Weston Rise Estate",
                 "URL": "https://maps.app.goo.gl/CsGCy6ox92hxERsu7",
                 "Image":"http://www.modernistlondon.co.uk/uploads/1/0/2/5/10257505/img-5497-edit_orig.jpg",
-                "Description":"Designed by Howell, Killick, Partridge & Amis."
+                "Designer": "Howell, Killick, Partridge & Amis",
+                "Completed":""
+
             },
             "geometry": {
                 "coordinates": [
@@ -1147,8 +1175,9 @@
             "properties": {
                 "Title": "Alexandra & Ainsworth Estate",
                 "URL": "https://www.google.com/maps/place/Alexandra+%26+Ainsworth+Estate/data=!4m2!3m1!1s0x48761a9eb2d81049:0xc11d601645b0eb28",
-                "Description": "Residential complex celebrated for its pioneering architectural approach, exemplifying a blend of modernist principles and community-focused design envisioned by architect Neave Brown.",
-                "Image": "https://www.cktravels.com/wp-content/uploads/2020/07/alexandra-estate-5.jpg"
+                "Image": "https://www.cktravels.com/wp-content/uploads/2020/07/alexandra-estate-5.jpg",
+                "Designer": "Neave Brown",
+                "Completed":""
             },
             "geometry": {
                 "coordinates": [
@@ -1165,7 +1194,8 @@
                 "Title": "Embassy of the Czech Republic",
                 "URL": "https://maps.app.goo.gl/Z28pnWPBuuGRZMXU7",
                 "Image":"https://upload.wikimedia.org/wikipedia/commons/6/61/Czech_Embassy_London_01965.JPG",
-                "Description":"Designed by architects Jirí Kroha, Karel Filsak, and Josef Kotas."
+                "Designer": "Jirí Kroha, Karel Filsak, and Josef Kotas",
+                "Completed":""
             },
             "geometry": {
                 "coordinates": [
@@ -1182,7 +1212,9 @@
                 "Title": "Weeks Hall, Imperial College",
                 "URL": "https://maps.app.goo.gl/SZ9ebJAmdxsEAcJeA",
                 "Image":"https://s3.britishlistedbuildings.co.uk/lbimg/101/263/062/101263062-98745-800.jpg",
-                "Description":"Designed by Sheppard Robson and Partners."
+                "Designer": "Sheppard Robson & Partners",
+                "Completed":""
+
             },
             "geometry": {
                 "coordinates": [
