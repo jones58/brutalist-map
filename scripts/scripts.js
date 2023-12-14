@@ -227,7 +227,7 @@ description.addEventListener("click", () => {
   hidePopup();
   const brutalistPopup = document.getElementById("brutalist-popup");
   brutalistPopup.innerHTML = `<h1>What is Brutalism? </h1>
-  <div><p>Brutalism is an architectural style that emerged in the 1950s. It is characterized by its use of raw, unfinished concrete, bold geometric shapes, and an expressive design approach. The term "brutalism" originates from Le Corbusier's phrase in French : "béton brut," which means "raw concrete." <p></div>
+  <div><p>Brutalism is an architectural style that emerged in the 1950s. It is characterized by its use of raw, unfinished concrete, bold geometric shapes, and an expressive design approach. The term "brutalism" originates from Le Corbusier's phrase in French : "béton brut," which means "raw concrete." <p></div> <h1>Why London?</h1> <div><p>London has some of the best examples of Brutalism in the world. After World War II, a group of idealists began to rebuild the city in concrete. What remain are some of the most striking civic and housing buildings ever built. </p></div>
   <svg id="3541" "xmlns="http://www.w3.org/2000/svg" viewBox="0 0 579.85 580.86" onclick="hideBrutalistPopup()">
       <defs>
         <style>
