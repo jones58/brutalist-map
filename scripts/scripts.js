@@ -167,7 +167,7 @@ function setCounter() {
   ).length;
   console.log(buildingsVisited);
   document.getElementById("counter").innerHTML =
-    "Visited: " + buildingsVisited + "/73";
+    "Visited: " + buildingsVisited + "/72";
 }
 
 setCounter();

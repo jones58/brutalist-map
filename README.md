@@ -68,19 +68,24 @@ A map for discovering London's Brutalist buildings, built using Mapbox's API.
   - reddit
     - Brutalist
     - London
+    - Architecture
+    - any other joined communities
   - family
   - friends etc.
+  - social media like twitter
 
 ### Maybe
 
 - add places from here: https://www.google.com/maps/d/u/0/viewer?mid=1zc9ox2h5xRkaEka7QH_3iHVG0Ho&hl=ja&ll=51.56555320000002%2C-0.14188889999998122&z=11
   and from brutal london book.
+  - Holmefield House
 - Add more info url to json and add to popup with js.
 - Get photos with google places api: https://developers.google.com/maps/documentation/places/web-service/place-photos.
 - Edit mapbox studio data so highlights whole building not just dot.
   - Change color when hover/click on it.
 - Add css bootstrap.
 - Move to custom domain like: londonbrutalistmap.com
+- intro page like on https://www.get-into-gizz.com/
 
 ## Resources:
 
