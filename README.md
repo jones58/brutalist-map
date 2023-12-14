@@ -47,11 +47,6 @@ A map for discovering London's Brutalist buildings, built using Mapbox's API.
 
 ## TODO:
 
-- Edit geojson dataset
-
-  - finish adding completed dates for each from dowgate fire station downwards.
-  - Finish above and upload geojson file
-
 - Edit media queries
 
   - Edit media queries for tablet
@@ -70,15 +65,99 @@ A map for discovering London's Brutalist buildings, built using Mapbox's API.
     - London
     - Architecture
     - any other joined communities
+  - simon phipps etc.
+  - https://www.google.com/maps/d/u/0/viewer?mid=1zc9ox2h5xRkaEka7QH_3iHVG0Ho&hl=ja&ll=51.50501640618957%2C-0.20974870825261616&z=11 email on here
+  - Londonist
+  - Ian visits
   - family
   - friends etc.
   - social media like twitter
 
 ### Maybe
 
-- add places from here: https://www.google.com/maps/d/u/0/viewer?mid=1zc9ox2h5xRkaEka7QH_3iHVG0Ho&hl=ja&ll=51.56555320000002%2C-0.14188889999998122&z=11
-  and from brutal london book.
-  - Holmefield House
+- Add:
+
+1. Holmefield House
+2. Guy's Tower SE1 - Guy's Tower (Architect: Watkins Gray, completed: 1974), part of Guy's Hospital.
+3. Carradale House
+4. Glenkerry Estate
+5. Highgate New Town Stage 1 ([Modern Architecture London](http://modernarchitecturelondon.com/buildings/highgatenewtown1.php))
+6. Milford Towers ([SOS Brutalism](https://www.sosbrutalism.org/cms/19103323))
+7. St George's Fields
+8. Jack Taylor School
+9. Maiden Lane Estate
+10. Oakshott Court
+11. Whittington Estate
+12. Camden Ambulance Station (Year: 1975)
+13. Dunboyne Road Estate (Year: 1971)
+14. Abbey Road Estate
+15. Ingestre Road Estate
+16. Morris Walk Estate
+17. Pellipar Gardens
+18. Trafalgar Estate
+19. Vanbrugh Park Estate
+20. Arden Estate (Year: 1968–72)
+21. Community Hall, Gooch House (Year: 1962–64)
+22. Clissold Park School (Year: 1967–70)
+23. Crown Estate (Year: 1967–77)
+24. De Beauvoir Estate (Year: 1965–75)
+25. Lincoln Court (Year: 1969)
+26. Lockner Estate (Year: c.1968)
+27. Shoreditch Fire Station (Year: 1964)
+28. Angel Walk
+29. Ashcroft Square
+30. Malabar Court
+31. City University (Year: 1960–76)
+32. Earlstoke Estate (Year: 1972–76)
+33. Elia Mews (Late 1960s)
+34. Marquess Estate (Year: 1966–76)
+35. Quaker Court (Year: 1967)
+36. Triangle Estate (Year: 1970–76)
+37. St Thomas’ Hospital
+38. Kensington Place
+39. Pepys Estate
+40. Brunswick Park School (Year: 1961–62)
+41. Heygate Estate
+42. Perronet House (Year: 1969)
+43. Sampson House (Year: 1976–79)
+44. Wyndham and Comber Estate (Year: 1965–67)
+45. Yarnfield Square (Year: 1968–69)
+46. Ashington House (Year: 1971)
+47. Charles Hayward Research Building
+48. Newling Estate (Year: 1963)
+49. St Paul's Church (Year: 1960)
+50. Doddington and Rollo Estate (Year: 1967–71)
+51. York Road Estate (Year: 1967–73)
+52. College of Engineering and Science (Year: 1965–70)
+53. Paddington Fire Station (Year: 1969)
+54. Post Office Tower (Year: 1961–64)
+55. Queen Anne’s Gate (Year: 1976)
+56. Sidmouth House (Year: 1972)
+57. Middlesex Street Estate (Year: 1965–75)
+58. Museum of London (Year: 1976)
+59. St Paul’s Cathedral School (Year: 1962–67)
+60. Branch Hill Estate
+61. St James' Places
+62. Allbrook House and Roehampton Library
+63. Coralline Walk
+64. Wates Blocks
+65. Kate Macintosh: 269 Leigham Court Road
+66. Peter Moro: Showroom Hille (Furniture Hille), London, Great Britain, ?-1963
+67. Cranbrook Estate
+68. Perronet House
+69. Renton Howard Wood Partnership: Tower Hotel, London, Great Britain, ?-1973
+70. Lyons, Israel and Ellis: Wolfson Institute, Hammersmith Hospital, London, Great Britain, ?-1961
+71. Gillian Howell / William G. Howell / Stanley Amis: 20th Century Building on South Hill Park, NW3, London, Great Britain,?-1956
+72. Tom Kay: Workshops & Housing, Loudoun Road, London, Great Britain, 1974?-1980
+73. Owen Luder: Catford Centre, London, Great Britain, 1974°
+74. Austin-Smith, Salmon, Lord Partnership: Hinstock Flats, London, Great Britain, 1965
+75. South Norwood Library
+76. Owen Luder Partnership: Consort House, London, Great Britain, 1970
+77. C. Lovett Gill & Partners: Imperial Hotel, London, Great Britain, 1966C-1970
+78. Central Hill Estate
+79. Colin St. John Wilson / Peter Carter / Alan Colquhoun: Gascoyne Estate, Bentham Road, London, Great Britain,?-1955
+80. Robert Giles ARIBA: Hammersmith and West London College, London, Great Britain, 1976C-1980
+
 - Add more info url to json and add to popup with js.
 - Get photos with google places api: https://developers.google.com/maps/documentation/places/web-service/place-photos.
 - Edit mapbox studio data so highlights whole building not just dot.
