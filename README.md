@@ -176,7 +176,8 @@ A map for discovering London's Brutalist buildings, built using Mapbox's API.
 - https://www.youtube.com/watch?v=UWhuHiL8Pug
 - https://www.youtube.com/watch?v=TvKi_hsJf3c
 - https://www.bloomberg.com/news/articles/2015-11-25/the-case-for-calling-brutalism-heroic-instead
-  https://www.langhamhouseclose.com/
+- https://www.langhamhouseclose.com/
+- Brutal London, Simon Phipps
 
 ### Maps:
 
