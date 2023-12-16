@@ -47,18 +47,16 @@ A map for discovering London's Brutalist buildings, built using Mapbox's API.
 
 ## TODO:
 
-- Add to mapbox:
-
-- Edit media queries
-
-  - Edit media queries for tablet
-  - Keep testing and editing for different screen sizes. Use chrome, safari, firefox. Also browserstack and 192.168.0.254... on phone.
-  - Edit popup size for mobile - atm it's too big and covers visited count (see on personal phone). Could get around this by hiding github link on mobile maybe.
+- Edit popup size for mobile - atm it's too big and covers visited count (see on personal phone). Could get around this by hiding github link on mobile maybe.
 
 - Accessibility
 
   - Go through docs and see if there are any accessibility issues.
   - check in lighthouse.
+
+- different colour marker for if visited
+
+- Keep testing and editing for different screen sizes. Use chrome, safari, firefox. Also browserstack and 192.168.0.254... on phone.
 
 - Share it
   - cohort
@@ -77,6 +75,8 @@ A map for discovering London's Brutalist buildings, built using Mapbox's API.
 
 ### Maybe
 
+- filter by option, e.g. architect, area, material
+- material type: brick etc. with the designed and completed labels.
 - Add more info url to json and add to popup with js.
 - Get photos with google places api: https://developers.google.com/maps/documentation/places/web-service/place-photos.
 - Edit mapbox studio data so highlights whole building not just dot.

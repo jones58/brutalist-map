@@ -192,32 +192,58 @@ footer button:hover {
 }
 
 /* Media Queries */
-@media only screen and (max-width: 1077px) {
-  /* Tablet and Mobile */
+@media only screen and (max-width: 1116px) {
+  /* Tablet */
   #title {
-    font-size: 18px;
+    font-size: 30px;
   }
 
   #description {
-    font-size: 15px;
+    font-size: 20px;
   }
 
   .popup {
     top: 10vh;
   }
-  .popup h1,
-  .popup h2 {
+  .popup h1 {
     font-size: 30px;
   }
 
   .popup p,
   .popup a,
   .popup label {
-    font-size: 15px;
+    font-size: 20px;
+  }
+
+  .popup img {
+    width: 300px;
+    height: 300px;
+    left: 0;
+    top: 30vh;
+  }
+
+  .popup svg {
+    width: 150px;
+    height: 150px;
+    top: 65vh;
+    left: 0vw;
+  }
+
+  .popup #checkbox-container svg {
+    width: 150px;
+    height: 150px;
+    top: 65vh;
+    left: 150px;
+    right: unset;
+  }
+
+  footer {
+    justify-content: space-between;
+    padding: 1vh 5vw;
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
   /* Mobile */
   header {
     display: none;
@@ -301,7 +327,7 @@ footer button:hover {
     height: 20vh;
     padding: 0vh 5vw;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
 }
 
