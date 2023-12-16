@@ -47,16 +47,18 @@ A map for discovering London's Brutalist buildings, built using Mapbox's API.
 
 ## TODO:
 
-- Edit popup size for mobile - atm it's too big and covers visited count (see on personal phone). Could get around this by hiding github link on mobile maybe.
+- Different colour marker for if visited -
+
+/_ change marker color based on if feature exists in local storage _/
 
 - Accessibility
 
   - Go through docs and see if there are any accessibility issues.
-  - check in lighthouse.
-
-- different colour marker for if visited
+  - Check in Lighthouse.
 
 - Keep testing and editing for different screen sizes. Use chrome, safari, firefox. Also browserstack and 192.168.0.254... on phone.
+
+  -Edit popup size for mobile - atm it's too big and covers visited count (see on personal phone).
 
 - Share it
   - cohort

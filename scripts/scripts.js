@@ -199,7 +199,7 @@ clickCounter.addEventListener("click", () => {
         <path id="path3565" class="cls-4" d="M244.24,458.97L64.04,278.77,244.24,98.58h118.85L226.02,235.64H495.36v87.23H226.98l136.32,136.32-119.06-.22Z"/>
       </g>
     </svg>`;
-  // getting the geojson data from file for list of places//
+  // getting the local storage keys for list of places//
   const buildingsVisited = Object.keys(localStorage).filter(
     (key) => !/mapbox/.test(key)
   );
@@ -255,7 +255,9 @@ function hideBrutalistPopup() {
   BrutalistPopup.classList.add("hidden");
 }
 
-/* fetching from local geojson file - potentially useful later on
+/* change marker color based on if feature exists in local storage */
+
+/* fetching from local geojson file - use this to set latitude longitude of where marker should be
  fetch("mapbox-data/features.geojson")
 .then((response) => response.json())
 .then((data) => {
