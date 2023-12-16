@@ -49,7 +49,7 @@ A map for discovering London's Brutalist buildings, built using Mapbox's API.
 
 - Different colour marker for if visited -
 
-/_ change marker color based on if feature exists in local storage _/
+- change marker color based on if feature exists in local storage \_/
 
 - Accessibility
 
