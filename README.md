@@ -47,6 +47,8 @@ A map for discovering London's Brutalist buildings, built using Mapbox's API.
 
 ## TODO:
 
+- fix brunel university designed by - atm is half gibberish. is most western place.
+
 - Different colour marker for if visited -
 
 - change marker color based on if feature exists in local storage \_/
