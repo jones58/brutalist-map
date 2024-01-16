@@ -73,6 +73,8 @@ A map for discovering London's Brutalist buildings, built using Mapbox's API.
   - https://www.google.com/maps/d/u/0/viewer?mid=1zc9ox2h5xRkaEka7QH_3iHVG0Ho&hl=ja&ll=51.50501640618957%2C-0.20974870825261616&z=11 email on here
   - Londonist
   - Ian visits
+  - I heart brutalism instagram account
+  - Owen Hatherley
   - family
   - friends etc.
   - social media like twitter
