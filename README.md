@@ -44,6 +44,7 @@ A map for discovering London's Brutalist buildings, built using Mapbox's API.
 - I wanted a list of the places visited to show up when clicking the counter (0/67 etc.). i wrapped the counter in a div to make it clickable then wrote the necessary code in js. I originally thought about writing all the places in the list by accessing the geojson file but I thought keeping the complete list viewable only in map format enhanced the experience of exploration and intrigue from the website. I don't want to serve everything to visitors on a plate but instead let them discover places for themselves with the map. I left it to a list of the places visited, accessed via the saved local storage keys.
 - added an underline on hover to the links (github, list of places visited, description of brutalism) to make it more clear they are clickable on desktop.
 - added a description of what brutalism is in a popup when clicking on the description of the map.
+- shared with the world (friends, reddit, email, twitter, )
 
 ## TODO:
 
@@ -61,23 +62,6 @@ A map for discovering London's Brutalist buildings, built using Mapbox's API.
 - Keep testing and editing for different screen sizes. Use chrome, safari, firefox. Also browserstack and 192.168.0.254... on phone.
 
   -Edit popup size for mobile - atm it's too big and covers visited count (see on personal phone).
-
-- Share it
-  - cohort
-  - reddit
-    - Brutalist
-    - London
-    - Architecture
-    - any other joined communities
-  - simon phipps etc.
-  - https://www.google.com/maps/d/u/0/viewer?mid=1zc9ox2h5xRkaEka7QH_3iHVG0Ho&hl=ja&ll=51.50501640618957%2C-0.20974870825261616&z=11 email on here
-  - Londonist
-  - Ian visits
-  - I heart brutalism instagram account
-  - Owen Hatherley
-  - family
-  - friends etc.
-  - social media like twitter
 
 ### Maybe
 
