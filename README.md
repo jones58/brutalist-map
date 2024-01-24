@@ -48,11 +48,15 @@ A map for discovering London's Brutalist buildings, built using Mapbox's API.
 
 ## TODO:
 
+- Couple of thoughts
+- It would be good if I could close the information for a building and see the entire map again. (seems the arrow does this but not very intuitive
+- Tooltips when I hover over a dot would also make it much more usable
+
 - fix brunel university designed by - atm is half gibberish. is most western place.
 
 - Different colour marker for if visited -
 
-- change marker color based on if feature exists in local storage \_/
+- change marker color based on if feature exists in local storage
 
 - Accessibility
 
@@ -62,6 +66,8 @@ A map for discovering London's Brutalist buildings, built using Mapbox's API.
 - Keep testing and editing for different screen sizes. Use chrome, safari, firefox. Also browserstack and 192.168.0.254... on phone.
 
   -Edit popup size for mobile - atm it's too big and covers visited count (see on personal phone).
+
+- Add: https://commons.m.wikimedia.org/wiki/Category:St_Laurence_Church,_Catford + https://www.google.com/maps/@51.506232,-0.0877861,3a,75y,86.2h,103.38t/data=!3m6!1e1!3m4!1sqipjXXyY7azRH5kdluAQeQ!2e0!7i16384!8i8192?entry=ttu
 
 ### Maybe
 
