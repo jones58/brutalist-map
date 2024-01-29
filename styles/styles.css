@@ -261,6 +261,7 @@ footer button:hover {
     height: 80vh;
     width: 100vw;
     z-index: 2;
+    overflow-y: auto;
   }
 
   .popup h1,
@@ -279,6 +280,7 @@ footer button:hover {
   }
 
   .popup div {
+    height: 80vh;
     padding: 0 5vw;
     display: flex;
     flex-direction: column;
