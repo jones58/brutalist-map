@@ -42,8 +42,9 @@ const onClick = (event) => {
   hideNewPopup();
   // find if a feature was clicked //
   const [feature] = map.queryRenderedFeatures(event.point, {
-    layers: ["brutalist-map"],
+    layers: ["brutalistmap"],
   });
+  console.log(feature);
 
   // if a feature was clicked, open a custom popup at the location of the feature with HTML from its properties //
 

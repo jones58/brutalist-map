@@ -49,8 +49,11 @@ A map for discovering London's Brutalist buildings, built using Mapbox's API.
 
 ## TODO:
 
+- Fix clicking on map not working.
+
 - Split into different js files for easier editing, potentially also css files.
 - Tooltips on hover over feature.
+  -maybe onHover function that runs similar to the onclick one, where feature etc.
 - Different colour marker for if visited
 
   - change marker color based on if feature exists in local storage
@@ -63,7 +66,7 @@ A map for discovering London's Brutalist buildings, built using Mapbox's API.
 ### Maybe later
 
 - Seeing as much of the functionality of the project is in JavaScript, I think the whole project could do with being rebuilt in React, as it is hard to navigate the codebase at the moment, something a component based architecture would solve.
-  - Also allows: npm install mapbox gl js rather than cdn method.
+  - Also allows: npm install mapbox gl js rather than cdn/mapbox studio method, which would mean can edit geojson much more easily etc.
 - It would be good if I could close the information for a building and see the entire map again. (seems the arrow does this but not very intuitive)
 - filter by option, e.g. architect, area, material
 - material type: brick etc. with the designed and completed labels.
