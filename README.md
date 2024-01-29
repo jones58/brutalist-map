@@ -48,8 +48,7 @@ A map for discovering London's Brutalist buildings, built using Mapbox's API.
 
 ## TODO:
 
-- Edit popup size for mobile - atm it's too big and covers visited count (see on personal phone).
-- Split into different js files.
+- Split into different js files for easier editing, potentially also css files.
 - Tooltips on hover over feature.
 - Different colour marker for if visited
 
