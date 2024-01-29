@@ -53,6 +53,7 @@ const onClick = (event) => {
     <h1>${feature.properties.Title}</h1>
     <div><p>Designed by: ${feature.properties.Designer}</p><p>Completed: ${feature.properties.Completed}</p><p><a href="${feature.properties.URL}" target="_blank">Get Directions</a></div>
     <img src="${feature.properties.Image}" alt="a photo of ${feature.properties.Title}"/>
+
     <svg id="3540 "xmlns="http://www.w3.org/2000/svg" viewBox="0 0 579.85 580.86" onclick="hidePopup()">
       <defs>
         <style>
@@ -72,6 +73,7 @@ const onClick = (event) => {
         <path id="path3565" class="cls-4" d="M244.24,458.97L64.04,278.77,244.24,98.58h118.85L226.02,235.64H495.36v87.23H226.98l136.32,136.32-119.06-.22Z"/>
       </g>
     </svg>
+
     <div id="checkbox-container"></div>
     `;
     // check the checkbox state for the current feature //
@@ -254,12 +256,3 @@ function hideBrutalistPopup() {
   const BrutalistPopup = document.getElementById("brutalist-popup");
   BrutalistPopup.classList.add("hidden");
 }
-
-/* change marker color based on if feature exists in local storage */
-
-/* fetching from local geojson file - use this to set latitude longitude of where marker should be
- fetch("mapbox-data/features.geojson")
-.then((response) => response.json())
-.then((data) => {
-  const features = data.features;
-*/
