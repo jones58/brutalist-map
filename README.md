@@ -38,12 +38,13 @@ A map for discovering London's Brutalist buildings, built using Mapbox's API.
 - I noticed that adding the checkbox was causing the back button's icon to have a thick stroke and set about trying to fix it. Changing the id for the svg was not successful so I had to change the class names inside the svg to unique numbers.
 - I initially start the design with a light and a dark mode but for the sake of simplicity, I decided to leave this out as I don't think it contributes to accessibility in its current form.
 - I realised that the visited count at the bottom was showing 2 places instead of 0 and looked in local storage to debug. I found two mapbox.event keys and used a regex to make sure they weren't counted in the visited count.
-- I noticed that touch events weren't working right on the map - I thought the solution would be to use js, linking the touch and click events but I realised through reading github issues that the solution was simpler - i simply needed to wrap the map in a div with the attribute: data-tap-disabled="true". During debugging, I found [this site](https://www.charlemagne-icon.ac.uk/trail/claverley-church-trail/) and liked the functionality of the map: the way in how clicking slightly off from the marker still opens the necessary popup - so I looked at the code. I realised this would be difficult to implement in Mapbox Studio (where the markers are made for you), so I thought of another solution. I used a wide stroke width (set to 0 opacity), so that the marker would appear 50px wider than it was to touch events but to the human eye would still be 5px.
+- I noticed that touch events weren't working right on the map - I thought the solution would be to use js, linking the touch and click events but I realised through reading github issues that the solution was simpler - i simply needed to wrap the map in a div with the attribute: data-tap-disabled="true". During debugging, I found [this site](https://www.charlemagne-icon.ac.uk/trail/claverley-church-trail/) and liked the functionality of the map: the way in how clicking slightly off from the marker still opens the necessary popup - so I looked at the code. I realised this would be difficult to implement in Mapbox Studio (where the markers are made for you), so I thought of another solution. I used a wide stroke width (set to 0 opacity), so that the marker would appear 50px (radius) wider than it was to touch events but to the human eye would still be 5px.
 - Following some user feedback, I realised it wasn't super obvious what the tick box was for without a tick in it. I changed the otherwise blank box to a faded tick, using the color #272b2f from the map. Editing the svg in Illustrator allowed me to quickly make the necessary edits to my svg file.
 - Whilst debugging the mobile CSS I used my phone and live server on the ip address of my computer to view the site on my phone.
 - I wanted a list of the places visited to show up when clicking the counter (0/67 etc.). i wrapped the counter in a div to make it clickable then wrote the necessary code in js. I originally thought about writing all the places in the list by accessing the geojson file but I thought keeping the complete list viewable only in map format enhanced the experience of exploration and intrigue from the website. I don't want to serve everything to visitors on a plate but instead let them discover places for themselves with the map. I left it to a list of the places visited, accessed via the saved local storage keys.
 - added an underline on hover to the links (github, list of places visited, description of brutalism) to make it more clear they are clickable on desktop.
 - added a description of what brutalism is in a popup when clicking on the description of the map.
+- score of 100 for accessibility on Google Lighthouse.
 - shared with the world (friends, reddit, email, twitter)
 
 ## TODO:
@@ -55,10 +56,6 @@ A map for discovering London's Brutalist buildings, built using Mapbox's API.
   - change marker color based on if feature exists in local storage
   - if in local storage etc.
 
-- Accessibility
-
-  - Check in Lighthouse etc.
-
 - Test for different screen sizes.
 
 - Add: https://commons.m.wikimedia.org/wiki/Category:St_Laurence_Church,_Catford + https://www.google.com/maps/@51.506232,-0.0877861,3a,75y,86.2h,103.38t/data=!3m6!1e1!3m4!1sqipjXXyY7azRH5kdluAQeQ!2e0!7i16384!8i8192?entry=ttu
@@ -66,6 +63,7 @@ A map for discovering London's Brutalist buildings, built using Mapbox's API.
 ### Maybe later
 
 - Seeing as much of the functionality of the project is in JavaScript, I think the whole project could do with being rebuilt in React, as it is hard to navigate the codebase at the moment, something a component based architecture would solve.
+  - Also allows: npm install mapbox gl js rather than cdn method.
 - It would be good if I could close the information for a building and see the entire map again. (seems the arrow does this but not very intuitive)
 - filter by option, e.g. architect, area, material
 - material type: brick etc. with the designed and completed labels.

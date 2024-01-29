@@ -1,7 +1,6 @@
 // Mapbox token - public but tied to this domain only through mapbox//
 mapboxgl.accessToken =
-  "pk.eyJ1Ijoiam9uZXM1ODEiLCJhIjoiY2xwNzM4Y3JpMXZ1NjJrcWswNDFrbnl1ZiJ9.Ud2Oqbe9kgEmB3U3UOH98w";
-
+  "pk.eyJ1Ijoiam9uZXM1ODEiLCJhIjoiY2xwNzAyeDVlMXlxZzJqbzVvcnBjbDZ3OCJ9.cuGt6LfugBHuqw9rJKQ2DA";
 /* set up mapbox */
 let map;
 const coordinates = [-0.1276, 51.5074]; // Initial coordinates for London
