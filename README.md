@@ -44,33 +44,30 @@ A map for discovering London's Brutalist buildings, built using Mapbox's API.
 - I wanted a list of the places visited to show up when clicking the counter (0/67 etc.). i wrapped the counter in a div to make it clickable then wrote the necessary code in js. I originally thought about writing all the places in the list by accessing the geojson file but I thought keeping the complete list viewable only in map format enhanced the experience of exploration and intrigue from the website. I don't want to serve everything to visitors on a plate but instead let them discover places for themselves with the map. I left it to a list of the places visited, accessed via the saved local storage keys.
 - added an underline on hover to the links (github, list of places visited, description of brutalism) to make it more clear they are clickable on desktop.
 - added a description of what brutalism is in a popup when clicking on the description of the map.
-- shared with the world (friends, reddit, email, twitter, )
+- shared with the world (friends, reddit, email, twitter)
 
 ## TODO:
 
-- Couple of thoughts
-- It would be good if I could close the information for a building and see the entire map again. (seems the arrow does this but not very intuitive
-- Tooltips when I hover over a dot would also make it much more usable
+- Edit popup size for mobile - atm it's too big and covers visited count (see on personal phone).
+- Split into different js files.
+- Tooltips on hover over feature.
+- Different colour marker for if visited
 
-- fix brunel university designed by - atm is half gibberish. is most western place.
-
-- Different colour marker for if visited -
-
-- change marker color based on if feature exists in local storage
+  - change marker color based on if feature exists in local storage
+  - if in local storage etc.
 
 - Accessibility
 
-  - Go through docs and see if there are any accessibility issues.
-  - Check in Lighthouse.
+  - Check in Lighthouse etc.
 
-- Keep testing and editing for different screen sizes. Use chrome, safari, firefox. Also browserstack and 192.168.0.254... on phone.
-
-  -Edit popup size for mobile - atm it's too big and covers visited count (see on personal phone).
+- Test for different screen sizes.
 
 - Add: https://commons.m.wikimedia.org/wiki/Category:St_Laurence_Church,_Catford + https://www.google.com/maps/@51.506232,-0.0877861,3a,75y,86.2h,103.38t/data=!3m6!1e1!3m4!1sqipjXXyY7azRH5kdluAQeQ!2e0!7i16384!8i8192?entry=ttu
 
-### Maybe
+### Maybe later
 
+- Seeing as much of the functionality of the project is in JavaScript, I think the whole project could do with being rebuilt in React, as it is hard to navigate the codebase at the moment, something a component based architecture would solve.
+- It would be good if I could close the information for a building and see the entire map again. (seems the arrow does this but not very intuitive)
 - filter by option, e.g. architect, area, material
 - material type: brick etc. with the designed and completed labels.
 - Add more info url to json and add to popup with js.
