@@ -119,8 +119,8 @@ footer button:hover {
 
 .marker {
   background-color: #d81e5b;
-  width: 10px;
-  height: 10px;
+  width: 11px;
+  height: 11px;
   border-radius: 50%;
   cursor: pointer;
 }
@@ -274,8 +274,8 @@ footer button:hover {
 
   .popup h1,
   .popup h2 {
-    font-size: 25px;
-    line-height: 27px;
+    font-size: 30px;
+    line-height: 35px;
     padding: 5vh 5vw 0vh 5vw;
   }
 
