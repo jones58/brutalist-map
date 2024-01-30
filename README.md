@@ -51,10 +51,7 @@ A map for discovering London's Brutalist buildings, built using Mapbox's API.
 
 ## TODO:
 
-- Tooltips on hover over feature - in hover.js.
-  -maybe onHover function that runs similar to the onclick one, where feature etc.
-
-- Test for different screen sizes.
+- Name on hover over - in hover.js.
 
 - Improve SEO.
 
