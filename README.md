@@ -23,6 +23,7 @@ A map for discovering London's Brutalist buildings, built using Mapbox's API.
   - Edited Geojson to add properties title and a google maps link to be displayed in the popup.
 - changed colours in mapbox studio to match the rest of the site (white labels, white background for light mode)
 - added favicon
+- Next I wanted to change the colour of the markers on the map based on whether buildings had been visited or not (ie if they were in local storage). This proved difficult to do with mapbox studio and the markers i had originally made in there, so I decided to make my own markers based on the geojson file i have. I was then able to manipulate these markers based on local storage.
 
 ## Debugging:
 

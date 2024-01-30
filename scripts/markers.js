@@ -12,6 +12,7 @@ fetch("mapbox-data/features.geojson")
       // add marker to DOM //
       const myMarker = document.createElement("div");
       myMarker.className = "marker";
+      myMarker.id = properties.Title;
 
       //if visited (i.e. in local storage), green, if not visited defaults to css colour for marker (red) //
       if (localStorage.getItem(properties.Title)) {
@@ -25,4 +26,17 @@ fetch("mapbox-data/features.geojson")
     });
   });
 
-// edit marker colours when local storage changes //
+// edit marker colours when visited - using set timeout to update every 20ms to check marker colours //
+
+function updateMarkers() {
+  const markers = document.querySelectorAll(".marker");
+  markers.forEach((marker) => {
+    if (localStorage.getItem(marker.id)) {
+      marker.style.backgroundColor = "#00BD9D";
+    } else {
+      marker.style.backgroundColor = "red";
+    }
+  });
+}
+
+setInterval(updateMarkers, 20);
