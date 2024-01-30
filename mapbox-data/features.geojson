@@ -212,6 +212,25 @@
     {
       "type": "Feature",
       "properties": {
+        "Completed": 1973,
+        "Designer": "E.G. Chandler",
+        "Image": "https://s0.geograph.org.uk/geophotos/06/31/71/6317192_ed5dcafd_original.jpg",
+        "Title": "Colechurch House",
+        "URL": "https://maps.app.goo.gl/5ftZ74fDB3S4YGoY8",
+        "geometry": "point"
+      },
+      "geometry": {
+        "coordinates": [
+          -0.087056,
+          51.506179
+        ],
+        "type": "Point"
+      },
+      "id": "2cb46d2afc84c895794bf9a34a47eb9f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "altitude": "",
         "geometry": "Point",
         "Title": "St George's Fields estate",
@@ -1246,7 +1265,7 @@
         "Title": "Brunel University London",
         "URL": "https://www.google.com/maps/place/Brunel+University+London/data=!4m2!3m1!1s0x48766e0a6fcc751f:0x43eae5c365df7a7a",
         "Image": "https://www.brunel.ac.uk/news-and-events/news/images/brunel11.jpeg?q=70&f=webp",
-        "Designer": "Richard Sheppard, Robson and Mmc3JjPWh0dHBzJTNBJTJGJTJGaGVhcnRicnV0LmNvbSUyRndwLWNvbnRlbnQlMkZ1cGxvYWRzJTJGMjAxOSUyRjA1JTJGMDUxNTE5LVVDTC1JTlNUSVRVVEVPRkVEVUNBVElPTi0lMjVDMiUyNUE5SEVBUlRCUlVULTcwMHB4LTMuanBnJmNhY2hlTWFya2VyPTE2MDMzNzgxMjQtNTE3Nzg5JnRva2VuPThmMDY2YTlmZDhhODI2NDI",
+        "Designer": "Richard Sheppard, Robson and Partners/Stillman & Eastwick-Field",
         "Completed": "1971",
         "": ""
       },
@@ -1426,6 +1445,25 @@
         "type": "Point"
       },
       "id": "c1b40c01fb134d52777ad3f5c8e43d10"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Title": "St Laurence Church",
+        "Completed": 1968,
+        "Designer": "Ralph Covell",
+        "Image": "https://images.squarespace-cdn.com/content/v1/5b44be3cc3c16af918e04f36/1569410315525-I87RW3JL8EW616TMG63P/01-ST+LAWRENCE-HR2-LOW+RES.jpg?format=1500w",
+        "URL": "https://maps.app.goo.gl/2Sf1AT8PYmTCHjPR6",
+        "geometry": "Point"
+      },
+      "geometry": {
+        "coordinates": [
+          -0.019786,
+          51.44242
+        ],
+        "type": "Point"
+      },
+      "id": "c4cd9f59722b0e777f5acba5969b137b"
     },
     {
       "type": "Feature",
