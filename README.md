@@ -23,7 +23,7 @@ A map for discovering London's Brutalist buildings, built using Mapbox's API.
   - Edited Geojson to add properties title and a google maps link to be displayed in the popup.
 - changed colours in mapbox studio to match the rest of the site (white labels, white background for light mode)
 - added favicon
-- Next I wanted to change the colour of the markers on the map based on whether buildings had been visited or not (ie if they were in local storage). This proved difficult to do with mapbox studio and the markers i had originally made in there, so I decided to make my own markers based on the geojson file i have. I was then able to manipulate these markers based on local storage.
+- Next I wanted to change the colour of the markers on the map based on whether buildings had been visited or not (ie if they were in local storage). This proved difficult to do with mapbox studio and the markers i had originally made in there, so I decided to make my own markers based on the geojson file i have. I was then able to manipulate these markers based on local storage. I noticed the colour was only changing on refresh and couldn't work out how to change the colour based on local storage change, so I just used a timeout function to update the colour every 20ms.
 
 ## Debugging:
 
@@ -51,17 +51,14 @@ A map for discovering London's Brutalist buildings, built using Mapbox's API.
 
 ## TODO:
 
-- add markers on top of map based on geojson.
-
-- Tooltips on hover over feature.
+- Tooltips on hover over feature - in hover.js.
   -maybe onHover function that runs similar to the onclick one, where feature etc.
-- Different colour marker for if visited, change marker color based on if feature exists in local storage
 
 - Test for different screen sizes.
 
 - Improve SEO.
 
-- Add: https://commons.m.wikimedia.org/wiki/Category:St_Laurence_Church,_Catford + https://www.google.com/maps/@51.506232,-0.0877861,3a,75y,86.2h,103.38t/data=!3m6!1e1!3m4!1sqipjXXyY7azRH5kdluAQeQ!2e0!7i16384!8i8192?entry=ttu
+- Add: St Laurence Church Catford and Colechurch House.
 
 ### Maybe later
 
