@@ -46,20 +46,19 @@ A map for discovering London's Brutalist buildings, built using Mapbox's API.
 - added a description of what brutalism is in a popup when clicking on the description of the map.
 - score of 100 for accessibility on Google Lighthouse.
 - shared with the world (friends, reddit, email, twitter)
+- I found it difficult to edit the site when I came back to it, so I decided to split the js file into two files, one for the map and one for the popup to make it easier to edit.
 
 ## TODO:
 
-- Fix clicking on map not working.
+- add markers on top of map based on geojson.
 
-- Split into different js files for easier editing, potentially also css files.
 - Tooltips on hover over feature.
   -maybe onHover function that runs similar to the onclick one, where feature etc.
-- Different colour marker for if visited
-
-  - change marker color based on if feature exists in local storage
-  - if in local storage etc.
+- Different colour marker for if visited, change marker color based on if feature exists in local storage
 
 - Test for different screen sizes.
+
+- Improve SEO.
 
 - Add: https://commons.m.wikimedia.org/wiki/Category:St_Laurence_Church,_Catford + https://www.google.com/maps/@51.506232,-0.0877861,3a,75y,86.2h,103.38t/data=!3m6!1e1!3m4!1sqipjXXyY7azRH5kdluAQeQ!2e0!7i16384!8i8192?entry=ttu
 
@@ -67,7 +66,8 @@ A map for discovering London's Brutalist buildings, built using Mapbox's API.
 
 - Seeing as much of the functionality of the project is in JavaScript, I think the whole project could do with being rebuilt in React, as it is hard to navigate the codebase at the moment, something a component based architecture would solve.
   - Also allows: npm install mapbox gl js rather than cdn/mapbox studio method, which would mean can edit geojson much more easily etc.
-- It would be good if I could close the information for a building and see the entire map again. (seems the arrow does this but not very intuitive)
+- split css files
+- It would be good if I could close the information for a building and see the entire map again. (currently the arrow does this but not very intuitive)
 - filter by option, e.g. architect, area, material
 - material type: brick etc. with the designed and completed labels.
 - Add more info url to json and add to popup with js.
