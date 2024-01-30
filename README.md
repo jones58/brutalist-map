@@ -51,10 +51,6 @@ A map for discovering London's Brutalist buildings, built using Mapbox's API.
 
 ## TODO:
 
-- Name on hover over - in hover.js.
-
-- Improve SEO.
-
 - Add: St Laurence Church Catford and Colechurch House.
 
 ### Maybe later
@@ -73,6 +69,8 @@ A map for discovering London's Brutalist buildings, built using Mapbox's API.
 - Move to custom domain like: londonbrutalistmap.com
 - intro page like on https://www.get-into-gizz.com/
 - images local for faster loading
+- Name on hover over - in hover.js.
+- Improve SEO.
 
 ## Resources:
 
