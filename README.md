@@ -24,6 +24,7 @@ A map for discovering London's Brutalist buildings, built using Mapbox's API.
 - changed colours in mapbox studio to match the rest of the site (white labels, white background for light mode)
 - added favicon
 - Next I wanted to change the colour of the markers on the map based on whether buildings had been visited or not (ie if they were in local storage). This proved difficult to do with mapbox studio and the markers i had originally made in there, so I decided to make my own markers based on the geojson file i have. I was then able to manipulate these markers based on local storage. I noticed the colour was only changing on refresh and couldn't work out how to change the colour based on local storage change, so I just used a timeout function to update the colour every 20ms.
+- After posting the site on social media, some people suggested St Laurence Church Catford and Colechurch House so I added those to the site.
 
 ## Debugging:
 
@@ -48,10 +49,6 @@ A map for discovering London's Brutalist buildings, built using Mapbox's API.
 - score of 100 for accessibility on Google Lighthouse.
 - shared with the world (friends, reddit, email, twitter)
 - I found it difficult to edit the site when I came back to it, so I decided to split the js file into two files, one for the map and one for the popup to make it easier to edit.
-
-## TODO:
-
-- Add: St Laurence Church Catford and Colechurch House.
 
 ### Maybe later
 
