@@ -1,4 +1,4 @@
-# This repo is now archived and inactive - please see new website and Repo at: www.brutalistmap.jackkershaw.net and github.com/brutalist-map-2 
+# This repo is now archived and inactive - please see new website and Repo at: www.brutalistmap.jackkershaw.net and www.github.com/brutalist-map-2 
 
 
 # Brutalist Map
