@@ -1,3 +1,6 @@
+# This repo is now archived and inactive - please see new website and Repo at: www.brutalistmap.jackkershaw.net and github.com/brutalist-map-2 
+
+
 # Brutalist Map
 
 A map for discovering London's Brutalist buildings, built using Mapbox's API.
